@@ -1,0 +1,51 @@
+\input{configuration/configuration.tex}
+
+\bibliography{bibliography/bibliography}
+
+
+\newcommand{\jicomment}[1]{\textcolor{red}{JIComment: #1}}
+
+\tracingpages1
+\tracingoutput1
+
+\makeatletter
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
+    \hbox{}
+    \thispagestyle{plain}
+    \newpage
+    \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother \clearpage{\pagestyle{plain}\cleardoublepage}
+
+\begin{document}
+
+% Portada, página en blanco, cita e índice
+\input{chapters/Portada.tex}
+
+% Resumen, abstract...
+\input{chapters/Capitulo0.tex}
+
+\input{chapters/Preface.tex}
+
+\tableofcontents % Índice
+
+\mainmatter % Empieza a numerar en números arábigos 
+
+% Introducción
+\input{chapters/Capitulo1.tex}
+
+% Varios capitulos
+% Nuevos operadores para STL
+\input{chapters/Capitulo2.tex}
+% Interfaz grafica
+\input{chapters/Capitulo3.tex}
+% Conclusiones
+\input{chapters/Capitulo4.tex}
+
+\newpage
+
+\addcontentsline{toc}{chapter}{Bibliografía}
+\nocite{*}
+
+\printbibliography
+
+\end{document}

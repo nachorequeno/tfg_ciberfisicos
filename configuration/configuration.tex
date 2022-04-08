@@ -1,0 +1,178 @@
+%\documentclass[11pt, oneside]{book}
+\documentclass[11pt, twoside, openright]{book}
+
+
+%------------------------
+%------- PAQUETES -------
+%------------------------
+
+% Establecemos el tamaño de página y márgenes
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+
+% ----- Establecemos la distancia entre párrafos ------
+
+% El paquete parskip no sólo añade espacio entre párrafos sino que elimina
+% también la identación de la primera línea de % cada uno. Como no queremos
+% esto último guardamos la conf. de la identación antes de cargar el paquete.
+\edef\restoreparindent{\parindent=\the\parindent\relax}
+
+% Cargamos el paquete
+\usepackage{parskip}
+
+% Restauramos la identación
+\restoreparindent
+
+%\setlength{\parskip}{1em} % Sustituido por las instrucciones anteriores
+% -----------------------------------------------------
+
+\usepackage[utf8]{inputenc}
+\usepackage[british, spanish]{babel}
+\usepackage[T1]{fontenc}
+
+% Bibliografía
+\usepackage[backend=bibtex,style=authoryear,citestyle=authoryear]{biblatex}
+\usepackage{csquotes}
+
+% Visualización de marcadores en el lector PDF
+\usepackage{bookmark}
+
+% \overset, numeración de teoremas y otras
+\usepackage{amsmath}
+
+% Para cambiar numeración de "enumerate"
+\usepackage{enumitem}
+
+% Para \mathbb etc.
+\usepackage{amssymb}
+
+% Para pseudocódigo
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+
+% Para código
+\usepackage{listings}
+\usepackage[table,xcdraw]{xcolor} % tambíen incluye colores para tablas.
+
+% Para circuitos cuanticos. Requiere tener en el directorio el archivo qcircuit.sty
+\usepackage{qcircuit}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+% Para inserción de imágenes
+\usepackage{graphicx}
+
+% Para definición de teoremas
+\usepackage{amsthm}
+
+% Para gráficos
+\usepackage{tikz}
+%\usetikzlibrary{arrows.meta} % Paquete para usar <-> como comandos para flechas en tikz, pero no me funciona :(
+
+%------------------------
+%------- TEOREMAS -------
+%------------------------
+
+\newtheorem{thm}{Teorema}[chapter] % Estilo de texto cursivo
+
+\theoremstyle{definition} % Cambio del estilo de los teoremas a normal
+\newtheorem{proposition}[thm]{Proposición}
+\newtheorem{definition}[thm]{Definición}
+\newtheorem{corolario}[thm]{Corolario}
+\newtheorem{example}[thm]{Ejemplo}
+\newtheorem{observation}[thm]{Observación}
+\newtheorem*{lema}{Lema}
+\newtheorem*{nota}{Nota}
+
+%------------------------
+%------- COMANDOS -------
+%------------------------
+
+% Conjuntos y constantes matemáticas
+\newcommand{\R}{\mathbb{R}} % Reales
+\newcommand{\C}{\mathbb{C}} % Complejos
+\newcommand{\K}{\mathbb{K}} % Cuerpo K (reales o complejos)
+\newcommand{\Sp}{\mathbb{S}} % Esfera
+\newcommand{\e}{\mathrm{e}} % número e
+\newcommand{\N}{\mathbb{N}} % Naturales
+\newcommand{\Q}{\mathbb{Q}} % Racionales
+\newcommand{\B}{\mathcal{B}} % Base
+
+\newcommand{\qsh}{\textsf{Q}\texttt{\#}} % Q#
+\newcommand{\csh}{\textsf{C}\texttt{\#}} % C#
+
+\newcommand{\orden}[1]{\mathcal{O}\left(#1\right)}
+
+\newcommand{\oversim}[1]{\overset{_\sim}{#1}} % Para poner ~ sobre algo
+
+% Para poner datos encima y/o debajo de implica
+\newcommand{\ximplies}[2]{\underset{#2}{\overset{#1}\implies}}
+\newcommand{\xiff}[2]{\underset{#2}{\overset{#1}\iff}}
+\newcommand{\ximpliedby}[2]{\underset{#2}{\overset{#1}\impliedby}}
+
+% Producto escalar y norma
+\newcommand{\dotproduct}[2]{\langle#1,#2\rangle}
+\newcommand{\norm}[1]{\left|\left|#1\right|\right|}
+
+% Notación de Dirac -- SUSTITUIR POR PAQUETE DE LUIS
+\newcommand{\ket}[1]{\left|#1\right\rangle}
+\newcommand{\bra}[1]{\left\langle#1\right|}
+\newcommand{\braket}[2]{\left\langle#1|#2\right\rangle}
+
+% Vectores
+\newcommand{\twovector}[2]{\begin{pmatrix} #1 \\ #2 \end{pmatrix}} % Vector de dim 2
+
+% Funciones e info debajo de funciones
+\newcommand{\function}[3]{#1\colon #2\longrightarrow #3}
+\newcommand{\xfunction}[4]{\underset{#4}{{#1\colon #2\longrightarrow #3}}}
+
+% Funcion que transforma estados |0> y |1>
+\newcommand{\gatetwo}[3]{#1\colon \begin{matrix}\ket0&\longrightarrow& #2\\ \ket1&\longrightarrow& #3\end{matrix}}
+
+% Funcion que transforma estados |00>, |01>, |10> y |11>
+\newcommand{\gatefour}[5]{#1\colon \begin{matrix} \ket{00}&\longrightarrow& #2\\ \ket{01}&\longrightarrow& #3\\ \ket{10}&\longrightarrow& #4\\ \ket{11}&\longrightarrow& #5 \end{matrix}}
+
+% Introducir información debajo de igualdad
+\newcommand{\equals}[2]{\underset{#2}{\underset{\shortparallel}{#1}}}
+
+% Comandos para palabras dentro de ecuaciones $ $ o \[ \]
+\newcommand{\y}{\mathrm{\ y\ }}
+\newcommand{\cte}{\mathrm{cte}}
+\newcommand{\rg}{\mathrm{rg}}
+\newcommand{\id}{\mathrm{id}}
+
+%Página en blanco NO numerada
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
+
+\renewcommand{\baselinestretch}{1.1}
+
+\title{Computación cuántica: Pruebas de mutación}
+\author{Luis Aguirre \& Javier Pellejero}

@@ -1,0 +1,33 @@
+%\chapter{Introducción histórica}
+%
+%\section{Antecedentes históricos y actualidad (español)}
+%Primera sección.
+%
+%\section{Historical and current background (English)}
+%
+%\begin{otherlanguage}{british}
+%En inglés
+%\end{otherlanguage}
+
+\chapter{Introducción}
+
+\section{Sistemas ciberfísicos}
+Los sistemas ciberfísicos son un tipo especial de sistemas en tiempo real que combinan un micro controlador o programa software, representado mediante una máquina de estados discretos, con uno o varios sensores que interactúan sobre una variable física. Ejemplos de este tipo de entornos son los ordenadores de a bordo que regulan la velocidad de crucero de un vehículo, o el piloto automático que controla la altitud y trayectoria de un avión.
+
+Garantizar el correcto funcionamiento de estas plataformas es crucial, ya que un mal funcionamiento conlleva una reducción del comfort por parte de los usuario o, incluso, la pérdida de vidas humanas. Una manera de asegurarlo es mediante el uso de técnicas de verificación formal. Las técnicas de verificación en tiempo de ejecución \cite{STTT_RV_21} (\emph{runtime verification} en inglés) implementan un monitor que supervisa que la ejecución actual cumple con los requisitos especificados. Los monitores actúan como guardianes, alertando al usuario cuando la ejecución se desvía del comportamiento deseado e, incluso, implementando contramedidas para revertir ese hecho y redirigir el sistema hacia un estado saludable. 
+
+Existen diversos formalismos para definir los comportamientos deseados y no deseados. Los requisitos funcionales se pueden expresar operacionalmente, mediante algún tipo de autómata de estados finito, o declarativamente, mediante una descripción lógico-matemática. Dentro de esta segunda categoría, la lógica temporal es un tipo de lógica modal que expresa propiedades sobre un \emph{estado} en particular del sistema, o sobre los \emph{caminos} (es decir, secuencia de estados) que atraviesa. En este trabajo utilizaremos Signal Temporal Logic \cite{STL}, un tipo de lógica temporal enfocada al análisis de señales analógicas.
+
+\section{Objetivos}
+
+Los objetivos de este proyecto son:
+
+\begin{itemize}
+\item Extender las capacidades de la lógica temporal para expresar propiedades que involucren \textit{tendencias} (derivadas), o \textit{acumulaciones} (integrales), 
+\item Implementar esos nuevos operadores lógicos en las herramientas software actuales, y
+\item Proporcionar una interfaz de usuario amigable que facilite la interacción con dichas herramientas.
+\end{itemize}
+
+\section{Organización del documento}
+
+El documento está dividido en X capítulos. En el capítulo \ref{cha:stl} detallaremos la semántica e implementación de los nuevos operadores lógicos. El capítulo \ref{cha:gui} está dedicado a la nueva interfaz gráfica de usuario. Continuamos con las conclusiones más relevantes del proyecto en el capítulo \ref{cha:concl}. Finalmente $\ldots$.
