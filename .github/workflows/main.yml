@@ -5,8 +5,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
       - name: Compile TFG
         uses: dante-ev/latex-action@master
         with:
           root_file: TFG.tex
+      - uses: actions/upload-artifact@v3
+         with:
+             name: TFG.pdf
+             path: ./TFG.pdf # or path/to/artifact
