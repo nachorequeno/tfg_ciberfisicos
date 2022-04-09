@@ -12,5 +12,5 @@ jobs:
           root_file: TFG.tex
       - uses: actions/upload-artifact@v3
          with:
-             name: TFG.pdf
-             path: ./TFG.pdf # or path/to/artifact
+          name: TFG.pdf
+          path: ./TFG.pdf # or path/to/artifact
