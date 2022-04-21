@@ -4,6 +4,20 @@ Para acabar este trabajo presentamos algunas conclusiones sobre los temas tratad
 \section{Conclusiones (español)}
 En vista a los resultados del capítulo anterior $\ldots$
 
+\section{Trabajo futuro}
+
+Incluir más opciones en la GUI que nos permitan configurar parámetros adicionales de ParetoLib: p.ej., (des)activar el paralelismo, precisión del aprendizaje (EPS, DELTA, STEPS) ...
+
+Extender STLe para soportar nuevos tipos de interpolación (lineal, polinómica, etc.) Actualmente sólo soporta interpolación constante.
+
+Implementar un procesador de lenguaje natural que facilite la escritura de expresiones en STL en un formato más agradable. P. ej.:
+\begin{itemize}
+ \item ``En el futuro, la propiedad X se cumple''
+ \item ``F G (v > 120)'' en lugar de ``(F (G ( > v 120) )''
+\end{itemize}
+
+Reimplementar el núcleo de ParetoLib para aumentar las prestaciones computacionales: Python se puede compilar en lugar de interpretar, lo que aumentaría el rendimiento de la librería de minería. La mejora sería mínima (ParetoLib llama a STLeval para la mayoría de los cálculos, y STLeval está en C++), pero la mejora del rendiento al compilar Python nos ayudaría ahorrar unos pocos milisegundos.
+
 \section{Conclusions (English)}
 In view of the results of the previous chapter, $\ldots$
 
