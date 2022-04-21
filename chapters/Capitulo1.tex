@@ -38,3 +38,16 @@ El proyecto ha durado tantas semanas. Pepito ha trabajado en la tarea 1 y 2, Men
 Hemos desarrollado 2 módulos nuevos de código, tantas líneas de código fuentes.
 
 \section{Tecnologías}
+En este proyecto extendemos o mejoramos las siguientes herramientas ya pre-existentes:
+\begin{itemize}
+	\item STLEval \cite{•}: Es una herramienta capaz de generar monitores a partir de especificaciones en STL. 
+	\item ParetoLib \cite{•}: Es una librería de aprendizaje, que permite descubrir configuraciones (in)válidas de fórmulas STL a partir de plantillas paramétricas.
+\end{itemize}
+
+La interfaz gráfica, que es completamente novedosa, está montada sobre STLEval y ParetoLib y permite interactuar con ambas herramientas.
+Los nuevos operadores operadores de STL descritos en \ref{cha:stl} están implementados sobre STLEval. 
+La librería de aprendizaje ParetoLib utiliza internamente una distribución precompilada de STLEval.
+Los binarios de STLEval en ParetoLib han sido actualizados para exportar las nuevas funcionalidades y permitir minar fórmulas STL paramétricas con los operadores introducidos en este trabajo.
+La sección \ref{sec:estructura} ilustra gráficamente las dependencias entre paquetes, qué componentes han sido creados desde cero, y cuales han sido parcialmente actualizados.
+
+

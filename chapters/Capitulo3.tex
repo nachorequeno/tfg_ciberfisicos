@@ -21,7 +21,12 @@ El desarrollo de la aplicación se hizo en un entorno linux haciendo uso del ges
  
 3 - Instalamos la librería PyQT con ´pip install pyqt5´. 
  
-*****IMAGEN VENTANA ****** 
+\begin{figure}
+\centering
+  %\includegraphics[width=.9\linewidth]{images/gui}
+\caption{Nueva pantalla de inicio.}
+\label{fig:senal}
+\end{figure}
  
 MatplotLib
 Biblioteca usada para generar gráficos a partir de datos almacenados en un array. Hacemos uso de esta librería con el fin de mostrar las señales resultantes, aplicando las operaciones indicadas, en la sección de la aplicación propuesta para ello. 
@@ -30,11 +35,26 @@ Instalación:
  
 1 - En este caso es sumamente simple realizando: ´sudo apt-get install python3-matplotlib´.
  
-****** IMAGEN EJEMPLO *****
+\begin{figure}
+\centering
+  %\includegraphics[width=.9\linewidth]{images/ejemplo_gui}
+\caption{Ejemplo.}
+\label{fig:senal}
+\end{figure}
  
  
 \section{Estructura}
- 
+\label{sec:estructura}
+La interfaz gráfica, que es completamente novedosa, está montada sobre STLEval y ParetoLib y permite interactuar con ambas herramientas.
+
+La interfaz gráfica permite evaluar tanto expresiones STL estándar (llamadas a STLEval) como minar el rango de validez de fórmulas STL con parámetros (llamadas a ParetoLib).
+
+\begin{figure}
+\centering
+  %\includegraphics[width=.9\linewidth]{images/diagrama_modulos}
+\caption{Señal original y su reconstrucción.}
+\label{fig:senal}
+\end{figure} 
  
 \section{Configuración Técnica}
 El tratamiento de las señales se realiza mediante el consumo de la librería ParetoLib y el oráculo de STLe `ParetoLib.Oracle.OracleSTLe`, las funciones más importantes son: 
@@ -48,3 +68,4 @@ eval\_stl\_formula(formula): Método que aplica la fórmula anteriormente cargad
  
  
 \section{Otros}
+
