@@ -11,9 +11,9 @@ Por ejemplo, la proposición atómica $v > 120$ mostraría los instantes en los 
 
 Formalmente, la gramática básica de STL comprende los siguientes operadores:
 
-$$ \varphi \ := \ \mu \ |\ \neg \varphi \ |\ \varphi_{1} \lor \varphi_{2} \ |\ \varphi_{1} U_{[a,b]} \varphi_{2}$$
+$$ \varphi \ := \ \mu \ |\ \neg \varphi \ |\ \varphi_{1} \lor \varphi_{2} \ |\ \varphi_{1} U_{[t_1, t_2]} \varphi_{2}$$
 
-Donde $\mu$ representa las proposiciones atómicas, en forma de desigualdades sobre la señal muestreada; y $\varphi$ las especificaciones sobre los caminos. El resto de los operadores se componen a partir de los operadores precedentes, donde $a, b \in \mathbb{R}$ son marcas temporales que definen el intervalo de monitorización respecto al instante inicial (0). 
+Donde $\mu$ representa las proposiciones atómicas, en forma de desigualdades sobre la señal muestreada; y $\varphi$ las especificaciones sobre los caminos. El resto de los operadores se componen a partir de los operadores precedentes, donde $t_1, t_2 \in \mathbb{R}_{\geq 0}$ son marcas temporales que definen el intervalo de monitorización respecto al instante inicial, siendo $t_1,  \geq t_2$. 
 
 % Operador futuro y general
 
@@ -30,20 +30,23 @@ Las especificaciones en STL se \textit{compilan} en un monitor que supervisa la 
 % Muestreo de la señal. Representación interna en STLEval.
 La imagen \ref{fig:senal} ilustra la señal original y su representación interna en STLEval. 
 
-\begin{figure}
-\centering
-  \includegraphics[width=.4\linewidth]{images/senal_original} \hfill
-  \includegraphics[width=.4\linewidth]{images/senal_muestreada}
-\caption{Señal original y su reconstrucción.}
-\label{fig:senal}
-\end{figure}
 
 \subsection{Operador integral}
 
 El cálculo de la derivada e integral se aproximan mediante las siguientes expresiones matemáticas:
 
-%TODO:
-%Rescatar los sumatorios del PDF referenciado en la cita anterior.
+$\mu^i_{[a,b]} = \int^{b}_{a} g(\mathbf{x}_{\tau}) \delta \tau \geq c$
+
+$\mu^d_{+} = \frac{dg(\mathbf{x})}{dt^+} \geq c $
+$\mu^d_{-} = \frac{dg(\mathbf{x})}{dt^-} \geq c  $
+
+Dado que internamente STLEval representa las señales reales como una serie numérica de tiempo discreto, aproximamos como:
+
+$\mu^i_{[a,b]} = \sum^{k + b / \delta t - 1}_{k' = k + a / \delta t} g(\mathbf{x}_{k' \delta t}) \delta t \geq c$
+$\mu^d_{+} = g(\mathbf{x}_{(k + 1) \delta t}) - g(\mathbf{x}_{k \delta t}) \geq c \delta t $
+$\mu^d_{-} = g(\mathbf{x}_{k \delta t}) - g(\mathbf{x}_{(k - 1) \delta t}) \geq c \delta t $
+
+\jicomment{TODO: Rescatar las fórmulas matemáticas (sumatorios) del PDF referenciado en la cita anterior.}
 
 Gráficamente, la derivada se interpreta como la pendiente entre dos puntos de la señal; y la integral como el sumatorio de los rectángulos contenidos (Figura \ref{fig:der_int}).
 
@@ -58,14 +61,29 @@ Gráficamente, la derivada se interpreta como la pendiente entre dos puntos de l
 
 \subsection{Operador derivada}
 
+
+
 \subsection{Integración con ParetoLib}
 ParetoLib \cite{FORMATS_19, ParetoLib} es una librería de minería que recibe una especificación paramétrica o plantilla en STL y devuelve el rango de valores de las variables para las que la propiedad se satisface o invalida. 
 
 Internamente, ParetoLib implementa un algoritmo de búsqueda que guía el aprendizaje y evalúa instancias concretas de la fórmula temporal a través de la herramienta STLEval.
 
-% Contribuciones
-En este proyecto, hemos actualizado los binarios y librerías dinámicas de STLEval que incorpora ParetoLib para dar soporte a las nuevas operaciones de derivación e integración. 
-%TODO
-%Referenciar a la rama de ParetoLib/GUI donde se engloban los cambios de la GUI + los nuevos binarios de STLEval
+ParetoLib está escrito en Python. El código fuente \ref{list:paretolib_example} ilustra la forma de invocar a la librería.
 
-% Describir un ejemplo de STL con parametros sobre un operador derivada/integral?
+Dada una señal triangular \ref{} y la especifiación STL X, la imagen \ref{•} muestra en las configuraciones de los paraémtros X que satisfacen la propiedad (región en verde) y las que lo falsifican (región en rojo).
+
+% Contribuciones
+En este proyecto, hemos actualizado los binarios y librerías dinámicas de STLEval que incorpora ParetoLib para dar soporte a las nuevas operaciones de derivación e integración. Además, hemos implementado una interfaz gráfica que abstrae la complejidad de invocar al código fuente \ref{list:paretolib_example} y resume la mayor parte de las opciones de configuración del algoritmo de minería.
+
+\jicomment{TODO:
+\begin{itemize}
+\item Referenciar a la rama de ParetoLib/GUI donde se engloban los cambios de la GUI + los nuevos binarios de STLEval
+\item Describir un ejemplo de STL con parametros sobre un operador derivada/integral. Por ejemplo `` I [0, 20] sin(x) `` sería 0; ``F D sin(x) > 0`` sería True, ...
+\end{itemize}
+}
+
+\lstinputlisting[language=python,
+		style=mystyle,
+		label={list:paretolib_example},
+		caption={}]
+		{code/python/example2d_derivative.py}

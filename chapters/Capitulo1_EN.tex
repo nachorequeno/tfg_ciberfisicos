@@ -1,0 +1,22 @@
+\chapter{Introduction}
+
+\section{Cyber-physical system}
+Cyber-physical systems are a special type of real-time systems that combine a microcontroller or software program, represented by a discrete state machine, with one or more sensors that interact with a physical variable. Examples of this type of environment are the on-board computers that regulate the speed of a vehicle, or the autopilot that controls the altitude and trajectory of an aircraft.
+
+Ensuring the proper functioning of these platforms is crucial, since a malfunction leads to a reduction in user comfort or even the loss of human lives. One way to ensure this is through the use of formal verification techniques. Runtime verification techniques \cite{STTT_RV_21} implement a monitor that monitors that the current execution meets specified requirements. Monitors act as keepers, alerting the user when execution deviates from desired behavior and even implementing countermeasures to reverse that fact and redirect the system back to a healthy state.
+
+There are various formalisms to define desired and undesired behaviors. Functional requirements can be expressed operationally, through some kind of finite state automaton, or declaratively, through a logical-mathematical description. Within this second category, temporal logic is a type of modal logic that expresses properties about a particular \emph{state} of the system, or about the \emph{paths} (ie, sequence of states) that it traverses. In this work we will use Signal Temporal Logic \cite{STL}, a type of temporal logic focused on the analysis of analog signals.
+
+\section{Objectives}
+
+The objectives of this project are:
+
+\begin{itemize}
+\item Extend the capabilities of temporal logic to express properties involving \textit{trends} (derivatives), or \textit{accumulations} (integrales), 
+\item Implement these new logical operators in current software tools, and
+\item Provide a friendly user interface that facilitates interaction with said tools.
+\end{itemize}
+
+\section{Document Organization}
+
+The document is divided into X chapters. In the chapter \ref{cha:stl} we will detail the semantics and implementation of the new logical operators. The \ref{cha:gui} chapter is dedicated to the new graphical user interface. We continue with the most relevant conclusions of the project in the chapter \ref{cha:concl}. Finally $\ldots$.
