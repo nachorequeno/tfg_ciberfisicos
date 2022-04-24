@@ -30,14 +30,13 @@ Los objetivos de este proyecto son:
 
 \section{Organización}
 
-<<<<<<< HEAD
 Documento
 
 El documento está dividido en X capítulos. En el capítulo \ref{cha:stl} detallaremos la semántica e implementación de los nuevos operadores lógicos. El capítulo \ref{cha:gui} está dedicado a la nueva interfaz gráfica de usuario. Continuamos con las conclusiones más relevantes del proyecto en el capítulo \ref{cha:concl}. Finalmente $\ldots$.
 
 Equipo de trabajo 
 
-Este proyecto ha sido realizado por dos estudiantes, Dymtro ap1 ap2 y Javier ap1 ap2, acompañados del tutor Jose Ignacio Requeno. Se empezó a realizar el X de septiembre del 2021 y constó de 3 fases: 
+Este proyecto ha sido realizado por dos estudiantes, Dymtro ap1 ap2 y Javier ap1 ap2, acompañados del tutor Jose Ignacio Requeno. Se empezó a realizar el X de septiembre del 2021 y constó de 4 fases: 
 
 Primera 
 
@@ -45,31 +44,18 @@ Primera
 	
 Segunda
 
-Despúes del proceso de cambio
+	Después del proceso de cambio empezamos con el de lectura y comprensión de la librería, su arquitectura y el significado de las clases además del estudio teórico de cómo funciona una integral y una derivada y cómo podemos implementarlo mediante código, en esta fase nuestro mayor dificultad fué la labor de documentación del código e interpretación del conocimiento adquirido en el apartado anterior trasladado a éste. 
 
 Tercera
+	
+	Realizamos la implementación de la integral y derivada extendiendo la librería STLe para que pueda ser aplicada a un conjunto y subconjunto de señales, para completar esta tarea realizamos una serie de pruebas con señales conocidas que nos proporcionó el tutor además de pruebas individuales realizadas con datos aleatorios y comprobando matematicamente sus resultados para comprobar que ambos, la salida de lo que había sido programado y lo que habíamos realizado a mano, sean similares.
+
+Cuarta 
+
+	Como última tarea creamos la interfáz gráfica de la aplicación realizando un boceto que luego intentamos trasladar a la aplicación, la tarea más complicada de esta parte fué la realización de la conexión entre los diferentes layouts de las clases de la interfaz y los métodos propios de la extensión de la libreria STLe, nos ayudó bastante el hecho de que la API ya estaba realizada por parte de la librería "multidimensional\_search", al decidir codificar está parte de la aplicación con el lenguaje Python nos resulto mucho más facil las tareas de tratamiento de datos y creemos que es un lenguaje que puede facilitar la implementación de las futuras operaciones que sugeriremos al final de este documento. 
+
 
 Planificación 
-=======
-El documento está dividido en X capítulos. En el capítulo \ref{cha:stl} detallaremos la semántica e implementación de los nuevos operadores lógicos. El capítulo \ref{cha:gui} está dedicado a la nueva interfaz gráfica de usuario. Continuamos con las conclusiones más relevantes del proyecto en el capítulo \ref{cha:concl}. Finalmente $\ldots$.
-
-\chapter{Organización y tecnologías}
-\section{Planificación y esfuerzo del proyecto}
-El proyecto ha durado tantas semanas. Pepito ha trabajado en la tarea 1 y 2, Menganito ...
-Hemos desarrollado 2 módulos nuevos de código, tantas líneas de código fuentes.
-
-\section{Tecnologías}
-En este proyecto extendemos o mejoramos las siguientes herramientas ya pre-existentes:
-\begin{itemize}
-	\item STLEval \cite{•}: Es una herramienta capaz de generar monitores a partir de especificaciones en STL. 
-	\item ParetoLib \cite{•}: Es una librería de aprendizaje, que permite descubrir configuraciones (in)válidas de fórmulas STL a partir de plantillas paramétricas.
-\end{itemize}
-
-La interfaz gráfica, que es completamente novedosa, está montada sobre STLEval y ParetoLib y permite interactuar con ambas herramientas.
-Los nuevos operadores operadores de STL descritos en \ref{cha:stl} están implementados sobre STLEval. 
-La librería de aprendizaje ParetoLib utiliza internamente una distribución precompilada de STLEval.
-Los binarios de STLEval en ParetoLib han sido actualizados para exportar las nuevas funcionalidades y permitir minar fórmulas STL paramétricas con los operadores introducidos en este trabajo.
-La sección \ref{sec:estructura} ilustra gráficamente las dependencias entre paquetes, qué componentes han sido creados desde cero, y cuales han sido parcialmente actualizados.
 
 
->>>>>>> dc812837789c87e31e28b5d54c0ad180231424a5
+Diagrama Gant
