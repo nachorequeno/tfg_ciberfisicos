@@ -1,0 +1,370 @@
+#LyX file created by tex2lyx 2.3
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin /home/kriptor/Documents/TFG/Memoria/tfg_ciberfisicos/chapters/
+\textclass book
+\options openright
+\use_default_options false
+\begin_modules
+theorems-ams
+\end_modules
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding utf8
+\fontencoding T1
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine biblatex
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\biblio_options backend=bibtex,citestyle=authoryear
+\biblatex_bibstyle authoryear
+\biblatex_citestyle authoryear
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+chapter{IntroducciÃ³n histÃ³rica}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+section{Antecedentes histÃ³ricos y actualidad (espaÃ±ol)}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%Primera secciÃ³n.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+section{Historical and current background (English)}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+begin{otherlanguage}{british}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%En inglÃ©s
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+end{otherlanguage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+chapter{IntroducciÃ³n}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang spanish
+Sistemas ciberfÃ­sicos
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Los sistemas ciberfÃ­sicos son un tipo especial de sistemas en tiempo real que combinan un micro controlador o programa software, representado mediante una mÃ¡quina de estados discretos, con uno o varios sensores que interactÃºan sobre una variable fÃ­sica. Ejemplos de este tipo de entornos son los ordenadores de a bordo que regulan la velocidad de crucero de un vehÃ­culo, o el piloto automÃ¡tico que controla la altitud y trayectoria de un aviÃ³n.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Garantizar el correcto funcionamiento de estas plataformas es crucial, ya que un mal funcionamiento conlleva una reducciÃ³n del comfort por parte de los usuario o, incluso, la pÃ©rdida de vidas humanas. Una manera de asegurarlo es mediante el uso de tÃ©cnicas de verificaciÃ³n formal. Las tÃ©cnicas de verificaciÃ³n en tiempo de ejecuciÃ³n 
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+before ""
+key "STTT_RV_21"
+literal "false"
+
+\end_inset
+
+ (
+\emph on
+runtime verification
+\emph default
+ en inglÃ©s) implementan un monitor que supervisa que la ejecuciÃ³n actual cumple con los requisitos especificados. Los monitores actÃºan como guardianes, alertando al usuario cuando la ejecuciÃ³n se desvÃ­a del comportamiento deseado e, incluso, implementando contramedidas para revertir ese hecho y redirigir el sistema hacia un estado saludable.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Existen diversos formalismos para definir los comportamientos deseados y no deseados. Los requisitos funcionales se pueden expresar operacionalmente, mediante algÃºn tipo de autÃ³mata de estados finito, o declarativamente, mediante una descripciÃ³n lÃ³gico-matemÃ¡tica. Dentro de esta segunda categorÃ­a, la lÃ³gica temporal es un tipo de lÃ³gica modal que expresa propiedades sobre un 
+\emph on
+estado
+\emph default
+ en particular del sistema, o sobre los 
+\emph on
+caminos
+\emph default
+ (es decir, secuencia de estados) que atraviesa. En este trabajo utilizaremos Signal Temporal Logic 
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+before ""
+key "STL"
+literal "false"
+
+\end_inset
+
+, un tipo de lÃ³gica temporal enfocada al anÃ¡lisis de seÃ±ales analÃ³gicas.
+\end_layout
+
+\begin_layout Section
+
+\lang spanish
+Objetivos
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Los objetivos de este proyecto son:
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Extender las capacidades de la lÃ³gica temporal para expresar propiedades que involucren 
+\shape italic
+tendencias
+\shape default
+ (derivadas), o 
+\shape italic
+acumulaciones
+\shape default
+ (integrales), 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Implementar esos nuevos operadores lÃ³gicos en las herramientas software actuales, y 
+\end_layout
+
+\begin_layout Itemize
+
+\lang spanish
+Proporcionar una interfaz de usuario amigable que facilite la interacciÃ³n con dichas herramientas. 
+\end_layout
+
+\begin_layout Section
+
+\lang spanish
+OrganizaciÃ³n del documento
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+El documento estÃ¡ dividido en X capÃ­tulos. En el capÃ­tulo 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:stl"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ detallaremos la semÃ¡ntica e implementaciÃ³n de los nuevos operadores lÃ³gicos. El capÃ­tulo 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:gui"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ estÃ¡ dedicado a la nueva interfaz grÃ¡fica de usuario. Continuamos con las conclusiones mÃ¡s relevantes del proyecto en el capÃ­tulo 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:concl"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+. Finalmente 
+\begin_inset Formula $\ldots$
+\end_inset
+
+.
+\begin_inset Note Note
+status open
+\begin_layout Plain Layout
+
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+
+\end_inset
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
