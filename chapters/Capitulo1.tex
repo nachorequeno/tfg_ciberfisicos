@@ -16,49 +16,66 @@ Los sistemas ciberfísicos son un tipo especial de sistemas en tiempo real que c
 
 Garantizar el correcto funcionamiento de estas plataformas es crucial, ya que un mal funcionamiento conlleva una reducción del comfort por parte de los usuario o, incluso, la pérdida de vidas humanas. Una manera de asegurarlo es mediante el uso de técnicas de verificación formal. Las técnicas de verificación en tiempo de ejecución \cite{STTT_RV_21} (\emph{runtime verification} en inglés) implementan un monitor que supervisa que la ejecución actual cumple con los requisitos especificados. Los monitores actúan como guardianes, alertando al usuario cuando la ejecución se desvía del comportamiento deseado e, incluso, implementando contramedidas para revertir ese hecho y redirigir el sistema hacia un estado saludable. 
 
-Existen diversos formalismos para definir los comportamientos deseados y no deseados. Los requisitos funcionales se pueden expresar operacionalmente, mediante algún tipo de autómata de estados finito, o declarativamente, mediante una descripción lógico-matemática. Dentro de esta segunda categoría, la lógica temporal es un tipo de lógica modal que expresa propiedades sobre un \emph{estado} en particular del sistema, o sobre los \emph{caminos} (es decir, secuencia de estados) que atraviesa. En este trabajo utilizaremos Signal Temporal Logic \cite{STL}, un tipo de lógica temporal enfocada al análisis de señales analógicas.
+Existen diversos formalismos para definir los comportamientos deseados y no deseados. Los requisitos se pueden expresar operacionalmente, mediante algún tipo de autómata de estados finito, o declarativamente, mediante una descripción lógico-matemática. Dentro de esta segunda categoría, la lógica temporal es un tipo de lógica modal que expresa propiedades sobre un \emph{estado} en particular del sistema, o sobre los \emph{caminos} (es decir, secuencia de estados) que atraviesa. En este trabajo utilizaremos Signal Temporal Logic \cite{STL}, un tipo de lógica temporal enfocada al análisis de señales analógicas o reales.
 
 \section{Objetivos}
 
 Los objetivos de este proyecto son:
 
 \begin{itemize}
-\item Extender las capacidades de la lógica temporal para expresar propiedades que involucren \textit{tendencias} (derivadas), o \textit{acumulaciones} (integrales), mediante el cálculo de éstas nuevas operaciones podemos realizar operaciones de predicción a futuro en base a unas señales ya conocidas y recogidas del artefacto que querramos monitorizar.   
-\item Implementar esos nuevos operadores lógicos en las herramientas software actuales con el fin de extender su funcionamiento no sólo aplicado a todo un conjunto de señales sino también a un espacio de tiempo en particular que se encuentre dentro de nuestro conjunto principal. 
-\item Y por último, proporcionar una interfaz de usuario amigable que facilite la interacción con dichas herramientas, para este apartado  proponemos un espacio donde el usuario tenga que simplemente adjuntar los fichero de datos y operaciones (o elegir la operación a realizar desde las opciones disponibles) para finalmente poder visualizar y descargar la salida de señales en forma gráfica. 
+\item extender las capacidades de la lógica temporal STL para expresar propiedades que involucren \textit{tendencias} (derivadas), o \textit{acumulaciones} (integrales),    
+\item implementar esos nuevos operadores lógicos en las herramientas software actuales; y, por último,
+\item proporcionar una interfaz de usuario amigable que facilite la interacción con dichas herramientas.  
 \end{itemize}
 
-\section{Organización}
+En particular, los objetivos de proyecto se han plasmado en contribuciones concretas sobre las siguientes herramientas software preexistentes:
+\begin{itemize}
+\item \textbf{STLEval} \cite{StlEval}: Es una herramienta capaz de procesar especificaciones en STL y evaluarlas sobre una señal real. Ha recibido la implementación de los nuevos operadores lógico temporales que calculan derivadas e integrales sobre una señal.
+\item \textbf{ParetoLib} \cite{ParetoLib}: Es una librería de de minería que aprende las configuraciones (in)válidas del sistema monitorizado, expresadas como plantillas o especificaciones paramétricas en STL. ParetoLib internamente se conecta con STLEval para la ejecución de los cálculos. Ha recibido una actualización de los binarios y librerías DLL de STLEval que empaqueta de forma conjunta con el resto de la librería, así como la interfaz gráfica de usuario. La nueva interfaz gráfica de usuario permite interaccionar tanto con la librería de aprendizaje como indirectamente con la herramienta STLEval.
+\end{itemize}
 
-\subsection{Documento}
+\section{Organización del documento}
 
-El documento está dividido en X capítulos. En el capítulo \ref{cha:stl} detallaremos la semántica e implementación de los nuevos operadores lógicos. El capítulo \ref{cha:gui} está dedicado a la nueva interfaz gráfica de usuario. Continuamos con las conclusiones más relevantes del proyecto en el capítulo \ref{cha:concl}. Finalmente $\ldots$.
+El documento está dividido en X capítulos. En el capítulo \ref{cha:stl} detallaremos la semántica e implementación de los nuevos operadores lógicos. El capítulo \ref{cha:gui} está dedicado a la nueva interfaz gráfica de usuario. Continuamos con las conclusiones más relevantes del proyecto en el capítulo \ref{cha:concl}. Finalmente el capítulo X incluye ideas para el trabajo futuro. Los anexos X recogen imágenes, código adicional, $\ldots$.
 
-\subsection{Equipo de trabajo}
+\section{Planificación temporal y esfuerzo}
 
-Este proyecto ha sido realizado por dos estudiantes, Dymtro ap1 ap2 y Javier ap1 ap2, acompañados del tutor Jose Ignacio Requeno. Se empezó a realizar el X de septiembre del 2021 y constó de 4 fases: 
+Este proyecto ha sido realizado por dos estudiantes a tiempo \jicomment{completo?/parcial?}, Dymtro ap1 ap2 y Javier ap1 ap2, con una dedicación media de X horas al día. Los alumnos han estado tutorados por José Ignacio Requeno mediante reuniones semanales. Se han escrito X líneas de código, que están repartidas entre las dos herramientas software actualizadas y la nueva interfaz gráfica de usuario. El código desarrollado en este proyecto puede consultarse en ramas dedicadas a las nuevas funcionalidades de los correspondientes repositorios web (rama \textit{derivative} de STLEval y rama \textit{GUI} de ParetoLib).
 
-\subsubsection{Primera - Investigación}
+El proyecto arrancó el X de septiembre del 2021, ha durado X meses y ha constado de 4 fases: 
 
-	En esta fase se inició la investigación del proyecto, nos dedicamos a leer información sobre qué es la lógica temporal y la diferencia entre lógica modal, recurrimos tanto al material proporcionado por el instructor como a material externo y aprendimos un poco de su sintáxis. Esta fué la parte más complicada de todo el trabajo no sólo por la poca información que éxiste de este tema en la red, obligándonos a hacer búsquedas más exhaustivas y profundas sobre los datos que teníamos sino también por el cambio de perspectiva que tuvimos que realizar para comprender el concepto principal de ésta lógica que es que: Una afirmación se puede convertir en negación dependiendo del tiempo en el que se evalúa la expresión. 
+\subsection{Primera - Investigación}
+El proyecto se inició con una primera fase de investigación, donde nos dedicamos a adquirir los conocimientos teóricos necesarios para el trabajo: leer información sobre qué es la lógica temporal y la principal diferencia con otras lógicas modales. Recurrimos tanto al material proporcionado por el instructor como al material externo disponible para aprender las principales definiciones y sintaxis básicas. 
+
+Ésta fue la parte más complicada de todo el trabajo no sólo por la dificultad teórica de la información especializada en el ámbito de la verificación, sino también por el cambio de paradigma que supone comprender el concepto principal de ésta lógica: que una afirmación se puede convertir en negación dependiendo del instante en el que se evalúa la expresión.
 	
-\subsubsection{Segunda - Documentación}
+\subsection{Segunda - Documentación}
 
-	Después del proceso de cambio empezamos con el de lectura y comprensión de la librería, su arquitectura y el significado de las clases además del estudio teórico de cómo funciona una integral y una derivada y cómo podemos implementarlo mediante código, en esta fase nuestro mayor dificultad fué la labor de documentación del código e interpretación del conocimiento adquirido en el apartado anterior trasladado a éste. 
-
-\subsubsection{Tercera - Implementación}
+	Después de adquirir los conocimientos teóricos previos necesarios para la comprensión de las funcionalidades a implementar, continuamos con la lectura de la documentación de las librerías y herramientas software que debíamos extender: su arquitectura software y jerarquía de clases. Dedicamos gran parte del esfuerzo a estudiar la definición de los operadores de derivación e integración propuestos en la literatura científica, y su posterior codificación e incorporación a la herramienta software STLEval.
 	
-	Realizamos la implementación de la integral y derivada extendiendo la librería STLe para que pueda ser aplicada a un conjunto y subconjunto de señales, para completar esta tarea realizamos una serie de pruebas con señales conocidas que nos proporcionó el tutor además de pruebas individuales realizadas con datos aleatorios y comprobando matematicamente sus resultados para comprobar que ambos, la salida de lo que había sido programado y lo que habíamos realizado a mano, sean similares.
+	En esta fase, nuestra mayor dificultad fue 1) la labor de aprendizaje de la estructura interna del código de STLEval, y 2) la adquisición y aplicación de las nociones de derivación e integración sobre señales temporales.
 
-\subsubsection{Cuarta - Diseño y Finalización}
+\subsection{Tercera - Implementación}
 
-	Como última tarea creamos la interfáz gráfica de la aplicación realizando un boceto que luego intentamos trasladar a la aplicación, la tarea más complicada de esta parte fué la realización de la conexión entre los diferentes layouts de las clases de la interfaz y los métodos propios de la extensión de la libreria STLe, nos ayudó bastante el hecho de que la API ya estaba realizada por parte de la librería "multidimensional\_search", al decidir codificar está parte de la aplicación con el lenguaje Python nos resulto mucho más facil las tareas de tratamiento de datos y creemos que es un lenguaje que puede facilitar la implementación de las futuras operaciones que sugeriremos al final de este documento. 
+	Implementamos las operaciones de derivación e integración de señales temporales en la herramienta software STLEval. Completamos esta tarea con un conjunto de pruebas sobre señales temporales con características \textit{benignas} que nos facilitaron ejecutar tests de validación: por ejemplo, la integral de una señal periódica (sinusoidal o triangular) simétrica sobre el eje horizontal debe ser cero en determinados intervalos.
+
+\subsection{Cuarta - Diseño y Finalización}
+
+	Como última tarea implementamos la interfaz gráfica de la aplicación, partiendo de un primer boceto que estabilizamos al cabo de dos \jicomment{iteraciones / reuniones}. La tarea más complicada de este proceso fue la conexión entre los diferentes componentes de la interfaz con los métodos propios de las herramientas STLEval y ParetoLib, que ejecutan toda la lógica del programa.
+	
+	La conexión con STLEval se realizó mediante una API preexistente en C++ que ya estaba integrada en Python a través de la librería ParetoLib. Este hecho, la posibilidad de acceder tanto a la librería de minería ParetoLib como indirectamente a la herramienta STLEval, motivó la elección de Python como lenguaje de programación para el diseño de las ventanas de usuario. La facilidad de uso del lenguaje así como la cantidad de librerías auxiliares para el tratamiento de datos con las que extender las funcionalidades de la interfaz en el futuro contribuyeron también a esta decisión.
+	
 
 
-\subsection{Planificación y Organización}
+\section{Planificación y Organización}
 
-Debido a la dificultad matemática de este proyecto para nosotros, decidimos realizar las tareas de manera conjunta, todos los apartados de este proyecto excepto la labor de documentación se realizaron a la par por ambos integrantes del grupo. 
+Debido a la dificultad teórica de este proyecto, decidimos realizar las tareas de manera conjunta: todos los apartados de este proyecto a excepción de la labor de documentación se realizaron a la par por ambos integrantes del equipo. 
 
 La planificación coincide con las fases del proyecto, indicamos las fechas exactas en el siguiente gráfico: 
 
-Diagrama Gant **GRAFICO**
+\begin{figure}
+\centering
+  %\includegraphics[width=.9\linewidth]{images/gant}
+\caption{Diagrama de Gantt.}
+\label{fig:gant}
+\end{figure}
