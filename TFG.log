@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.24)  24 APR 2022 15:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.24)  26 APR 2022 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -334,18 +334,22 @@ File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count371
 \c@bbx:relatedtotal=\count372
 ))
-Package biblatex Info: Trying to load citation style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.cbx' found.
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
-File: authoryear.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
@@ -1352,28 +1356,52 @@ LaTeX Info: Redefining \% on input line 4.
 % t=211.5284 plus 3.59999 g=578.15999 b=10000 p=0 c=100000#
 % t=226.48848 plus 3.79999 g=578.15999 b=10000 p=0 c=100000#
 % t=241.44856 plus 3.99998 g=578.15999 b=10000 p=0 c=100000#
-)
-\tf@toc=\write6
-\openout6 = `TFG.toc'.
-
 % t=256.40865 plus 4.19998 g=578.15999 b=10000 p=0 c=100000#
-% t=256.40865 plus 4.19998 plus 1.0fil g=578.15999 b=0 p=-10000 c=-10000#
+% t=271.36873 plus 4.39998 g=578.15999 b=10000 p=0 c=100000#
+% t=286.32881 plus 4.59998 g=578.15999 b=10000 p=0 c=100000#
+% t=301.2889 plus 4.79997 g=578.15999 b=10000 p=-301 c=100000#
+% t=327.13686 plus 5.79997 g=578.15999 b=10000 p=301 c=100000#
+% t=342.09694 plus 5.99997 g=578.15999 b=10000 p=0 c=100000#
+% t=357.05702 plus 6.19997 g=578.15999 b=10000 p=0 c=100000#
+% t=372.0171 plus 6.39996 g=578.15999 b=10000 p=-301 c=100000#
+% t=397.86507 plus 7.39996 g=578.15999 b=10000 p=301 c=100000#
+% t=412.82515 plus 7.59996 g=578.15999 b=10000 p=0 c=100000#
+% t=427.78523 plus 7.79996 g=578.15999 b=10000 p=0 c=100000#
+% t=442.74532 plus 7.99995 g=578.15999 b=10000 p=0 c=100000#
+% t=457.7054 plus 8.19995 g=578.15999 b=10000 p=-301 c=100000#
+% t=483.55336 plus 9.19995 g=578.15999 b=10000 p=301 c=100000#
+% t=498.51344 plus 9.39995 g=578.15999 b=10000 p=0 c=100000#
+% t=513.47353 plus 9.59995 g=578.15999 b=10000 p=0 c=100000#
+% t=528.43361 plus 9.79994 g=578.15999 b=10000 p=0 c=100000#
+% t=543.39369 plus 9.99994 g=578.15999 b=4193 p=0 c=4193#
+% t=558.35378 plus 10.19994 g=578.15999 b=729 p=0 c=729#
+% t=573.31386 plus 10.39993 g=578.15999 b=10 p=0 c=10#
+% t=588.27394 plus 10.59993 g=578.15999 b=* p=0 c=*
 
 
 Completed box being shipped out [7] []
 
 %% goal height=578.15999, max depth=5.5
-% t=0.0 g=578.15999 b=10000 p=0 c=100000#
-% t=11.0 g=578.15999 b=10000 p=-10001 c=-10001#
-%% goal height=578.15999, max depth=5.5
-% t=0.0 g=578.15999 b=10000 p=0 c=100000#
 % t=11.0 g=578.15999 b=10000 p=0 c=100000#
-% t=11.0 plus 1.0fil g=578.15999 b=0 p=-10000 c=-10000#
+% t=25.96008 plus 0.2 g=578.15999 b=10000 p=-301 c=100000#
+% t=51.80804 plus 1.2 g=578.15999 b=10000 p=301 c=100000#
+% t=66.76813 plus 1.4 g=578.15999 b=10000 p=0 c=100000#
+% t=81.72821 plus 1.59999 g=578.15999 b=10000 p=0 c=100000#
+)
+\tf@toc=\write6
+\openout6 = `TFG.toc'.
+
+% t=96.6883 plus 1.79999 g=578.15999 b=10000 p=0 c=100000#
+% t=96.6883 plus 1.79999 plus 1.0fil g=578.15999 b=0 p=-10000 c=-10000#
+LaTeX Info: Redefining \. on input line 31.
+LaTeX Info: Redefining \% on input line 31.
 
 
 Completed box being shipped out [8] []
 
-
+%% goal height=578.15999, max depth=5.5
+% t=0.0 g=578.15999 b=10000 p=0 c=100000#
+% t=11.0 g=578.15999 b=10000 p=-10001 c=-10001#
  (./chapters/Capitulo1.tex
 %% goal height=578.15999, max depth=5.5
 % t=0.0 g=578.15999 b=10000 p=0 c=100000#
@@ -1415,49 +1443,50 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.26 \item E
-            xtender las capacidades de la lógica temporal para expresar pro...
+l.26 \item e
+            xtender las capacidades de la lógica temporal STL para expresar...
 
 Completed box being shipped out [1] []
+
 
 
 %% goal height=578.15999, max depth=5.5
 % t=0.0 g=578.15999 b=10000 p=0 c=100000#
 % t=36.80093 plus 0.94266 g=578.15999 b=10000 p=-51 c=100000#
-% t=58.56102 plus 2.94266 g=578.15999 b=10000 p=250 c=100000#
-% t=73.5211 plus 2.94266 g=578.15999 b=10000 p=0 c=100000#
-% t=88.48119 plus 2.94266 g=578.15999 b=10000 p=150 c=100000#
-% t=103.44127 plus 2.94266 g=578.15999 b=10000 p=-51 c=100000#
-% t=125.20135 plus 4.94266 g=578.15999 b=10000 p=150 c=100000#
-% t=140.16144 plus 4.94266 g=578.15999 b=10000 p=0 c=100000#
-% t=155.12152 plus 4.94266 g=578.15999 b=10000 p=150 c=100000#
-% t=170.0816 plus 4.94266 g=578.15999 b=10000 p=-51 c=100000#
-% t=191.84169 plus 6.94266 g=578.15999 b=10000 p=150 c=100000#
-% t=206.80177 plus 6.94266 g=578.15999 b=10000 p=0 c=100000#
-% t=221.76186 plus 6.94266 g=578.15999 b=10000 p=0 c=100000#
-% t=236.72194 plus 6.94266 g=578.15999 b=10000 p=150 c=100000#
-% t=251.68202 plus 6.94266 g=578.15999 b=10000 p=-51 c=100000#
-% t=253.81065 plus 6.94266 g=578.15999 b=10000 p=-300 c=100000#
+% t=58.56102 plus 2.94266 g=578.15999 b=10000 p=300 c=100000#
+% t=73.5211 plus 2.94266 g=578.15999 b=10000 p=-51 c=100000#
+% t=95.28119 plus 4.94266 g=578.15999 b=10000 p=300 c=100000#
+% t=110.24127 plus 4.94266 g=578.15999 b=10000 p=-51 c=100000#
+% t=132.00136 plus 6.94266 g=578.15999 b=10000 p=300 c=100000#
+% t=146.96144 plus 6.94266 g=578.15999 b=10000 p=-51 c=100000#
+% t=168.72153 plus 8.94266 g=578.15999 b=10000 p=300 c=100000#
+% t=183.68161 plus 8.94266 g=578.15999 b=10000 p=-51 c=100000#
 
 
-LaTeX Warning: Reference `cha:stl' on page 2 undefined on input line 35.
+LaTeX Warning: Citation 'StlEval' on page 2 undefined on input line 33.
 
+% t=205.4417 plus 10.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=220.40178 plus 10.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=235.36186 plus 10.94266 g=578.15999 b=10000 p=-51 c=100000#
 
-LaTeX Warning: Reference `cha:gui' on page 2 undefined on input line 35.
+LaTeX Warning: Citation 'ParetoLib' on page 2 undefined on input line 34.
 
-
-LaTeX Warning: Reference `cha:concl' on page 2 undefined on input line 35.
-
-% t=351.21028 plus 13.54138 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
-% t=366.17036 plus 13.54138 minus 0.94266 g=578.15999 b=10000 p=150 c=100000#
-% t=381.13045 plus 13.54138 minus 0.94266 g=578.15999 b=10000 p=-300 c=100000#
-% t=448.83939 plus 19.19745 minus 1.88531 g=578.15999 b=10000 p=150 c=100000#
-% t=463.79947 plus 19.19745 minus 1.88531 g=578.15999 b=10000 p=-300 c=100000#
-% t=531.0684 plus 24.85352 minus 2.82797 g=578.15999 b=677 p=0 c=677#
-% t=546.02849 plus 24.85352 minus 2.82797 g=578.15999 b=214 p=0 c=214#
-% t=560.98857 plus 24.85352 minus 2.82797 g=578.15999 b=33 p=0 c=33#
-% t=575.94865 plus 24.85352 minus 2.82797 g=578.15999 b=0 p=0 c=0#
-% t=590.90874 plus 24.85352 minus 2.82797 g=578.15999 b=* p=0 c=*
+% t=257.12195 plus 12.94266 g=578.15999 b=10000 p=250 c=100000#
+% t=272.08203 plus 12.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=287.04211 plus 12.94266 g=578.15999 b=10000 p=100 c=100000#
+% t=302.0022 plus 12.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=316.96228 plus 12.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=331.92236 plus 12.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=346.88245 plus 12.94266 g=578.15999 b=10000 p=-51 c=100000#
+% t=349.01108 plus 12.94266 g=578.15999 b=10000 p=-300 c=100000#
+% t=423.9405 plus 18.59872 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=438.90059 plus 18.59872 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=453.86067 plus 18.59872 minus 0.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=468.82076 plus 18.59872 minus 0.94266 g=578.15999 b=10000 p=-300 c=100000#
+% t=545.87881 plus 24.25479 minus 1.88531 g=578.15999 b=235 p=0 c=235#
+% t=560.8389 plus 24.25479 minus 1.88531 g=578.15999 b=36 p=100 c=136#
+% t=575.79898 plus 24.25479 minus 1.88531 g=578.15999 b=0 p=0 c=0#
+% t=590.75906 plus 24.25479 minus 1.88531 g=578.15999 b=* p=0 c=*
 LaTeX Info: Redefining \. on input line 44.
 LaTeX Info: Redefining \% on input line 44.
 
@@ -1465,38 +1494,100 @@ Completed box being shipped out [2] []
 
 %% goal height=578.15999, max depth=5.5
 % t=11.0 g=578.15999 b=10000 p=0 c=100000#
-% t=25.96008 g=578.15999 b=10000 p=150 c=100000#
-% t=40.92017 g=578.15999 b=10000 p=-300 c=100000#
-% t=108.1891 plus 5.65607 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
-% t=123.14919 plus 5.65607 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
-% t=138.10927 plus 5.65607 minus 0.94266 g=578.15999 b=10000 p=150 c=100000#
-% t=153.06935 plus 5.65607 minus 0.94266 g=578.15999 b=10000 p=-300 c=100000#
-% t=220.33829 plus 11.31213 minus 1.88531 g=578.15999 b=10000 p=0 c=100000#
-% t=235.29837 plus 11.31213 minus 1.88531 g=578.15999 b=10000 p=0 c=100000#
-% t=250.25845 plus 11.31213 minus 1.88531 g=578.15999 b=10000 p=0 c=100000#
-% t=265.21854 plus 11.31213 minus 1.88531 g=578.15999 b=10000 p=150 c=100000#
-% t=280.17862 plus 11.31213 minus 1.88531 g=578.15999 b=10000 p=-300 c=100000#
-% t=347.44756 plus 16.9682 minus 2.82797 g=578.15999 b=10000 p=0 c=100000#
-% t=362.40764 plus 16.9682 minus 2.82797 g=578.15999 b=10000 p=0 c=100000#
-% t=377.36772 plus 16.9682 minus 2.82797 g=578.15999 b=10000 p=0 c=100000#
-% t=392.3278 plus 16.9682 minus 2.82797 g=578.15999 b=10000 p=0 c=100000#
-% t=407.28789 plus 16.9682 minus 2.82797 g=578.15999 b=10000 p=0 c=100000#
-% t=422.24797 plus 16.9682 minus 2.82797 g=578.15999 b=10000 p=150 c=100000#
-% t=437.20805 plus 16.9682 minus 2.82797 g=578.15999 b=10000 p=-300 c=100000#
-% t=504.91699 plus 22.62427 minus 3.77063 g=578.15999 b=3386 p=150 c=3536#
-% t=519.87708 plus 22.62427 minus 3.77063 g=578.15999 b=1708 p=0 c=1708#
-% t=541.63716 plus 24.62427 minus 3.77063 g=578.15999 b=325 p=300 c=625#
-% t=556.59724 plus 24.62427 minus 3.77063 g=578.15999 b=67 p=0 c=67#
-) (./chapters/Capitulo2.tex
-% t=578.35733 plus 26.62427 minus 3.77063 g=578.15999 b=0 p=0 c=0#
-% t=578.35733 plus 26.62427 plus 1.0fil minus 3.77063 g=578.15999 b=0 p=-10000 
+% t=25.96008 g=578.15999 b=10000 p=100 c=100000#
+% t=40.92017 g=578.15999 b=10000 p=150 c=100000#
+% t=55.88025 g=578.15999 b=10000 p=0 c=100000#
+% t=77.64034 plus 2.0 g=578.15999 b=10000 p=300 c=100000#
+% t=92.60042 plus 2.0 g=578.15999 b=10000 p=-300 c=100000#
+% t=160.30936 plus 7.65607 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=175.26944 plus 7.65607 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=190.22952 plus 7.65607 minus 0.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=205.1896 plus 7.65607 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=226.94969 plus 9.65607 minus 0.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=241.90977 plus 9.65607 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=256.86986 plus 9.65607 minus 0.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=271.82994 plus 9.65607 minus 0.94266 g=578.15999 b=10000 p=-300 c=100000#
+% t=339.53888 plus 15.31213 minus 1.88531 g=578.15999 b=10000 p=0 c=100000#
+% t=354.49896 plus 15.31213 minus 1.88531 g=578.15999 b=10000 p=0 c=100000#
+% t=369.45905 plus 15.31213 minus 1.88531 g=578.15999 b=10000 p=0 c=100000#
+% t=384.41913 plus 15.31213 minus 1.88531 g=578.15999 b=10000 p=150 c=100000#
+% t=399.37921 plus 15.31213 minus 1.88531 g=578.15999 b=10000 p=0 c=100000#
+% t=421.1393 plus 17.31213 minus 1.88531 g=578.15999 b=10000 p=150 c=100000#
+% t=436.09938 plus 17.31213 minus 1.88531 g=578.15999 b=10000 p=150 c=100000#
+% t=451.05946 plus 17.31213 minus 1.88531 g=578.15999 b=10000 p=-300 c=100000#
+% t=518.7684 plus 22.9682 minus 2.82797 g=578.15999 b=1721 p=0 c=1721#
+% t=533.72849 plus 22.9682 minus 2.82797 g=578.15999 b=721 p=0 c=721#
+% t=548.68857 plus 22.9682 minus 2.82797 g=578.15999 b=211 p=150 c=361#
+% t=563.64865 plus 22.9682 minus 2.82797 g=578.15999 b=25 p=-300 c=-275#
+% t=631.35759 plus 28.62427 minus 3.77063 g=578.15999 b=* p=0 c=*
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
+
+
+Completed box being shipped out [3] []
+
+%% goal height=578.15999, max depth=5.5
+% t=0.0 g=578.15999 b=10000 p=0 c=100000#
+% t=47.99028 plus 0.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=62.95036 plus 0.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=77.91045 plus 0.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=99.67053 plus 2.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=114.63062 plus 2.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=129.5907 plus 2.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=144.55078 plus 2.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=159.51086 plus 2.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=174.47095 plus 2.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=189.43103 plus 2.94266 g=578.15999 b=10000 p=-300 c=100000#
+% t=266.48909 plus 8.59872 minus 0.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=281.44917 plus 8.59872 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=303.20926 plus 10.59872 minus 0.94266 g=578.15999 b=10000 p=300 c=100000#
+<images/gant.png, id=148, 1233.60875pt x 455.7025pt>
+File: images/gant.png Graphic file (type png)
+<use images/gant.png>
+Package pdftex.def Info: images/gant.png  used on input line 78.
+(pdftex.def)             Requested size: 390.25534pt x 144.15894pt.
+% t=318.16934 plus 10.59872 minus 0.94266 g=578.15999 b=10000 p=-10004 c=-10004
+#
+%% goal height=16383.99998, max depth=5.5
+% t=11.0 g=16383.99998 b=10000 p=-10003 c=-10003#
+%% goal height=578.15999, max depth=5.5
+% t=0.0 g=578.15999 b=10000 p=0 c=100000#
+% t=47.99028 plus 0.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=62.95036 plus 0.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=77.91045 plus 0.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=99.67053 plus 2.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=114.63062 plus 2.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=129.5907 plus 2.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=144.55078 plus 2.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=159.51086 plus 2.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=174.47095 plus 2.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=189.43103 plus 2.94266 g=578.15999 b=10000 p=-300 c=100000#
+% t=266.48909 plus 8.59872 minus 0.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=281.44917 plus 8.59872 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=303.20926 plus 10.59872 minus 0.94266 g=578.15999 b=10000 p=300 c=100000#
+% t=318.16934 plus 10.59872 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
+) (./chapters/Capitulo1_EN.tex
+% t=318.16934 plus 10.59872 plus 1.0fil minus 0.94266 g=578.15999 b=0 p=-10000 
 c=-10000#
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
 
-Completed box being shipped out [3] []
+Completed box being shipped out [4] []
 
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+
+Completed box being shipped out [5] []
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \chapter
+            {Introduction} <./images/gant.png>
 %% goal height=578.15999, max depth=5.5
 % t=0.0 g=578.15999 b=10000 p=0 c=100000#
 % t=11.0 g=578.15999 b=10000 p=-10001 c=-10001#
@@ -1506,15 +1597,75 @@ Completed box being shipped out [3] []
 % t=11.0 plus 1.0fil g=578.15999 b=0 p=-10000 c=-10000#
 
 
-Completed box being shipped out [4] []
+Completed box being shipped out [6] []
 
 
 
 Cap\'{\i }tulo 2.
 %% goal height=578.15999, max depth=5.5
 % t=0.0 g=578.15999 b=10000 p=0 c=100000#
+% t=262.46147 plus 6.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=277.42155 plus 6.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=292.38164 plus 6.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=307.34172 plus 6.94266 g=578.15999 b=10000 p=0 c=100000#
 
-LaTeX Warning: Citation 'STL' on page 5 undefined on input line 6.
+LaTeX Warning: Citation 'STTT_RV_21' on page 7 undefined on input line 6.
+
+% t=329.1018 plus 8.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=344.06189 plus 8.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=359.02197 plus 8.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=373.98206 plus 8.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=388.94214 plus 8.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=403.90222 plus 8.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=418.8623 plus 8.94266 g=578.15999 b=10000 p=0 c=100000#
+
+LaTeX Warning: Citation 'STL' on page 7 undefined on input line 8.
+
+% t=440.62239 plus 10.94266 g=578.15999 b=10000 p=250 c=100000#
+% t=455.58247 plus 10.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=470.54256 plus 10.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=485.50264 plus 10.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=500.46272 plus 10.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=515.4228 plus 10.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=530.38289 plus 10.94266 g=578.15999 b=10000 p=-300 c=100000#
+% t=592.48087 plus 16.59872 minus 0.94266 g=578.15999 b=* p=-51 c=*
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Completed box being shipped out [7] []
+
+%% goal height=578.15999, max depth=5.5
+% t=0.0 g=578.15999 b=10000 p=0 c=100000#
+% t=36.80093 plus 0.94266 g=578.15999 b=10000 p=-51 c=100000#
+% t=58.56102 plus 2.94266 g=578.15999 b=10000 p=400 c=100000#
+% t=73.5211 plus 2.94266 g=578.15999 b=10000 p=-51 c=100000#
+% t=95.28119 plus 4.94266 g=578.15999 b=10000 p=-51 c=100000#
+% t=117.04128 plus 6.94266 g=578.15999 b=10000 p=-51 c=100000#
+% t=119.1699 plus 6.94266 g=578.15999 b=10000 p=-300 c=100000#
+)
+% t=194.09933 plus 12.59872 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=209.05942 plus 12.59872 minus 0.94266 g=578.15999 b=10000 p=150 c=100000#
+ (./chapters/Capitulo2.tex
+% t=224.0195 plus 12.59872 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=224.0195 plus 12.59872 plus 1.0fil minus 0.94266 g=578.15999 b=0 p=-10000 c
+=-10000#
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+
+Completed box being shipped out [8] []
+
+%% goal height=578.15999, max depth=5.5
+% t=0.0 g=578.15999 b=10000 p=0 c=100000#
+% t=11.0 g=578.15999 b=10000 p=-10001 c=-10001#
+
+Cap\'{\i }tulo 3.
+%% goal height=578.15999, max depth=5.5
+% t=0.0 g=578.15999 b=10000 p=0 c=100000#
+
+LaTeX Warning: Citation 'STL' on page 9 undefined on input line 6.
 
 % t=262.46147 plus 6.94266 g=578.15999 b=10000 p=0 c=100000#
 % t=277.42155 plus 6.94266 g=578.15999 b=10000 p=150 c=100000#
@@ -1531,179 +1682,224 @@ LaTeX Warning: Citation 'STL' on page 5 undefined on input line 6.
 % t=462.38248 plus 12.94266 g=578.15999 b=10000 p=0 c=100000#
 % t=499.10265 plus 17.94266 g=578.15999 b=10000 p=0 c=100000#
 % t=527.36273 plus 23.44266 minus 3.0 g=578.15999 b=1014 p=150 c=1164#
-% t=542.32281 plus 23.44266 minus 3.0 g=578.15999 b=357 p=100 c=457#
-% t=557.2829 plus 23.44266 minus 3.0 g=578.15999 b=70 p=150 c=220#
-% t=572.24298 plus 23.44266 minus 3.0 g=578.15999 b=2 p=0 c=2#
-% t=608.96315 plus 28.44266 minus 3.0 g=578.15999 b=* p=0 c=*
+% t=542.32281 plus 23.44266 minus 3.0 g=578.15999 b=357 p=0 c=357#
+% t=557.2829 plus 23.44266 minus 3.0 g=578.15999 b=70 p=0 c=70#
+% t=572.24298 plus 23.44266 minus 3.0 g=578.15999 b=2 p=150 c=152
+% t=587.20306 plus 23.44266 minus 3.0 g=578.15999 b=* p=0 c=*
 
-Completed box being shipped out [5] []
+Completed box being shipped out [9] []
+
 
 %% goal height=578.15999, max depth=5.5
-% t=25.96008 plus 3.0 g=578.15999 b=10000 p=0 c=100000#
-% t=47.42017 plus 9.5 minus 3.0 g=578.15999 b=10000 p=0 c=100000#
+% t=11.0 g=578.15999 b=10000 p=150 c=100000#
+% t=25.96008 g=578.15999 b=10000 p=0 c=100000#
+% t=78.16832 plus 5.0 minus 6.0 g=578.15999 b=10000 p=0 c=100000#
 
 
-LaTeX Warning: Citation 'TACAS_19' on page 6 undefined on input line 22.
+LaTeX Warning: Citation 'TACAS_19' on page 10 undefined on input line 28.
 
 
-LaTeX Warning: Citation 'Stl_Der_Int' on page 6 undefined on input line 22.
+LaTeX Warning: Citation 'Stl_Der_Int' on page 10 undefined on input line 28.
 
-% t=68.88025 plus 13.0 minus 6.0 g=578.15999 b=10000 p=150 c=100000#
-% t=83.84033 plus 13.0 minus 6.0 g=578.15999 b=10000 p=150 c=100000#
-% t=98.80042 plus 13.0 minus 6.0 g=578.15999 b=10000 p=0 c=100000#
+% t=106.44034 plus 10.0 minus 12.0 g=578.15999 b=10000 p=150 c=100000#
+% t=121.40042 plus 10.0 minus 12.0 g=578.15999 b=10000 p=150 c=100000#
+% t=136.3605 plus 10.0 minus 12.0 g=578.15999 b=10000 p=0 c=100000#
 
-LaTeX Warning: Citation 'AMT2' on page 6 undefined on input line 25.
-
-
-LaTeX Warning: Citation 'StlEval' on page 6 undefined on input line 25.
+LaTeX Warning: Citation 'AMT2' on page 10 undefined on input line 31.
 
 
-LaTeX Warning: Citation 'Stl_Der_Int' on page 6 undefined on input line 25.
+LaTeX Warning: Citation 'StlEval' on page 10 undefined on input line 31.
 
-% t=120.5605 plus 15.0 minus 6.0 g=578.15999 b=10000 p=150 c=100000#
-% t=135.52058 plus 15.0 minus 6.0 g=578.15999 b=10000 p=0 c=100000#
-% t=150.48067 plus 15.0 minus 6.0 g=578.15999 b=10000 p=0 c=100000#
-% t=165.44075 plus 15.0 minus 6.0 g=578.15999 b=10000 p=0 c=100000#
-% t=180.40083 plus 15.0 minus 6.0 g=578.15999 b=10000 p=150 c=100000#
-% t=195.36092 plus 15.0 minus 6.0 g=578.15999 b=10000 p=-300 c=100000#
 
-LaTeX Warning: Reference `fig:senal' on page 6 undefined on input line 31.
+LaTeX Warning: Citation 'Stl_Der_Int' on page 10 undefined on input line 31.
 
-% t=257.4589 plus 20.65607 minus 6.94266 g=578.15999 b=10000 p=-300 c=100000#
-% t=325.16783 plus 26.31213 minus 7.88531 g=578.15999 b=10000 p=0 c=100000#
-% t=347.2062 plus 28.31213 minus 7.88531 g=578.15999 b=10000 p=0 c=100000#
-% t=371.90068 plus 30.31213 minus 7.88531 g=578.15999 b=10000 p=0 c=100000#
-% t=393.66077 plus 32.31213 minus 7.88531 g=578.15999 b=10000 p=300 c=100000#
-% t=408.62085 plus 32.31213 minus 7.88531 g=578.15999 b=10000 p=0 c=100000#
-% t=430.86124 plus 34.31213 minus 7.88531 g=578.15999 b=7907 p=300 c=8207#
-% t=445.34102 plus 34.31213 minus 7.88531 g=578.15999 b=5787 p=0 c=5787#
-% t=467.1011 plus 36.31213 minus 7.88531 g=578.15999 b=2856 p=400 c=3256#
-% t=482.06119 plus 36.31213 minus 7.88531 g=578.15999 b=1852 p=0 c=1852#
+% t=158.12059 plus 12.0 minus 12.0 g=578.15999 b=10000 p=150 c=100000#
+% t=173.08067 plus 12.0 minus 12.0 g=578.15999 b=10000 p=0 c=100000#
+% t=188.04076 plus 12.0 minus 12.0 g=578.15999 b=10000 p=0 c=100000#
+% t=203.00084 plus 12.0 minus 12.0 g=578.15999 b=10000 p=0 c=100000#
+% t=217.96092 plus 12.0 minus 12.0 g=578.15999 b=10000 p=150 c=100000#
+% t=232.921 plus 12.0 minus 12.0 g=578.15999 b=10000 p=-300 c=100000#
 
-LaTeX Warning: Reference `fig:der_int' on page 6 undefined on input line 51.
+LaTeX Warning: Citation 'Stl_Der_Int' on page 10 undefined on input line 35.
 
-% t=503.82127 plus 38.31213 minus 7.88531 g=578.15999 b=729 p=300 c=1029#
-<images/derivada.png, id=116, 192.84045pt x 133.33815pt>
-File: images/derivada.png Graphic file (type png)
-<use images/derivada.png>
-Package pdftex.def Info: images/derivada.png  used on input line 55.
+% t=309.97906 plus 17.65607 minus 12.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=324.93915 plus 17.65607 minus 12.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=339.89923 plus 17.65607 minus 12.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=354.85931 plus 17.65607 minus 12.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=369.8194 plus 17.65607 minus 12.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=391.57948 plus 19.65607 minus 12.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=406.53957 plus 19.65607 minus 12.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=421.49965 plus 19.65607 minus 12.94266 g=578.15999 b=10000 p=150 c=100000#
+<images/senal_original.png, id=189, 201.8742pt x 133.33815pt>
+File: images/senal_original.png Graphic file (type png)
+<use images/senal_original.png>
+Package pdftex.def Info: images/senal_original.png  used on input line 42.
+(pdftex.def)             Requested size: 173.44534pt x 114.56886pt.
+<images/senal_muestreada.png, id=190, 192.84045pt x 133.33815pt>
+File: images/senal_muestreada.png Graphic file (type png)
+<use images/senal_muestreada.png>
+Package pdftex.def Info: images/senal_muestreada.png  used on input line 43.
 (pdftex.def)             Requested size: 173.44534pt x 119.93404pt.
-<images/integral.png, id=118, 192.84045pt x 133.33815pt>
-File: images/integral.png Graphic file (type png)
-<use images/integral.png>
-Package pdftex.def Info: images/integral.png  used on input line 56.
-(pdftex.def)             Requested size: 173.44534pt x 119.93404pt.
-% t=518.78136 plus 38.31213 minus 7.88531 g=578.15999 b=371 p=-10004 c=-10004#
+% t=436.45973 plus 19.65607 minus 12.94266 g=578.15999 b=10000 p=-10004 c=-1000
+4#
 %% goal height=16383.99998, max depth=5.5
 % t=11.0 g=16383.99998 b=10000 p=-10003 c=-10003#
 %% goal height=578.15999, max depth=5.5
-% t=25.96008 plus 3.0 g=578.15999 b=10000 p=0 c=100000#
-% t=47.42017 plus 9.5 minus 3.0 g=578.15999 b=10000 p=0 c=100000#
-% t=68.88025 plus 13.0 minus 6.0 g=578.15999 b=10000 p=150 c=100000#
-% t=83.84033 plus 13.0 minus 6.0 g=578.15999 b=10000 p=150 c=100000#
-% t=98.80042 plus 13.0 minus 6.0 g=578.15999 b=10000 p=0 c=100000#
-% t=120.5605 plus 15.0 minus 6.0 g=578.15999 b=10000 p=150 c=100000#
-% t=135.52058 plus 15.0 minus 6.0 g=578.15999 b=10000 p=0 c=100000#
-% t=150.48067 plus 15.0 minus 6.0 g=578.15999 b=10000 p=0 c=100000#
-% t=165.44075 plus 15.0 minus 6.0 g=578.15999 b=10000 p=0 c=100000#
-% t=180.40083 plus 15.0 minus 6.0 g=578.15999 b=10000 p=150 c=100000#
-% t=195.36092 plus 15.0 minus 6.0 g=578.15999 b=10000 p=-300 c=100000#
-% t=257.4589 plus 20.65607 minus 6.94266 g=578.15999 b=10000 p=-300 c=100000#
-% t=325.16783 plus 26.31213 minus 7.88531 g=578.15999 b=10000 p=0 c=100000#
-% t=347.2062 plus 28.31213 minus 7.88531 g=578.15999 b=10000 p=0 c=100000#
-% t=371.90068 plus 30.31213 minus 7.88531 g=578.15999 b=10000 p=0 c=100000#
-% t=393.66077 plus 32.31213 minus 7.88531 g=578.15999 b=10000 p=300 c=100000#
-% t=408.62085 plus 32.31213 minus 7.88531 g=578.15999 b=10000 p=0 c=100000#
-% t=430.86124 plus 34.31213 minus 7.88531 g=578.15999 b=7907 p=300 c=8207#
-% t=445.34102 plus 34.31213 minus 7.88531 g=578.15999 b=5787 p=0 c=5787#
-% t=467.1011 plus 36.31213 minus 7.88531 g=578.15999 b=2856 p=400 c=3256#
-% t=482.06119 plus 36.31213 minus 7.88531 g=578.15999 b=1852 p=0 c=1852#
-% t=503.82127 plus 38.31213 minus 7.88531 g=578.15999 b=729 p=300 c=1029#
-% t=518.78136 plus 38.31213 minus 7.88531 g=578.15999 b=371 p=0 c=371#
-% t=518.78136 plus 38.31213 minus 7.88531 g=578.15999 b=371 p=-300 c=71#
+% t=11.0 g=578.15999 b=10000 p=150 c=100000#
+% t=25.96008 g=578.15999 b=10000 p=0 c=100000#
+% t=78.16832 plus 5.0 minus 6.0 g=578.15999 b=10000 p=0 c=100000#
+% t=106.44034 plus 10.0 minus 12.0 g=578.15999 b=10000 p=150 c=100000#
+% t=121.40042 plus 10.0 minus 12.0 g=578.15999 b=10000 p=150 c=100000#
+% t=136.3605 plus 10.0 minus 12.0 g=578.15999 b=10000 p=0 c=100000#
+% t=158.12059 plus 12.0 minus 12.0 g=578.15999 b=10000 p=150 c=100000#
+% t=173.08067 plus 12.0 minus 12.0 g=578.15999 b=10000 p=0 c=100000#
+% t=188.04076 plus 12.0 minus 12.0 g=578.15999 b=10000 p=0 c=100000#
+% t=203.00084 plus 12.0 minus 12.0 g=578.15999 b=10000 p=0 c=100000#
+% t=217.96092 plus 12.0 minus 12.0 g=578.15999 b=10000 p=150 c=100000#
+% t=232.921 plus 12.0 minus 12.0 g=578.15999 b=10000 p=-300 c=100000#
+% t=309.97906 plus 17.65607 minus 12.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=324.93915 plus 17.65607 minus 12.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=339.89923 plus 17.65607 minus 12.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=354.85931 plus 17.65607 minus 12.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=369.8194 plus 17.65607 minus 12.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=391.57948 plus 19.65607 minus 12.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=406.53957 plus 19.65607 minus 12.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=421.49965 plus 19.65607 minus 12.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=436.45973 plus 19.65607 minus 12.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=436.45973 plus 19.65607 minus 12.94266 g=578.15999 b=10000 p=-300 c=100000#
+% t=513.51779 plus 25.31213 minus 13.88531 g=578.15999 b=1661 p=0 c=1661#
+% t=528.47787 plus 25.31213 minus 13.88531 g=578.15999 b=752 p=150 c=902#
+% t=543.43796 plus 25.31213 minus 13.88531 g=578.15999 b=257 p=0 c=257#
+% t=631.55191 plus 30.31213 minus 19.88531 g=578.15999 b=* p=0 c=*
+LaTeX Info: Redefining \. on input line 55.
+LaTeX Info: Redefining \% on input line 55.
 
-LaTeX Warning: Citation 'FORMATS_19' on page 6 undefined on input line 67.
-
-
-LaTeX Warning: Citation 'ParetoLib' on page 6 undefined on input line 67.
-
-% t=608.9605 plus 44.91086 minus 8.82797 g=578.15999 b=* p=150 c=*
-LaTeX Info: Redefining \. on input line 68.
-LaTeX Info: Redefining \% on input line 68.
-
-Completed box being shipped out [6] []
+Completed box being shipped out [10] []
 
 %% goal height=411.13724, max depth=5.5
-% t=0.0 g=411.13724 b=10000 p=0 c=100000#
-% t=70.46048 plus 1.88531 g=411.13724 b=10000 p=150 c=100000#
-% t=85.42056 plus 1.88531 g=411.13724 b=10000 p=0 c=100000#
-% t=107.18065 plus 3.88531 g=411.13724 b=10000 p=300 c=100000#
-% t=122.14073 plus 3.88531 g=411.13724 b=10000 p=0 c=100000#
+% t=77.35387 plus 3.0 minus 6.0 g=411.13724 b=10000 p=0 c=100000#
+% t=103.69536 plus 8.0 minus 12.0 g=411.13724 b=10000 p=300 c=100000#
+% t=118.65544 plus 8.0 minus 12.0 g=411.13724 b=10000 p=0 c=100000#
+% t=210.12738 plus 13.0 minus 18.0 g=411.13724 b=10000 p=0 c=100000#
+% t=238.3994 plus 18.0 minus 24.0 g=411.13724 b=10000 p=150 c=100000#
+% t=253.35948 plus 18.0 minus 24.0 g=411.13724 b=10000 p=150 c=100000#
+<images/derivada.png, id=198, 192.84045pt x 133.33815pt>
+File: images/derivada.png Graphic file (type png)
+<use images/derivada.png>
+Package pdftex.def Info: images/derivada.png  used on input line 68.
+(pdftex.def)             Requested size: 173.44534pt x 119.93404pt.
+<images/integral.png, id=199, 192.84045pt x 133.33815pt>
+File: images/integral.png Graphic file (type png)
+<use images/integral.png>
+Package pdftex.def Info: images/integral.png  used on input line 69.
+(pdftex.def)             Requested size: 173.44534pt x 119.93404pt.
+% t=268.31956 plus 18.0 minus 24.0 g=411.13724 b=10000 p=-10004 c=-10004#
+%% goal height=16383.99998, max depth=5.5
+% t=11.0 g=16383.99998 b=10000 p=-10003 c=-10003#
+%% goal height=411.13724, max depth=5.5
+% t=77.35387 plus 3.0 minus 6.0 g=411.13724 b=10000 p=0 c=100000#
+% t=103.69536 plus 8.0 minus 12.0 g=411.13724 b=10000 p=300 c=100000#
+% t=118.65544 plus 8.0 minus 12.0 g=411.13724 b=10000 p=0 c=100000#
+% t=210.12738 plus 13.0 minus 18.0 g=411.13724 b=10000 p=0 c=100000#
+% t=238.3994 plus 18.0 minus 24.0 g=411.13724 b=10000 p=150 c=100000#
+% t=253.35948 plus 18.0 minus 24.0 g=411.13724 b=10000 p=150 c=100000#
+% t=268.31956 plus 18.0 minus 24.0 g=411.13724 b=10000 p=0 c=100000#
+% t=268.31956 plus 18.0 minus 24.0 g=411.13724 b=10000 p=-300 c=100000#
 
 
-LaTeX Warning: Reference `list:paretolib_example' on page 7 undefined on input 
-line 71.
-
-% t=143.90082 plus 5.88531 g=411.13724 b=10000 p=300 c=100000#
-% t=158.8609 plus 5.88531 g=411.13724 b=10000 p=0 c=100000#
-
-LaTeX Warning: Reference `' on page 7 undefined on input line 73.
+LaTeX Warning: Citation 'FORMATS_19' on page 11 undefined on input line 75.
 
 
-LaTeX Warning: Reference `•' on page 7 undefined on input line 73.
+LaTeX Warning: Citation 'ParetoLib' on page 11 undefined on input line 75.
 
-% t=180.62099 plus 7.88531 g=411.13724 b=10000 p=150 c=100000#
-% t=195.58107 plus 7.88531 g=411.13724 b=10000 p=150 c=100000#
-% t=210.54115 plus 7.88531 g=411.13724 b=10000 p=0 c=100000#
+% t=345.37762 plus 23.65607 minus 24.94266 g=411.13724 b=2142 p=150 c=2292#
+% t=360.3377 plus 23.65607 minus 24.94266 g=411.13724 b=986 p=0 c=986#
+% t=382.0978 plus 25.65607 minus 24.94266 g=411.13724 b=145 p=300 c=445#
+% t=397.05788 plus 25.65607 minus 24.94266 g=411.13724 b=16 p=0 c=16#
+% t=418.81796 plus 27.65607 minus 24.94266 g=411.13724 b=3 p=300 c=303
+% t=433.77805 plus 27.65607 minus 24.94266 g=411.13724 b=74 p=0 c=74
 
-LaTeX Warning: Reference `list:paretolib_example' on page 7 undefined on input 
-line 76.
+LaTeX Warning: Reference `' on page 11 undefined on input line 81.
 
-% t=232.30124 plus 9.88531 g=411.13724 b=10000 p=150 c=100000#
-% t=247.26132 plus 9.88531 g=411.13724 b=10000 p=0 c=100000#
-% t=262.2214 plus 9.88531 g=411.13724 b=10000 p=0 c=100000#
-% t=277.18149 plus 9.88531 g=411.13724 b=10000 p=150 c=100000#
-% t=292.14157 plus 9.88531 g=411.13724 b=10000 p=0 c=100000#
-% t=313.90166 plus 11.88531 g=411.13724 b=10000 p=-51 c=100000#
-% t=335.66174 plus 13.88531 g=411.13724 b=10000 p=300 c=100000#
-% t=350.62183 plus 13.88531 g=411.13724 b=10000 p=-51 c=100000#
-% t=372.38191 plus 15.88531 g=411.13724 b=1448 p=300 c=1748#
-% t=387.342 plus 15.88531 g=411.13724 b=334 p=-51 c=283#
+
+LaTeX Warning: Reference `•' on page 11 undefined on input line 81.
+
+% t=455.53813 plus 29.65607 minus 24.94266 g=411.13724 b=* p=150 c=*
+LaTeX Info: Redefining \. on input line 82.
+LaTeX Info: Redefining \% on input line 82.
+
+Completed box being shipped out [11] []
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.82 
+      <./images/senal_original.png> <./images/senal_muestreada.png>
+%% goal height=411.13724, max depth=5.5
+% t=11.0 g=411.13724 b=10000 p=300 c=100000#
+% t=25.96008 g=411.13724 b=10000 p=0 c=100000#
+% t=47.72017 plus 2.0 g=411.13724 b=10000 p=150 c=100000#
+% t=62.68025 plus 2.0 g=411.13724 b=10000 p=150 c=100000#
+% t=77.64034 plus 2.0 g=411.13724 b=10000 p=0 c=100000#
+% t=99.40042 plus 4.0 g=411.13724 b=10000 p=150 c=100000#
+% t=114.3605 plus 4.0 g=411.13724 b=10000 p=0 c=100000#
+% t=129.32059 plus 4.0 g=411.13724 b=10000 p=0 c=100000#
+% t=144.28067 plus 4.0 g=411.13724 b=10000 p=150 c=100000#
+% t=159.24075 plus 4.0 g=411.13724 b=10000 p=0 c=100000#
+% t=181.00084 plus 6.0 g=411.13724 b=10000 p=-51 c=100000#
+% t=202.76093 plus 8.0 g=411.13724 b=10000 p=300 c=100000#
+% t=217.72101 plus 8.0 g=411.13724 b=10000 p=-51 c=100000#
+% t=239.4811 plus 10.0 g=411.13724 b=10000 p=300 c=100000#
+% t=254.44118 plus 10.0 g=411.13724 b=10000 p=-51 c=100000#
+
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
-% t=390.07889 plus 15.88531 g=411.13724 b=232 p=-50 c=182#
+% t=257.17807 plus 10.0 g=411.13724 b=10000 p=-50 c=100000#
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 89.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 8
-9.
+nput line 97.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 9
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 (./code/python/example2d_derivative.py
-% t=396.07889 plus 17.88531 minus 2.0 g=411.13724 b=60 p=0 c=60#
-% t=405.44206 plus 17.88531 minus 2.0 g=411.13724 b=3 p=0 c=3#
-% t=417.54213 plus 17.88531 minus 2.0 g=411.13724 b=* p=0 c=*
-LaTeX Info: Redefining \. on input line 4.
-LaTeX Info: Redefining \% on input line 4.
+% t=263.17807 plus 12.0 minus 2.0 g=411.13724 b=10000 p=0 c=100000#
+% t=272.54124 plus 12.0 minus 2.0 g=411.13724 b=10000 p=0 c=100000#
+% t=284.64131 plus 12.0 minus 2.0 g=411.13724 b=10000 p=0 c=100000#
+% t=296.74138 plus 12.0 minus 2.0 g=411.13724 b=10000 p=0 c=100000#
+% t=308.84145 plus 12.0 minus 2.0 g=411.13724 b=10000 p=0 c=100000#
+% t=320.94151 plus 12.0 minus 2.0 g=411.13724 b=10000 p=400 c=100000#
+% t=333.04158 plus 12.0 minus 2.0 g=411.13724 b=10000 p=0 c=100000#
+% t=345.14165 plus 12.0 minus 2.0 g=411.13724 b=10000 p=0 c=100000#
+% t=357.24171 plus 12.0 minus 2.0 g=411.13724 b=10000 p=0 c=100000#
+% t=369.34178 plus 12.0 minus 2.0 g=411.13724 b=4217 p=0 c=4217#
+% t=381.44185 plus 12.0 minus 2.0 g=411.13724 b=1509 p=0 c=1509#
+% t=393.54192 plus 12.0 minus 2.0 g=411.13724 b=314 p=0 c=314#
+% t=405.64198 plus 12.0 minus 2.0 g=411.13724 b=10 p=0 c=10#
+% t=417.74205 plus 12.0 minus 2.0 g=411.13724 b=* p=0 c=*
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
 
 
-Completed box being shipped out [7] []
+Completed box being shipped out [12] []
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.4 #
-      File containing the definition of the Oracle <./images/derivada.png> <./i
-mages/integral.png>
+l.13 oracle.
+            from_file(nfile, human_readable) <./images/derivada.png> <./images/
+integral.png>
 %% goal height=578.15999, max depth=5.5
 % t=11.0 g=578.15999 b=10000 p=0 c=100000#
 % t=23.10007 g=578.15999 b=10000 p=0 c=100000#
 % t=35.20013 g=578.15999 b=10000 p=0 c=100000#
-% t=47.3002 g=578.15999 b=10000 p=400 c=100000#
+% t=47.3002 g=578.15999 b=10000 p=0 c=100000#
 % t=59.40027 g=578.15999 b=10000 p=0 c=100000#
 % t=71.50034 g=578.15999 b=10000 p=0 c=100000#
 % t=83.6004 g=578.15999 b=10000 p=0 c=100000#
@@ -1715,146 +1911,91 @@ mages/integral.png>
 % t=156.2008 g=578.15999 b=10000 p=0 c=100000#
 % t=168.30087 g=578.15999 b=10000 p=0 c=100000#
 % t=180.40094 g=578.15999 b=10000 p=0 c=100000#
-% t=192.501 g=578.15999 b=10000 p=0 c=100000#
-% t=204.60107 g=578.15999 b=10000 p=0 c=100000#
-% t=216.70114 g=578.15999 b=10000 p=0 c=100000#
-% t=228.80121 g=578.15999 b=10000 p=0 c=100000#
-% t=240.90128 g=578.15999 b=10000 p=0 c=100000#
-% t=253.00134 g=578.15999 b=10000 p=0 c=100000#
-% t=265.10141 g=578.15999 b=10000 p=0 c=100000#
-% t=277.20148 g=578.15999 b=10000 p=0 c=100000#
-% t=289.30154 g=578.15999 b=10000 p=0 c=100000#
-% t=301.40161 g=578.15999 b=10000 p=0 c=100000#
-% t=313.50168 g=578.15999 b=10000 p=0 c=100000#
 )
-% t=325.60175 g=578.15999 b=10000 p=-50 c=100000#
+% t=192.501 g=578.15999 b=10000 p=-50 c=100000#
 ) (./chapters/Capitulo3.tex
-% t=335.2318 plus 2.0 minus 2.0 g=578.15999 b=10000 p=0 c=100000#
-% t=331.60175 plus 2.0 plus 1.0fil minus 2.0 g=578.15999 b=0 p=-10000 c=-10000#
+% t=202.13106 plus 2.0 minus 2.0 g=578.15999 b=10000 p=0 c=100000#
+% t=198.501 plus 2.0 plus 1.0fil minus 2.0 g=578.15999 b=0 p=-10000 c=-10000#
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
 
-Completed box being shipped out [8] []
+Completed box being shipped out [13] []
 
 %% goal height=578.15999, max depth=5.5
 % t=0.0 g=578.15999 b=10000 p=0 c=100000#
 % t=11.0 g=578.15999 b=10000 p=-10001 c=-10001#
-
-Cap\'{\i }tulo 3.
 %% goal height=578.15999, max depth=5.5
 % t=0.0 g=578.15999 b=10000 p=0 c=100000#
-% t=262.46147 plus 6.94266 g=578.15999 b=10000 p=0 c=100000#
-% t=284.22156 plus 8.94266 g=578.15999 b=10000 p=150 c=100000#
-% t=299.18164 plus 8.94266 g=578.15999 b=10000 p=0 c=100000#
-% t=314.14172 plus 8.94266 g=578.15999 b=10000 p=0 c=100000#
-% t=329.1018 plus 8.94266 g=578.15999 b=10000 p=0 c=100000#
-% t=344.06189 plus 8.94266 g=578.15999 b=10000 p=150 c=100000#
-% t=359.02197 plus 8.94266 g=578.15999 b=10000 p=0 c=100000#
-% t=380.78206 plus 10.94266 g=578.15999 b=10000 p=300 c=100000#
-% t=395.74214 plus 10.94266 g=578.15999 b=10000 p=0 c=100000#
-% t=417.50223 plus 12.94266 g=578.15999 b=10000 p=300 c=100000#
-% t=432.46231 plus 12.94266 g=578.15999 b=10000 p=0 c=100000#
-% t=454.2224 plus 14.94266 g=578.15999 b=10000 p=300 c=100000#
-% t=469.18248 plus 14.94266 g=578.15999 b=10000 p=0 c=100000#
-% t=490.94257 plus 16.94266 g=578.15999 b=10000 p=-10004 c=-10004#
-%% goal height=16383.99998, max depth=5.5
-% t=11.0 g=16383.99998 b=10000 p=-10003 c=-10003#
-%% goal height=538.48987, max depth=0.0
-% t=0.0 g=538.48987 b=10000 p=0 c=100000#
-% t=265.19836 plus 6.94266 g=538.48987 b=10000 p=0 c=100000#
-% t=286.35019 plus 8.94266 g=538.48987 b=10000 p=150 c=100000#
-% t=301.31027 plus 8.94266 g=538.48987 b=10000 p=0 c=100000#
-% t=316.27036 plus 8.94266 g=538.48987 b=10000 p=0 c=100000#
-% t=331.23044 plus 8.94266 g=538.48987 b=10000 p=0 c=100000#
-% t=346.19052 plus 8.94266 g=538.48987 b=10000 p=150 c=100000#
-% t=361.1506 plus 8.94266 g=538.48987 b=10000 p=0 c=100000#
-% t=382.91069 plus 10.94266 g=538.48987 b=10000 p=300 c=100000#
-% t=397.87077 plus 10.94266 g=538.48987 b=10000 p=0 c=100000#
-% t=419.63086 plus 12.94266 g=538.48987 b=10000 p=300 c=100000#
-% t=434.59094 plus 12.94266 g=538.48987 b=10000 p=0 c=100000#
-% t=456.35103 plus 14.94266 g=538.48987 b=10000 p=300 c=100000#
-% t=471.31111 plus 14.94266 g=538.48987 b=10000 p=0 c=100000#
-% t=493.0712 plus 16.94266 g=538.48987 b=1924 p=0 c=1924#
-% t=514.83128 plus 18.94266 g=538.48987 b=193 p=150 c=343#
-% t=529.79137 plus 18.94266 g=538.48987 b=10 p=150 c=160#
-% t=544.75145 plus 18.94266 g=538.48987 b=* p=0 c=*
-
-Completed box being shipped out [9] []
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.34 I
-      nstalación:
-%% goal height=578.15999, max depth=5.5
 % t=11.0 g=578.15999 b=10000 p=0 c=100000#
-% t=32.76009 plus 2.0 g=578.15999 b=10000 p=0 c=100000#
+% t=11.0 plus 1.0fil g=578.15999 b=0 p=-10000 c=-10000#
 
-Overfull \hbox (8.33014pt too wide) in paragraph at lines 36--37
+
+Completed box being shipped out [14] []
+
+
+
+Cap\'{\i }tulo 4.
+%% goal height=578.15999, max depth=5.5
+% t=0.0 g=578.15999 b=10000 p=0 c=100000#
+% t=231.82051 plus 6.0 g=578.15999 b=10000 p=0 c=100000#
+% t=246.7806 plus 6.0 g=578.15999 b=10000 p=150 c=100000#
+% t=261.74068 plus 6.0 g=578.15999 b=10000 p=0 c=100000#
+% t=283.50076 plus 8.0 g=578.15999 b=10000 p=250 c=100000#
+% t=298.46085 plus 8.0 g=578.15999 b=10000 p=0 c=100000#
+% t=313.42093 plus 8.0 g=578.15999 b=10000 p=250 c=100000#
+% t=328.38101 plus 8.0 g=578.15999 b=10000 p=-300 c=100000#
+% t=390.47899 plus 13.65607 minus 0.94266 g=578.15999 b=10000 p=-51 c=100000#
+% t=412.23907 plus 15.65607 minus 0.94266 g=578.15999 b=10000 p=-51 c=100000#
+% t=433.99916 plus 17.65607 minus 0.94266 g=578.15999 b=10000 p=-51 c=100000#
+% t=455.75925 plus 19.65607 minus 0.94266 g=578.15999 b=10000 p=-51 c=100000#
+% t=477.51933 plus 21.65607 minus 0.94266 g=578.15999 b=10000 p=-51 c=100000#
+% t=477.51933 plus 21.65607 minus 0.94266 g=578.15999 b=10000 p=-300 c=100000#
+% t=545.22827 plus 27.31213 minus 1.88531 g=578.15999 b=175 p=0 c=175#
+% t=560.18835 plus 27.31213 minus 1.88531 g=578.15999 b=28 p=0 c=28#
+% t=575.14844 plus 27.31213 minus 1.88531 g=578.15999 b=0 p=0 c=0#
+% t=590.10852 plus 27.31213 minus 1.88531 g=578.15999 b=* p=150 c=*
+
+Completed box being shipped out [15] []
+
+%% goal height=578.15999, max depth=5.5
+% t=11.0 g=578.15999 b=10000 p=150 c=100000#
+% t=25.96008 g=578.15999 b=10000 p=0 c=100000#
+% t=47.72017 plus 2.0 g=578.15999 b=10000 p=300 c=100000#
+% t=62.68025 plus 2.0 g=578.15999 b=10000 p=0 c=100000#
+% t=84.44034 plus 4.0 g=578.15999 b=10000 p=300 c=100000#
+% t=99.40042 plus 4.0 g=578.15999 b=10000 p=0 c=100000#
+% t=121.1605 plus 6.0 g=578.15999 b=10000 p=300 c=100000#
+% t=136.12059 plus 6.0 g=578.15999 b=10000 p=0 c=100000#
+% t=157.88068 plus 8.0 g=578.15999 b=10000 p=0 c=100000#
+% t=179.64076 plus 10.0 g=578.15999 b=10000 p=-300 c=100000#
+% t=247.3497 plus 15.65607 minus 0.94266 g=578.15999 b=10000 p=150 c=100000#
+% t=262.30978 plus 15.65607 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=284.06987 plus 17.65607 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
+
+Overfull \hbox (8.33014pt too wide) in paragraph at lines 37--38
 []\T1/cmr/m/n/10.95 1 - En es-te ca-so es su-ma-men-te sim-ple rea-li-zan-do: \
 TS1/cmr/m/n/10.95 �\T1/cmr/m/n/10.95 sudo apt-get ins-tall python3-matplotlib\T
 S1/cmr/m/n/10.95 �\T1/cmr/m/n/10.95 . 
  []
 
-% t=54.52017 plus 4.0 g=578.15999 b=10000 p=-10004 c=-10004#
-%% goal height=16383.99998, max depth=5.5
-% t=11.0 g=16383.99998 b=10000 p=-10003 c=-10003#
-%% goal height=538.48987, max depth=5.5
-% t=11.0 g=538.48987 b=10000 p=0 c=100000#
-% t=32.76009 plus 2.0 g=538.48987 b=10000 p=0 c=100000#
-% t=54.52017 plus 4.0 g=538.48987 b=10000 p=0 c=100000#
-% t=54.52017 plus 4.0 g=538.48987 b=10000 p=-300 c=100000#
-% t=131.57823 plus 9.65607 minus 0.94266 g=538.48987 b=10000 p=0 c=100000#
-% t=153.33832 plus 11.65607 minus 0.94266 g=538.48987 b=10000 p=300 c=100000#
-% t=168.2984 plus 11.65607 minus 0.94266 g=538.48987 b=10000 p=-10004 c=-10004#
-%% goal height=16383.99998, max depth=5.5
-% t=11.0 g=16383.99998 b=10000 p=-10003 c=-10003#
-%% goal height=506.81975, max depth=5.5
-% t=11.0 g=506.81975 b=10000 p=0 c=100000#
-% t=32.76009 plus 2.0 g=506.81975 b=10000 p=0 c=100000#
-% t=54.52017 plus 4.0 g=506.81975 b=10000 p=0 c=100000#
-% t=54.52017 plus 4.0 g=506.81975 b=10000 p=-300 c=100000#
-% t=131.57823 plus 9.65607 minus 0.94266 g=506.81975 b=10000 p=0 c=100000#
-% t=153.33832 plus 11.65607 minus 0.94266 g=506.81975 b=10000 p=300 c=100000#
-% t=168.2984 plus 11.65607 minus 0.94266 g=506.81975 b=10000 p=0 c=100000#
-% t=168.2984 plus 11.65607 minus 0.94266 g=506.81975 b=10000 p=-300 c=100000#
-% t=245.35646 plus 17.31213 minus 1.88531 g=506.81975 b=10000 p=0 c=100000#
-% t=267.11655 plus 19.31213 minus 1.88531 g=506.81975 b=10000 p=150 c=100000#
-% t=282.07663 plus 19.31213 minus 1.88531 g=506.81975 b=10000 p=0 c=100000#
-% t=297.03671 plus 19.31213 minus 1.88531 g=506.81975 b=10000 p=100 c=100000#
-% t=311.9968 plus 19.31213 minus 1.88531 g=506.81975 b=10000 p=150 c=100000#
-% t=326.95688 plus 19.31213 minus 1.88531 g=506.81975 b=10000 p=-300 c=100000#
+% t=305.82996 plus 19.65607 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=327.59004 plus 21.65607 minus 0.94266 g=578.15999 b=10000 p=-300 c=100000#
+% t=479.0511 plus 30.1401 minus 1.88531 g=578.15999 b=3547 p=-300 c=3247#
 ) (./chapters/Capitulo4.tex
-% t=367.29477 plus 22.9682 plus 1.0fil minus 2.82797 g=506.81975 b=0 p=-10000 c
-=-10000#
+% t=519.38899 plus 33.79617 plus 1.0fil minus 2.82797 g=578.15999 b=0 p=-10000 
+c=-10000#
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
 
-Completed box being shipped out [10] []
+Completed box being shipped out [16] []
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1 \chapter
-            {Conclusiones}pdfTeX warning (ext4): destination with the same iden
-tifier (name{figure.3.3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1 \chapter
-            {Conclusiones}
 %% goal height=578.15999, max depth=5.5
 % t=0.0 g=578.15999 b=10000 p=0 c=100000#
 % t=11.0 g=578.15999 b=10000 p=-10001 c=-10001#
 
-Cap\'{\i }tulo 4.
+Cap\'{\i }tulo 5.
 %% goal height=578.15999, max depth=5.5
 % t=0.0 g=578.15999 b=10000 p=0 c=100000#
 % t=231.82051 plus 6.0 g=578.15999 b=10000 p=150 c=100000#
@@ -1862,59 +2003,60 @@ Cap\'{\i }tulo 4.
 % t=308.87857 plus 11.65607 minus 0.94266 g=578.15999 b=10000 p=-300 c=100000#
 % t=385.93663 plus 17.31213 minus 1.88531 g=578.15999 b=10000 p=150 c=100000#
 % t=400.89671 plus 17.31213 minus 1.88531 g=578.15999 b=10000 p=0 c=100000#
-% t=422.6568 plus 19.31213 minus 1.88531 g=578.15999 b=10000 p=300 c=100000#
+% t=422.6568 plus 19.31213 minus 1.88531 g=578.15999 b=10000 p=150 c=100000#
 % t=437.61688 plus 19.31213 minus 1.88531 g=578.15999 b=10000 p=0 c=100000#
-% t=459.37697 plus 21.31213 minus 1.88531 g=578.15999 b=10000 p=300 c=100000#
-% t=474.33705 plus 21.31213 minus 1.88531 g=578.15999 b=10000 p=-51 c=100000#
-% t=496.09714 plus 23.31213 minus 1.88531 g=578.15999 b=4353 p=-51 c=4302#
-% t=517.85722 plus 25.31213 minus 1.88531 g=578.15999 b=1348 p=-51 c=1297#
-% t=539.61731 plus 27.31213 minus 1.88531 g=578.15999 b=281 p=150 c=431#
-% t=554.5774 plus 27.31213 minus 1.88531 g=578.15999 b=64 p=0 c=64#
-% t=569.53748 plus 27.31213 minus 1.88531 g=578.15999 b=3 p=0 c=3#
-% t=584.49756 plus 27.31213 minus 1.88531 g=578.15999 b=* p=150 c=*
+% t=452.57697 plus 19.31213 minus 1.88531 g=578.15999 b=10000 p=0 c=100000#
+% t=467.53705 plus 19.31213 minus 1.88531 g=578.15999 b=10000 p=0 c=100000#
+% t=482.49713 plus 19.31213 minus 1.88531 g=578.15999 b=10000 p=150 c=100000#
+% t=497.45721 plus 19.31213 minus 1.88531 g=578.15999 b=7291 p=0 c=7291#
+% t=519.2173 plus 21.31213 minus 1.88531 g=578.15999 b=2111 p=300 c=2411#
+% t=534.17738 plus 21.31213 minus 1.88531 g=578.15999 b=874 p=-51 c=823#
+% t=555.93747 plus 23.31213 minus 1.88531 g=578.15999 b=86 p=-51 c=35#
+% t=577.69756 plus 25.31213 minus 1.88531 g=578.15999 b=0 p=-51 c=-51#
+% t=599.45764 plus 27.31213 minus 1.88531 g=578.15999 b=* p=150 c=*
 
-Completed box being shipped out [11] []
+Completed box being shipped out [17] []
 
 
 %% goal height=578.15999, max depth=5.5
 % t=11.0 g=578.15999 b=10000 p=150 c=100000#
-% t=25.96008 g=578.15999 b=10000 p=-300 c=100000#
+% t=25.96008 g=578.15999 b=10000 p=0 c=100000#
+% t=40.92017 g=578.15999 b=10000 p=0 c=100000#
+% t=55.88025 g=578.15999 b=10000 p=150 c=100000#
+% t=70.84033 g=578.15999 b=10000 p=-300 c=100000#
 )
-% t=88.05806 plus 5.65607 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
-% t=88.05806 plus 5.65607 plus 1.0fil minus 0.94266 g=578.15999 b=0 p=-10000 c=
--10000#
-LaTeX Info: Redefining \. on input line 44.
-LaTeX Info: Redefining \% on input line 44.
+% t=132.93831 plus 5.65607 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
+% t=132.93831 plus 5.65607 plus 1.0fil minus 0.94266 g=578.15999 b=0 p=-10000 c
+=-10000#
+LaTeX Info: Redefining \. on input line 46.
+LaTeX Info: Redefining \% on input line 46.
 
 
-Completed box being shipped out [12] []
+Completed box being shipped out [18] []
 
 
 
-LaTeX Warning: Empty bibliography on input line 49.
+LaTeX Warning: Empty bibliography on input line 51.
 
 %% goal height=578.15999, max depth=5.5
 % t=0.0 g=578.15999 b=10000 p=0 c=100000#
 % t=11.0 g=578.15999 b=10000 p=-10001 c=-10001#
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
 %% goal height=578.15999, max depth=5.5
 % t=0.0 g=578.15999 b=10000 p=0 c=100000#
 % t=11.0 g=578.15999 b=10000 p=-10001 c=-10001#
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 (./TFG.aux
 LaTeX Info: Redefining \. on input line 32.
 LaTeX Info: Redefining \% on input line 32.
 LaTeX Info: Redefining \. on input line 34.
 LaTeX Info: Redefining \% on input line 34.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 51.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 53.
 
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
@@ -1930,20 +2072,20 @@ Package logreq Info: Writing requests to 'TFG.run.xml'.
 % t=11.0 plus 1.0fill g=578.15999 b=0 p=-1073741824 c=-1073741824#
  ) 
 Here is how much of TeX's memory you used:
- 31511 strings out of 483007
- 552273 string characters out of 5961757
- 1325230 words of memory out of 5000000
- 45880 multiletter control sequences out of 15000+600000
+ 31571 strings out of 483007
+ 553276 string characters out of 5961757
+ 1298847 words of memory out of 5000000
+ 45922 multiletter control sequences out of 15000+600000
  554630 words of font info for 73 fonts, out of 8000000 for 9000
  107 hyphenation exceptions out of 8191
- 63i,6n,62p,1438b,3701s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,9n,62p,1438b,3703s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.6
 00pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt090
 0.600pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
 0600.600pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
 cbx1200.600pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/e
-c/ecsl1095.600pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecbx2074.600pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfour/jkna
+c/ecbx2074.600pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecsl1095.600pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfour/jkna
 ppen/ec/ecbx2488.600pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfour/j
 knappen/ec/ecbx1095.600pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfou
 r/jknappen/ec/ecbx1440.600pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/lj
@@ -1955,20 +2097,19 @@ nts/pk/ljfour/jknappen/ec/eccc1200.600pk> </home/kriptor/.texlive2019/texmf-var
 var/fonts/pk/ljfour/jknappen/ec/ecxc1200.600pk> </home/kriptor/.texlive2019/tex
 mf-var/fonts/pk/ljfour/jknappen/ec/ecxc1728.600pk></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on TFG.pdf (22 pages, 492332 bytes).
+s/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on TFG.pdf (28 pages, 675519 bytes).
 PDF statistics:
- 852 PDF objects out of 1000 (max. 8388607)
- 337 compressed objects within 4 object streams
- 85 named destinations out of 1000 (max. 500000)
- 212 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 980 PDF objects out of 1000 (max. 8388607)
+ 425 compressed objects within 5 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 307 words of extra memory for PDF output out of 10000 (max. 10000000)
 

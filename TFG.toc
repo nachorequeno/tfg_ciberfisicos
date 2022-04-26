@@ -9,48 +9,60 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Objetivos}{2}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Organización}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Organización del documento}{2}{section.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Documento}{2}{subsection.1.3.1}%
+\contentsline {section}{\numberline {1.4}Planificación temporal y esfuerzo}{2}{section.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Equipo de trabajo}{2}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.4.1}Primera - Investigación}{3}{subsection.1.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Primera - Investigación}{2}{section*.7}%
+\contentsline {subsection}{\numberline {1.4.2}Segunda - Documentación}{3}{subsection.1.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Segunda - Documentación}{3}{section*.8}%
+\contentsline {subsection}{\numberline {1.4.3}Tercera - Implementación}{3}{subsection.1.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Tercera - Implementación}{3}{section*.9}%
+\contentsline {subsection}{\numberline {1.4.4}Cuarta - Diseño y Finalización}{4}{subsection.1.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Cuarta - Diseño y Finalización}{3}{section*.10}%
+\contentsline {section}{\numberline {1.5}Organización de Equipo}{4}{section.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}Planificación y Organización}{3}{subsection.1.3.3}%
+\contentsline {chapter}{\numberline {2}Introduction}{7}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Nuevos operadores para STL}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Cyber-physical system}{7}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Signal Temporal Logic}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Objectives}{8}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}STLEval}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Document Organization}{8}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Operador integral}{6}{subsection.2.2.1}%
+\contentsline {chapter}{\numberline {3}Nuevos operadores para STL}{9}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Operador derivada}{7}{subsection.2.2.2}%
+\contentsline {section}{\numberline {3.1}Signal Temporal Logic}{9}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Integración con ParetoLib}{7}{subsection.2.2.3}%
+\contentsline {section}{\numberline {3.2}STLEval}{10}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Interfaz gráfica}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.3}Definición de los nuevos operadores}{10}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Librerías utilizadas}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.4}Integración con ParetoLib}{11}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Estructura}{10}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Interfaz gráfica}{15}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Configuración Técnica}{10}{section.3.3}%
+\contentsline {section}{\numberline {4.1}Librerías utilizadas}{15}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Otros}{10}{section.3.4}%
+\contentsline {subsection}{\numberline {4.1.1}PyQt}{15}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusiones}{11}{chapter.4}%
+\contentsline {subsection}{\numberline {4.1.2}MatplotLib}{16}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Conclusiones (español)}{11}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.3}Pandas}{16}{subsection.4.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Trabajo futuro}{11}{section.4.2}%
+\contentsline {subsection}{\numberline {4.1.4}Seaborn}{16}{subsection.4.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Conclusions (English)}{12}{section.4.3}%
+\contentsline {section}{\numberline {4.2}Estructura}{16}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Configuración Técnica}{16}{section.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Otros}{16}{section.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusiones}{17}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Conclusiones (español)}{17}{section.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Trabajo futuro}{17}{section.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Conclusions (English)}{18}{section.5.3}%
