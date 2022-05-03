@@ -78,10 +78,18 @@ Internamente, ParetoLib implementa un algoritmo de búsqueda que guía el aprend
 
 ParetoLib está escrito en Python. El código fuente \ref{list:paretolib_example} ilustra la forma de invocar a la librería.
 
-Dada una señal triangular \ref{} y la especificación STL X, la imagen \ref{•} muestra en las configuraciones de los parámetros X que satisfacen la propiedad (región en verde) y las que lo falsifican (región en rojo).
+Dada una señal triangular \ref{fig:trian} y la especificación STL X, la imagen \ref{fig:param} muestra en las configuraciones de los parámetros X que satisfacen la propiedad (región en verde) y las que lo falsifican (región en rojo).
 
 % Contribuciones
 En este proyecto, hemos actualizado los binarios y librerías dinámicas de STLEval que incorpora ParetoLib para dar soporte a las nuevas operaciones de derivación e integración. Además, hemos implementado una interfaz gráfica que abstrae la complejidad de invocar al código fuente \ref{list:paretolib_example} y resume la mayor parte de las opciones de configuración del algoritmo de minería.
+
+Para terminar este apartado, vamos a ver un ejemplo de STL con parámetros sobre el operador derivada. Ahora gracias a las nuevas operaciones que hemos añadido en STL podemos calcular la derivada de una señal triangular \ref{fig:trian}, que también aparece como ejemplo en la GUI \ref{fig:gui}. Sobre la señal vamos a evaluar la siguiente propiedad STL:
+
+G (0 p1) ((D x0) >= 6-p2), donde p1 y p2 son los parámetros, x0 es la señal y D es el operador derivada.
+
+Con la expresión dada, la GUI nos devolvería como resultado un mapa que nos muestra los resultados para cualquier combinación de los parámetros p1 y p2 dentro de un limite especificado en la GUI. La parte verde del mapa muestra la expresión con los parámetros de tal forma que STLe concluye que la propiedad es cierta, en cambio la parte roja es en la que STLe concluye que la propiedad es falsa. Cabe mencionar que el mapa ya estaba disponible en la librería de minería.
+
+En el siguiente capitulo veremos la nueva interfaz gráfica que va a facilitar al usuario a trabajar con esta librería de minería y STL que estará por encima de la biblioteca de minería.
 
 \jicomment{TODO:
 \begin{itemize}
@@ -95,3 +103,17 @@ En este proyecto, hemos actualizado los binarios y librerías dinámicas de STLE
 		label={list:paretolib_example},
 		caption={}]
 		{code/python/example2d_derivative.py}
+
+\begin{figure}[htb]
+\centering
+  \includegraphics[width=0.7\linewidth]{images/triangular} 
+\caption{Señal triangular}
+\label{fig:trian}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+  \includegraphics[width=0.7\linewidth]{images/stl_parametrico} 
+\caption{Resultado paramétrico}
+\label{fig:param}
+\end{figure}

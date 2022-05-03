@@ -25,40 +25,39 @@ Esta librería está basada en la biblioteca gráfica QT y nos servirá para rea
 \label{fig:gui}
 \end{figure}
 
-Instalación: 
-El desarrollo de la aplicación se hizo en un entorno linux haciendo uso del gestor de paquetes “pip”. 
+%Instalación: 
+%El desarrollo de la aplicación se hizo en un entorno linux haciendo uso del gestor de paquetes “pip”. 
  
-1 - Antes de todo, tenemos que confirmar la versión de Python que tenemos instalada con ´python3 --version´.
+%1 - Antes de todo, tenemos que confirmar la versión de Python que tenemos instalada con ´python3 --version´.
  
-2 - En el caso de que no lo tuviésemos, instalamos el gestor de paquetes “pip” con sudo ‘apt-get install python3-pip’ y actualizamos el mismo ´pip install -U pip´ 
+%2 - En el caso de que no lo tuviésemos, instalamos el gestor de paquetes “pip” con sudo ‘apt-get install python3-pip’ y actualizamos el mismo ´pip install -U pip´ 
  
-3 - Instalamos la librería PyQT con ´pip install pyqt5´. 
+%3 - Instalamos la librería PyQT con ´pip install pyqt5´. 
  
 \subsection{MatplotLib}
 Biblioteca usada para generar gráficos a partir de datos almacenados en un array. Hacemos uso de esta librería con el fin de mostrar las señales resultantes, aplicando las operaciones indicadas, en la sección de la aplicación propuesta para ello. 
  
-Instalación: 
+%Instalación: 
  
-1 - En este caso es sumamente simple realizando: ´sudo apt-get install python3-matplotlib´.
+%1 - En este caso es sumamente simple realizando: ´sudo apt-get install python3-matplotlib´.
  
 \subsection{Pandas}
 Librería de Python especializada en el manejo y análisis de estructuras de datos. En nuestro caso usada para la lectura de los ficheros csv, los cuales contienen los datos de entrada de las señales.
  
-Instalación: 
+%Instalación: 
  
-1 - Instalamos la librería con el comando: ´pip install pandas´
+%1 - Instalamos la librería con el comando: ´pip install pandas´
 
 \subsection{Seaborn} 
 Basada en MatplotLib, es una librería que permite generar fácilmente elegantes gráficos. Nosotros la utilizamos para dibujar señales de los datos leídos de los archivos cvs.
  
-Instalación: 
+%Instalación: 
  
-1 - Instalamos la librería con el comando: ´pip install seaborn´
+%1 - Instalamos la librería con el comando: ´pip install seaborn´
 
 \section{Estructura}
 \begin{figure}[htb]
 \centering
-%  \includegraphics[width=.4\linewidth]{images/dibujo_estructura} 
   \includegraphics[width=.95\linewidth]{images/uml_diagram} 
 \caption{Estructura del proyecto}
 \label{fig:est}
@@ -78,4 +77,4 @@ El tratamiento de las señales se realiza mediante el consumo de la librería Pa
 \end{itemize} 
 
 \section{Otros}
-Cabe mencionar, que para sacar todo el potencial de PyQt5 hemos hecho uso de la herramienta Qt Designer. Gracias a ella hemos podido construir la interfaz en si. Una vez hecha, la unimos al archivo GUI.py para aportar funcionalidades al propio diseño.
+Cabe mencionar, que para sacar todo el potencial de PyQt5 hemos hecho uso de la herramienta Qt Designer. Gracias a ella hemos podido construir la interfaz en sí. Una vez hecha, la unimos al archivo GUI.py para aportar funcionalidades al propio diseño.
