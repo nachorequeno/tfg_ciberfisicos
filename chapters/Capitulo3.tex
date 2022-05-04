@@ -62,18 +62,25 @@ Basada en MatplotLib, es una librería que permite generar fácilmente elegantes
 \caption{Estructura del proyecto}
 \label{fig:est}
 \end{figure}
-Como vemos en la figura \ref{fig:est}, la GUI se comunica tanto con la librería de minería, que nos permite evaluar propiedades con o sin parámetros, como con la API STL. La librería de minería a su vez esta conectada por binarios precomplilados también con STL.
+Como vemos en la figura \ref{fig:est}, la GUI se comunica con la librería de minería ParetoLib que nos permite evaluar propiedades con parámetros, utilizando en ese caso los métodos de la librería, o sin ellos, haciendo simplemente una consulta a la API STL. A su vez ParetoLib esta conectado por binarios precomplilados con STL.
 
-Las partes verdes de la estructura representan las partes nuevas de nuestra aportacion, como la propia GUI o los operadores nuevos de STL.
- 
-\section{Configuración Técnica}
-El tratamiento de las señales se realiza mediante el consumo de la librería ParetoLib y el oráculo de STLe `ParetoLib.Oracle.OracleSTLe`. Las funciones de la API que utilizamos son: 
+La anterior forma de hacer consultas a través de la terminal obligaba a hacerlas por separado a STLe o a la librería de minería dependiendo si quisiésemos una consulta STL paramétrica o no. La nueva GUI unifica el proceso y facilita la usabilidad de cara al usuario.
+
+Como partes aportaciones nuevas al proyecto (marcadas en rojo) esta la propia GUI, los operadores derivada e integral en STLe y una modificación en la API OracleSTLe, con la cual conseguimos que sea factible hacer consultas no paramétricas desde ParetoLib.
+
+\section{Guía de uso}
+En esta sección vamos a describir alguna de las partes interactuables o visibles de la GUI:
+
 \begin{itemize}
-\item OracleSTLeLib(stl\_prop\_file, csv\_signal\_file, stl\_param\_file): Constructor del objeto basado en la señal de entrada csv, sobre este objeto se van a realizar las operaciones del archivo de especificación que adjuntemos. 
-\item \_load\_stl\_formula(stl\_file): Método que carga un archivo de especificación de la formula. 
-\item eval\_stl\_formula(self, stl\_formula): Método que evalúa la fórmula y devuelve si es satisfacible.
-\item \_get\_parameters\_stl(stl\_param\_file): Devuelve los parámetros del archivo dado como una lista.
-%\item get\_var\_names(self):
+\item STL specification: Seleccionamos un archivo \textbf{.stl} el cual contiene una formula paramétrica o no, esto es importante porque si deseamos hacer una consulta no paramétrica debemos de ajustar la formula para que no haya ningún parámetro. Cuando seleccionemos el archivo, la descripción de la formula aparecerá en una caja inferior la cual solo sera visual y no modificable.
+
+\item Input signal: Necesita de un archivo \textbf{.csv} que contenga la especificación de la señal. Una vez seleccionado aparece un dibujo de esta en la caja grande de la ventana
+
+\item Parameters: Proporcionamos un archivo \textbf{.param} que contiene los parámetros a estudiar que aparecen en la formula del archivo .stl seleccionado. Al elegir un archivo nos aparecerá mas abajo una caja donde poder rellenar el valor mínimo y máximo de cada parámetro. Para una consulta no paramétrica no hace falta seleccionar ningún archivo.
+
+\item Parametric STL: Elegimos si queremos una consulta STL paramétrica o no, en el caso de quererla seleccionamos que si y viceversa.
+
+\item Run: Boton de ejecutar la consulta. Para poder hacerla necesitamos los 3 input files anteriores descritos (2 en el caso no paramétrico) y se nos devolverá un mapa con las regiones falsas o verdaderas según los parámetros \ref{fig:param} si la consulta es paramétrica o un True/False en el caso contrario. 
 \end{itemize} 
 
 \section{Otros}
