@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.24)  5 MAY 2022 18:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.24)  5 MAY 2022 18:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1585,7 +1585,7 @@ Completed box being shipped out [4] []
 % t=162.85847 plus 5.65607 minus 0.94266 g=578.15999 b=10000 p=150 c=100000#
 % t=177.81856 plus 5.65607 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
 % t=199.57864 plus 7.65607 minus 0.94266 g=578.15999 b=10000 p=300 c=100000#
-<images/gant.png, id=168, 1233.60875pt x 455.7025pt>
+<images/gant.png, id=167, 1233.60875pt x 455.7025pt>
 File: images/gant.png Graphic file (type png)
 <use images/gant.png>
 Package pdftex.def Info: images/gant.png  used on input line 103.
@@ -1679,8 +1679,8 @@ Completed box being shipped out [7] []
 
 LaTeX Warning: Citation 'StlEval' on page 8 undefined on input line 24.
 
-% t=175.52153 plus 10.94266 g=578.15999 b=10000 p=150 c=100000#
-% t=190.48161 plus 10.94266 g=578.15999 b=10000 p=250 c=100000#
+% t=175.52153 plus 10.94266 g=578.15999 b=10000 p=250 c=100000#
+% t=190.48161 plus 10.94266 g=578.15999 b=10000 p=150 c=100000#
 % t=205.4417 plus 10.94266 g=578.15999 b=10000 p=-51 c=100000#
 
 LaTeX Warning: Citation 'StlEval' on page 8 undefined on input line 25.
@@ -1751,33 +1751,27 @@ Completed box being shipped out [9] []
 File: images/gant.png Graphic file (type png)
 <use images/gant.png>
 Package pdftex.def Info: images/gant.png  used on input line 64.
-(pdftex.def)             Requested size: 390.25534pt x 144.15894pt.
+(pdftex.def)             Requested size: 346.89731pt x 128.14514pt.
 % t=177.81856 plus 5.65607 minus 0.94266 g=578.15999 b=10000 p=-10004 c=-10004#
 %% goal height=16383.99998, max depth=5.5
 % t=11.0 g=16383.99998 b=10000 p=-10003 c=-10003#
-%% goal height=578.15999, max depth=5.5
-% t=11.0 g=578.15999 b=10000 p=0 c=100000#
-% t=25.96008 g=578.15999 b=10000 p=0 c=100000#
-% t=40.92017 g=578.15999 b=10000 p=0 c=100000#
-% t=55.88025 g=578.15999 b=10000 p=150 c=100000#
-% t=70.84033 g=578.15999 b=10000 p=-300 c=100000#
-% t=147.89839 plus 5.65607 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
-% t=162.85847 plus 5.65607 minus 0.94266 g=578.15999 b=10000 p=150 c=100000#
-% t=177.81856 plus 5.65607 minus 0.94266 g=578.15999 b=10000 p=0 c=100000#
+%% goal height=184.17397, max depth=5.5
+% t=11.0 g=184.17397 b=10000 p=0 c=100000#
+% t=25.96008 g=184.17397 b=10000 p=0 c=100000#
+% t=40.92017 g=184.17397 b=10000 p=0 c=100000#
+% t=55.88025 g=184.17397 b=10000 p=150 c=100000#
+% t=70.84033 g=184.17397 b=10000 p=-300 c=100000#
+% t=147.89839 plus 5.65607 minus 0.94266 g=184.17397 b=10000 p=0 c=100000#
+% t=162.85847 plus 5.65607 minus 0.94266 g=184.17397 b=5345 p=150 c=5495#
+% t=177.81856 plus 5.65607 minus 0.94266 g=184.17397 b=141 p=0 c=141#
 ) (./chapters/Capitulo2.tex
-% t=177.81856 plus 5.65607 plus 1.0fil minus 0.94266 g=578.15999 b=0 p=-10000 c
+% t=177.81856 plus 5.65607 plus 1.0fil minus 0.94266 g=184.17397 b=0 p=-10000 c
 =-10000#
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
 
 Completed box being shipped out [10] []
-
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-
-
-Completed box being shipped out [11] []
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
 has been already used, duplicate ignored
@@ -1789,21 +1783,12 @@ l.1 \chapter
 %% goal height=578.15999, max depth=5.5
 % t=0.0 g=578.15999 b=10000 p=0 c=100000#
 % t=11.0 g=578.15999 b=10000 p=-10001 c=-10001#
-%% goal height=578.15999, max depth=5.5
-% t=0.0 g=578.15999 b=10000 p=0 c=100000#
-% t=11.0 g=578.15999 b=10000 p=0 c=100000#
-% t=11.0 plus 1.0fil g=578.15999 b=0 p=-10000 c=-10000#
-
-
-Completed box being shipped out [12] []
-
-
 
 Cap\'{\i }tulo 3.
 %% goal height=578.15999, max depth=5.5
 % t=0.0 g=578.15999 b=10000 p=0 c=100000#
 
-LaTeX Warning: Citation 'STL' on page 13 undefined on input line 6.
+LaTeX Warning: Citation 'STL' on page 11 undefined on input line 6.
 
 % t=262.46147 plus 6.94266 g=578.15999 b=10000 p=0 c=100000#
 % t=277.42155 plus 6.94266 g=578.15999 b=10000 p=150 c=100000#
@@ -1825,7 +1810,8 @@ LaTeX Warning: Citation 'STL' on page 13 undefined on input line 6.
 % t=572.24298 plus 23.44266 minus 3.0 g=578.15999 b=2 p=150 c=152
 % t=587.20306 plus 23.44266 minus 3.0 g=578.15999 b=* p=0 c=*
 
-Completed box being shipped out [13] []
+Completed box being shipped out [11] []
+
 
 %% goal height=578.15999, max depth=5.5
 % t=11.0 g=578.15999 b=10000 p=150 c=100000#
@@ -1833,22 +1819,22 @@ Completed box being shipped out [13] []
 % t=78.16832 plus 5.0 minus 6.0 g=578.15999 b=10000 p=0 c=100000#
 
 
-LaTeX Warning: Citation 'TACAS_19' on page 14 undefined on input line 28.
+LaTeX Warning: Citation 'TACAS_19' on page 12 undefined on input line 28.
 
 
-LaTeX Warning: Citation 'Stl_Der_Int' on page 14 undefined on input line 28.
+LaTeX Warning: Citation 'Stl_Der_Int' on page 12 undefined on input line 28.
 
 % t=106.44034 plus 10.0 minus 12.0 g=578.15999 b=10000 p=150 c=100000#
 % t=121.40042 plus 10.0 minus 12.0 g=578.15999 b=10000 p=150 c=100000#
 % t=136.3605 plus 10.0 minus 12.0 g=578.15999 b=10000 p=0 c=100000#
 
-LaTeX Warning: Citation 'AMT2' on page 14 undefined on input line 31.
+LaTeX Warning: Citation 'AMT2' on page 12 undefined on input line 31.
 
 
-LaTeX Warning: Citation 'StlEval' on page 14 undefined on input line 31.
+LaTeX Warning: Citation 'StlEval' on page 12 undefined on input line 31.
 
 
-LaTeX Warning: Citation 'Stl_Der_Int' on page 14 undefined on input line 31.
+LaTeX Warning: Citation 'Stl_Der_Int' on page 12 undefined on input line 31.
 
 % t=158.12059 plus 12.0 minus 12.0 g=578.15999 b=10000 p=150 c=100000#
 % t=173.08067 plus 12.0 minus 12.0 g=578.15999 b=10000 p=0 c=100000#
@@ -1857,7 +1843,7 @@ LaTeX Warning: Citation 'Stl_Der_Int' on page 14 undefined on input line 31.
 % t=217.96092 plus 12.0 minus 12.0 g=578.15999 b=10000 p=150 c=100000#
 % t=232.921 plus 12.0 minus 12.0 g=578.15999 b=10000 p=-300 c=100000#
 
-LaTeX Warning: Citation 'Stl_Der_Int' on page 14 undefined on input line 35.
+LaTeX Warning: Citation 'Stl_Der_Int' on page 12 undefined on input line 35.
 
 % t=309.97906 plus 17.65607 minus 12.94266 g=578.15999 b=10000 p=0 c=100000#
 % t=324.93915 plus 17.65607 minus 12.94266 g=578.15999 b=10000 p=0 c=100000#
@@ -1867,12 +1853,12 @@ LaTeX Warning: Citation 'Stl_Der_Int' on page 14 undefined on input line 35.
 % t=391.57948 plus 19.65607 minus 12.94266 g=578.15999 b=10000 p=150 c=100000#
 % t=406.53957 plus 19.65607 minus 12.94266 g=578.15999 b=10000 p=0 c=100000#
 % t=421.49965 plus 19.65607 minus 12.94266 g=578.15999 b=10000 p=150 c=100000#
-<images/senal_original.png, id=221, 201.8742pt x 133.33815pt>
+<images/senal_original.png, id=212, 201.8742pt x 133.33815pt>
 File: images/senal_original.png Graphic file (type png)
 <use images/senal_original.png>
 Package pdftex.def Info: images/senal_original.png  used on input line 42.
 (pdftex.def)             Requested size: 173.44534pt x 114.56886pt.
-<images/senal_muestreada.png, id=222, 192.84045pt x 133.33815pt>
+<images/senal_muestreada.png, id=213, 192.84045pt x 133.33815pt>
 File: images/senal_muestreada.png Graphic file (type png)
 <use images/senal_muestreada.png>
 Package pdftex.def Info: images/senal_muestreada.png  used on input line 43.
@@ -1911,7 +1897,7 @@ Package pdftex.def Info: images/senal_muestreada.png  used on input line 43.
 LaTeX Info: Redefining \. on input line 55.
 LaTeX Info: Redefining \% on input line 55.
 
-Completed box being shipped out [14] []
+Completed box being shipped out [12] []
 
 %% goal height=411.13724, max depth=5.5
 % t=77.35387 plus 3.0 minus 6.0 g=411.13724 b=10000 p=0 c=100000#
@@ -1921,12 +1907,12 @@ Completed box being shipped out [14] []
 % t=225.08746 plus 13.0 minus 18.0 g=411.13724 b=10000 p=0 c=100000#
 % t=253.35948 plus 18.0 minus 24.0 g=411.13724 b=10000 p=150 c=100000#
 % t=268.31956 plus 18.0 minus 24.0 g=411.13724 b=10000 p=150 c=100000#
-<images/derivada.png, id=230, 192.84045pt x 133.33815pt>
+<images/derivada.png, id=221, 192.84045pt x 133.33815pt>
 File: images/derivada.png Graphic file (type png)
 <use images/derivada.png>
 Package pdftex.def Info: images/derivada.png  used on input line 68.
 (pdftex.def)             Requested size: 173.44534pt x 119.93404pt.
-<images/integral.png, id=231, 192.84045pt x 133.33815pt>
+<images/integral.png, id=222, 192.84045pt x 133.33815pt>
 File: images/integral.png Graphic file (type png)
 <use images/integral.png>
 Package pdftex.def Info: images/integral.png  used on input line 69.
@@ -1948,10 +1934,10 @@ Package pdftex.def Info: images/integral.png  used on input line 69.
 % t=335.23819 plus 20.0 minus 24.0 g=411.13724 b=5460 p=-300 c=5160#
 
 
-LaTeX Warning: Citation 'FORMATS_19' on page 15 undefined on input line 77.
+LaTeX Warning: Citation 'FORMATS_19' on page 13 undefined on input line 77.
 
 
-LaTeX Warning: Citation 'ParetoLib' on page 15 undefined on input line 77.
+LaTeX Warning: Citation 'ParetoLib' on page 13 undefined on input line 77.
 
 % t=412.01796 plus 25.65607 minus 24.94266 g=411.13724 b=0 p=0 c=0#
 % t=426.97804 plus 25.65607 minus 24.94266 g=411.13724 b=25 p=0 c=25
@@ -1959,7 +1945,7 @@ LaTeX Warning: Citation 'ParetoLib' on page 15 undefined on input line 77.
 LaTeX Info: Redefining \. on input line 78.
 LaTeX Info: Redefining \% on input line 78.
 
-Completed box being shipped out [15] []
+Completed box being shipped out [13] []
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
 has been already used, duplicate ignored
@@ -1972,7 +1958,7 @@ l.78
 % t=11.0 g=411.13724 b=10000 p=0 c=100000#
 % t=25.96008 g=411.13724 b=10000 p=0 c=100000#
 % t=40.92017 g=411.13724 b=10000 p=150 c=100000#
-<images/triangular.png, id=242, 476.763pt x 213.087pt>
+<images/triangular.png, id=232, 476.763pt x 213.087pt>
 File: images/triangular.png Graphic file (type png)
 <use images/triangular.png>
 Package pdftex.def Info: images/triangular.png  used on input line 82.
@@ -1998,7 +1984,7 @@ LaTeX Info: Redefining \. on input line 96.
 LaTeX Info: Redefining \% on input line 96.
 
 
-Completed box being shipped out [16] []
+Completed box being shipped out [14] []
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) 
 has been already used, duplicate ignored
@@ -2015,7 +2001,7 @@ l.96
       <./images/derivada.png> <./images/integral.png> <./images/triangular.png>
 %% goal height=578.15999, max depth=5.5
 % t=11.0 g=578.15999 b=10000 p=150 c=100000#
-<images/stl_parametrico.png, id=264, 499.8675pt x 432.11438pt>
+<images/stl_parametrico.png, id=255, 499.8675pt x 432.11438pt>
 File: images/stl_parametrico.png Graphic file (type png)
 <use images/stl_parametrico.png>
 Package pdftex.def Info: images/stl_parametrico.png  used on input line 99.
@@ -2064,7 +2050,7 @@ LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
 
 
-Completed box being shipped out [17] []
+Completed box being shipped out [15] []
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) 
 has been already used, duplicate ignored
@@ -2095,7 +2081,7 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
 
-Completed box being shipped out [18] []
+Completed box being shipped out [16] []
 
 %% goal height=578.15999, max depth=5.5
 % t=0.0 g=578.15999 b=10000 p=0 c=100000#
@@ -2122,12 +2108,12 @@ Cap\'{\i }tulo 4.
 % t=575.14844 plus 27.31213 minus 1.88531 g=578.15999 b=0 p=0 c=0#
 % t=590.10852 plus 27.31213 minus 1.88531 g=578.15999 b=* p=150 c=*
 
-Completed box being shipped out [19] []
+Completed box being shipped out [17] []
 
 
 %% goal height=578.15999, max depth=5.5
 % t=11.0 g=578.15999 b=10000 p=150 c=100000#
-<images/gui.png, id=311, 791.20593pt x 633.86812pt>
+<images/gui.png, id=303, 791.20593pt x 633.86812pt>
 File: images/gui.png Graphic file (type png)
 <use images/gui.png>
 Package pdftex.def Info: images/gui.png  used on input line 23.
@@ -2151,7 +2137,7 @@ LaTeX Info: Redefining \. on input line 42.
 LaTeX Info: Redefining \% on input line 42.
 
 
-Completed box being shipped out [20] []
+Completed box being shipped out [18] []
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) 
 has been already used, duplicate ignored
@@ -2174,7 +2160,7 @@ l.42
 % t=279.69855 plus 15.31213 minus 1.88531 g=578.15999 b=10000 p=0 c=100000#
 % t=294.65863 plus 15.31213 minus 1.88531 g=578.15999 b=10000 p=150 c=100000#
 % t=309.61871 plus 15.31213 minus 1.88531 g=578.15999 b=10000 p=-300 c=100000#
-<images/uml_diagram.png, id=318, 492.3996pt x 144.66045pt>
+<images/uml_diagram.png, id=310, 492.3996pt x 144.66045pt>
 File: images/uml_diagram.png Graphic file (type png)
 <use images/uml_diagram.png>
 Package pdftex.def Info: images/uml_diagram.png  used on input line 68.
@@ -2206,7 +2192,7 @@ LaTeX Info: Redefining \. on input line 75.
 LaTeX Info: Redefining \% on input line 75.
 
 
-Completed box being shipped out [21] []
+Completed box being shipped out [19] []
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) 
 has been already used, duplicate ignored
@@ -2250,7 +2236,7 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
 
-Completed box being shipped out [22] []
+Completed box being shipped out [20] []
 
 %% goal height=578.15999, max depth=5.5
 % t=0.0 g=578.15999 b=10000 p=0 c=100000#
@@ -2277,7 +2263,7 @@ Cap\'{\i }tulo 5.
 % t=579.05763 plus 21.31213 minus 1.88531 g=578.15999 b=11 p=0 c=11#
 % t=600.81772 plus 23.31213 minus 1.88531 g=578.15999 b=* p=300 c=*
 
-Completed box being shipped out [23] []
+Completed box being shipped out [21] []
 
 
 %% goal height=578.15999, max depth=5.5
@@ -2298,7 +2284,7 @@ LaTeX Info: Redefining \. on input line 46.
 LaTeX Info: Redefining \% on input line 46.
 
 
-Completed box being shipped out [24] []
+Completed box being shipped out [22] []
 
 
 
@@ -2341,19 +2327,19 @@ Package logreq Info: Writing requests to 'TFG.run.xml'.
 % t=11.0 plus 1.0fill g=578.15999 b=0 p=-1073741824 c=-1073741824#
  ) 
 Here is how much of TeX's memory you used:
- 31659 strings out of 483007
- 554555 string characters out of 5961757
+ 31656 strings out of 483007
+ 554523 string characters out of 5961757
  1287590 words of memory out of 5000000
- 45979 multiletter control sequences out of 15000+600000
+ 45978 multiletter control sequences out of 15000+600000
  557860 words of font info for 84 fonts, out of 8000000 for 9000
  107 hyphenation exceptions out of 8191
  63i,9n,62p,1438b,3699s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0900.6
 00pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm090
 0.600pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
-0800.600pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-cbx1200.600pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/e
-c/ecrm0600.600pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfour/jknappe
+0600.600pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+crm0800.600pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/e
+c/ecbx1200.600pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfour/jknappe
 n/ec/ecbx2074.600pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfour/jkna
 ppen/ec/ecsl1095.600pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfour/j
 knappen/ec/ecbx2488.600pk> </home/kriptor/.texlive2019/texmf-var/fonts/pk/ljfou
@@ -2382,10 +2368,10 @@ ype1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 symbols/msbm10.pfb>
-Output written on TFG.pdf (34 pages, 1097881 bytes).
+Output written on TFG.pdf (32 pages, 1096780 bytes).
 PDF statistics:
- 1140 PDF objects out of 1200 (max. 8388607)
- 518 compressed objects within 6 object streams
- 115 named destinations out of 1000 (max. 500000)
+ 1129 PDF objects out of 1200 (max. 8388607)
+ 511 compressed objects within 6 object streams
+ 113 named destinations out of 1000 (max. 500000)
  383 words of extra memory for PDF output out of 10000 (max. 10000000)
 
