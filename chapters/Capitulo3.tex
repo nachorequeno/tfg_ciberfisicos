@@ -35,7 +35,10 @@ Esta librería está basada en la biblioteca gráfica QT y nos servirá para rea
 %3 - Instalamos la librería PyQT con ´pip install pyqt5´. 
  
 \subsection{MatplotLib}
-Biblioteca usada para generar gráficos a partir de datos almacenados en un array. Hacemos uso de esta librería con el fin de mostrar las señales resultantes, aplicando las operaciones indicadas, en la sección de la aplicación propuesta para ello. 
+Hacemos uso de esta biblioteca para la generación de gráficos. En nuestro caso, los datos extraidos para su reproducción son almacenados en un array o mapa el cúal a su vez obtiene los datos de un fichero csv que previamente es tratado (con la librería Pandas) con el fin de obtener el formato adecuado para tu uso. 
+
+Los gráficos generados muestran las señales resultantes de la aplicación del conjunto de operaciones especificadas por nuestros ficheros STL.
+Decidimos mostrar las señales en forma gráfica porque creemos que es una manera bastante fácil de poder comprender y comparar resultados. Añadido a esto podemos descargar las imágenes en formato png para su posterior uso. 
  
 %Instalación: 
  
@@ -43,6 +46,8 @@ Biblioteca usada para generar gráficos a partir de datos almacenados en un arra
  
 \subsection{Pandas}
 Librería de Python especializada en el manejo y análisis de estructuras de datos. En nuestro caso usada para la lectura de los ficheros csv, los cuales contienen los datos de entrada de las señales.
+
+Con esta librería realizamos la transformación y almacenamiento de nuestras señales en una estructura de datos tipo "MAP", el cúal posteriormente utilizaremos tanto para la realización de las operaciones pasándolo como parámetro, como también para la visualización de los datos en forma gráfica haciendo uso de la librería MatplotLib mencionada anteriormente. 
  
 %Instalación: 
  
@@ -50,6 +55,8 @@ Librería de Python especializada en el manejo y análisis de estructuras de dat
 
 \subsection{Seaborn} 
 Basada en MatplotLib, es una librería que permite generar fácilmente elegantes gráficos. Nosotros la utilizamos para dibujar señales de los datos leídos de los archivos cvs.
+
+La función de esta librería es meramente estética, creemos que este recurso es principalmente un añadido atractivo a la herramienta que puede ser util en el caso que se quiera realizar presentaciones sobre sus resultados gráficos; además damos pie y esperamos poder realizar una mejora en todas las partes más visuales del aplicativo. 
  
 %Instalación: 
  

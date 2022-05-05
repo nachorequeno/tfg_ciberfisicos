@@ -18,6 +18,30 @@ Garantizar el correcto funcionamiento de estas plataformas es crucial, ya que un
 
 Existen diversos formalismos para definir los comportamientos deseados y no deseados. Los requisitos se pueden expresar operacionalmente, mediante algún tipo de autómata de estados finito, o declarativamente, mediante una descripción lógico-matemática. Dentro de esta segunda categoría, la lógica temporal es un tipo de lógica modal que expresa propiedades sobre un \emph{estado} en particular del sistema, o sobre los \emph{caminos} (es decir, secuencia de estados) que atraviesa. En este trabajo utilizaremos Signal Temporal Logic \cite{STL}, un tipo de lógica temporal enfocada al análisis de señales analógicas o reales.
 
+\section{Lógica Temporal}
+
+Si navegamos por internet o buscamos en los libros acerca de qué es la lógica temporal tarde o temprano daremos con una cita del filósofo alemán Kant que cita: 
+
+\begin{center}
+\textit{"la posibilidad de principios apodícticos de las relaciones del tiempo, o axiomas del tiempo en general. Tiene una sola dimensión: los distintos tiempos no son simultáneos, sino sucesivos"}
+\end{center}
+
+Y, aunque quizás sacado de todo contexto, es un buen primer comienzo para explicar acerca de qué es el tiempo y por consiguiente qué tiene que ver la lógica con éste. Y es que Kant quería expresar que el tiempo es algo que va ocurriendo constantemente, es un conjunto de hechos que juntos transcurren en una dirección y conforman el tiempo, pues bien, teniendo en cuenta esta idea podemos llegar a comprender y diferenciar la lógica temporal. 
+
+La lógica proposicional no tiene la persepción de tiempo, en este tipo de lógica tenemos hechos que son verdaderos o falsos, que unidos pueden transformarse en verdad o no, pero nunca individualmente cambian su valor, por ejemplo si decimos que:
+
+\begin{center}
+s = "El día está soleado"
+\end{center}
+
+Este argumento será eterno individualmente, aún asi realicemos operaciones con él como negarlo $\neg{s}$, todo el argumento se verá afectado en todo momento:
+
+\begin{center}
+$\neg{s}$="El día no está soleado"
+\end{center}
+
+Pero como todos podemos percibir, en la realidad esto no sucede, en otras palabras, puede que "no todo el día esté soleado", quizás si por la mañana y no por la tarde o visceversa, esto es lo que trata de expresar la lógica temporal. En un momento determinado una expresión puede ser verdad mientras que en otra hora, minuto, segundo, o cuálquier otra unidad que utilicemos para medir el tiempo , puede cambiar y tener un valor diferente. 
+
 \section{Objetivos}
 
 Los objetivos de este proyecto son:
@@ -29,6 +53,7 @@ Los objetivos de este proyecto son:
 \end{itemize}
 
 En particular, los objetivos de proyecto se han plasmado en contribuciones concretas sobre las siguientes herramientas software preexistentes:
+
 \begin{itemize}
 \item \textbf{STLEval} \cite{StlEval}: Es una herramienta capaz de procesar especificaciones en STL y evaluarlas sobre una señal real. Ha recibido la implementación de los nuevos operadores lógico temporales que calculan derivadas e integrales sobre una señal.
 \item \textbf{ParetoLib} \cite{ParetoLib}: Es una librería de de minería que aprende las configuraciones (in)válidas del sistema monitorizado, expresadas como plantillas o especificaciones paramétricas en STL. ParetoLib internamente se conecta con STLEval para la ejecución de los cálculos. Ha recibido una actualización de los binarios y librerías DLL de STLEval que empaqueta de forma conjunta con el resto de la librería, así como la interfaz gráfica de usuario. La nueva interfaz gráfica de usuario permite interaccionar tanto con la librería de aprendizaje como indirectamente con la herramienta STLEval.
@@ -36,7 +61,7 @@ En particular, los objetivos de proyecto se han plasmado en contribuciones concr
 
 \section{Organización del documento}
 
-El documento está dividido en X capítulos. En el capítulo \ref{cha:stl} detallaremos la semántica e implementación de los nuevos operadores lógicos. El capítulo \ref{cha:gui} está dedicado a la nueva interfaz gráfica de usuario. Continuamos con las conclusiones más relevantes del proyecto en el capítulo \ref{cha:concl}. Finalmente el capítulo X incluye ideas para el trabajo futuro. Los anexos X recogen imágenes, código adicional, $\ldots$.
+El documento está dividido en 4 capítulos. En el capítulo \ref{cha:stl} detallaremos la semántica e implementación de los nuevos operadores lógicos. El capítulo \ref{cha:gui} está dedicado a la nueva interfaz gráfica de usuario. Continuamos con las conclusiones más relevantes del proyecto en el capítulo \ref{cha:concl}. Finalmente el capítulo X incluye ideas para el trabajo futuro. Los anexos X recogen imágenes, código adicional, $\ldots$.
 
 \section{Planificación temporal y esfuerzo}
 

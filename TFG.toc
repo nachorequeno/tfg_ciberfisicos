@@ -7,21 +7,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Sistemas ciberfísicos}{1}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Objetivos}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Lógica Temporal}{2}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Organización del documento}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Objetivos}{2}{section.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Planificación temporal y esfuerzo}{2}{section.1.4}%
+\contentsline {section}{\numberline {1.4}Organización del documento}{3}{section.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}Primera - Investigación}{3}{subsection.1.4.1}%
+\contentsline {section}{\numberline {1.5}Planificación temporal y esfuerzo}{3}{section.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.2}Segunda - Documentación}{3}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.5.1}Primera - Investigación}{4}{subsection.1.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.3}Tercera - Implementación}{3}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.5.2}Segunda - Documentación}{4}{subsection.1.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.4}Cuarta - Diseño y Finalización}{4}{subsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.5.3}Tercera - Implementación}{4}{subsection.1.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Organización de Equipo}{4}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.4}Cuarta - Diseño y Finalización}{4}{subsection.1.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.6}Organización de Equipo}{5}{section.1.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Introduction}{7}{chapter.2}%
 \defcounter {refsection}{0}\relax 
@@ -61,13 +63,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.2}MatplotLib}{20}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Pandas}{20}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.3}Pandas}{21}{subsection.4.1.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1.4}Seaborn}{21}{subsection.4.1.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Estructura}{21}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Guía de uso}{21}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Guía de uso}{22}{section.4.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Otros}{22}{section.4.4}%
 \defcounter {refsection}{0}\relax 
