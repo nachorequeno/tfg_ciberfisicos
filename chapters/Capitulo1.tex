@@ -56,7 +56,7 @@ En particular, los objetivos de proyecto se han plasmado en contribuciones concr
 
 \begin{itemize}
 \item \textbf{STLEval} \cite{StlEval}: Es una herramienta capaz de procesar especificaciones en STL y evaluarlas sobre una señal real. Ha recibido la implementación de los nuevos operadores lógico temporales que calculan derivadas e integrales sobre una señal.
-\item \textbf{ParetoLib} \cite{ParetoLib}: Es una librería de de minería que aprende las configuraciones (in)válidas del sistema monitorizado, expresadas como plantillas o especificaciones paramétricas en STL. ParetoLib internamente se conecta con STLEval para la ejecución de los cálculos. Ha recibido una actualización de los binarios y librerías DLL de STLEval que empaqueta de forma conjunta con el resto de la librería, así como la interfaz gráfica de usuario. La nueva interfaz gráfica de usuario permite interaccionar tanto con la librería de aprendizaje como indirectamente con la herramienta STLEval.
+\item \textbf{ParetoLib} \cite{ParetoLib}: Es una biblioteca de de minería que aprende las configuraciones (in)válidas del sistema monitorizado, expresadas como plantillas o especificaciones paramétricas en STL. ParetoLib internamente se conecta con STLEval para la ejecución de los cálculos. Ha recibido una actualización de los binarios y bibliotecas DLL de STLEval que empaqueta de forma conjunta con el resto de la biblioteca, así como la interfaz gráfica de usuario. La nueva interfaz gráfica de usuario permite interaccionar tanto con la biblioteca de aprendizaje como indirectamente con la herramienta STLEval.
 \end{itemize}
 
 \section{Organización del documento}
@@ -74,7 +74,7 @@ El proyecto se inició con una primera fase de investigación, donde nos dedicam
 	
 \subsection{Segunda - Documentación}
 
-	Después de adquirir los conocimientos teóricos previos necesarios para la comprensión de las funcionalidades a implementar, continuamos con la lectura de la documentación de las librerías y herramientas software que debíamos extender: su arquitectura software y jerarquía de clases. Dedicamos gran parte del esfuerzo a estudiar la definición de los operadores de derivación e integración propuestos en la literatura científica, y su posterior codificación e incorporación a la herramienta software STLEval.
+	Después de adquirir los conocimientos teóricos previos necesarios para la comprensión de las funcionalidades a implementar, continuamos con la lectura de la documentación de las bibliotecas y herramientas software que debíamos extender: su arquitectura software y jerarquía de clases. Dedicamos gran parte del esfuerzo a estudiar la definición de los operadores de derivación e integración propuestos en la literatura científica, y su posterior codificación e incorporación a la herramienta software STLEval.
 	
 	En esta fase, nuestra mayor dificultad fue 1) la labor de aprendizaje de la estructura interna del código de STLEval, y 2) la adquisición y aplicación de las nociones de derivación e integración sobre señales temporales.
 
@@ -86,7 +86,7 @@ El proyecto se inició con una primera fase de investigación, donde nos dedicam
 
 	Como última tarea implementamos la interfaz gráfica de la aplicación, partiendo de un primer boceto que estabilizamos al cabo de dos reuniones. La tarea más complicada de este proceso fue la conexión entre los diferentes componentes de la interfaz con los métodos propios de las herramientas STLEval y ParetoLib, que ejecutan toda la lógica del programa.
 	
-	La conexión con STLEval se realizó mediante una API preexistente en C++ que ya estaba integrada en Python a través de la librería ParetoLib. Este hecho, la posibilidad de acceder tanto a la librería de minería ParetoLib como indirectamente a la herramienta STLEval, motivó la elección de Python como lenguaje de programación para el diseño de las ventanas de usuario. La facilidad de uso del lenguaje así como la cantidad de librerías auxiliares para el tratamiento de datos con las que extender las funcionalidades de la interfaz en el futuro contribuyeron también a esta decisión.
+	La conexión con STLEval se realizó mediante una API preexistente en C++ que ya estaba integrada en Python a través de la biblioteca ParetoLib. Este hecho, la posibilidad de acceder tanto a la biblioteca de minería ParetoLib como indirectamente a la herramienta STLEval, motivó la elección de Python como lenguaje de programación para el diseño de las ventanas de usuario. La facilidad de uso del lenguaje así como la cantidad de bibliotecas auxiliares para el tratamiento de datos con las que extender las funcionalidades de la interfaz en el futuro contribuyeron también a esta decisión.
 	
 
 

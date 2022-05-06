@@ -74,7 +74,7 @@ Gráficamente, la derivada se interpreta como la pendiente entre dos puntos cons
 Los nuevos operadores se han incorporado a STLEval. En la notación de la herramienta, $D$ simboliza el operador derivada ($D \equiv \mu^d_{+}$), e $I$ representa el operador integral ($I_[a,b] \equiv \mu^i_{[a,b]}$).
 
 \section{Integración con ParetoLib}
-ParetoLib \cite{FORMATS_19, ParetoLib} es una librería de minería que recibe una especificación paramétrica o plantilla en STL y devuelve el rango de valores de las variables para las que la propiedad se satisface o invalida. Internamente, ParetoLib implementa un algoritmo de búsqueda que guía el aprendizaje y evalúa instancias concretas de la fórmula temporal a través de la herramienta STLEval. Para ello, ParetoLib se empaqueta junto los binarios y librerías dinámicas de STLEval precompilados.
+ParetoLib \cite{FORMATS_19, ParetoLib} es una biblioteca de minería que recibe una especificación paramétrica o plantilla en STL y devuelve el rango de valores de las variables para las que la propiedad se satisface o invalida. Internamente, ParetoLib implementa un algoritmo de búsqueda que guía el aprendizaje y evalúa instancias concretas de la fórmula temporal a través de la herramienta STLEval. Para ello, ParetoLib se empaqueta junto los binarios y librerías dinámicas de STLEval precompilados.
 
 
 \begin{figure}[htb]
@@ -92,7 +92,7 @@ $$G_{[0,p_1]} D\, \mathbf{x}_0 >= 6 - p_2$$
 % G (0 p1) ((D x0) >= 6-p2), 
 donde $p_1$ y $p_2$ son los parámetros, $\mathbf{x}_0$ es la señal y $D$ es el operador derivada.
 Como resultado, ParetoLib devuelve la imagen \ref{fig:param} que muestra las configuraciones de los parámetros $p_1$ y $p_2$ que satisfacen la propiedad (región en verde) y las que lo falsifican (región en rojo). %Con la expresión dada, la GUI nos devolvería como resultado un mapa que nos muestra los resultados para cualquier combinación de los parámetros $p_1$ y $p_2$ dentro de un limite especificado en la GUI. La parte verde del mapa muestra la expresión con los parámetros de tal forma que STLe concluye que la propiedad es cierta, en cambio la parte roja es en la que STLe concluye que la propiedad es falsa. 
-Cabe mencionar que este tipo de mapas ya estaban previamente disponibles como resultado de la ejecución de la librería de minería.
+Cabe mencionar que este tipo de mapas ya estaban previamente disponibles como resultado de la ejecución de la biblioteca de minería.
 
 \begin{figure}[htb]
 \centering
@@ -102,7 +102,7 @@ Cabe mencionar que este tipo de mapas ya estaban previamente disponibles como re
 \end{figure}
 
 
-ParetoLib está escrito en Python. El código fuente \ref{list:paretolib_example} ilustra la forma tradicional de invocar a la librería de minería. En el capitulo \ref{cha:gui} veremos la nueva interfaz gráfica que va a facilitar al usuario el trabajo con ParetoLib y con STLEval.
+ParetoLib está escrito en Python. El código fuente \ref{list:paretolib_example} ilustra la forma tradicional de invocar a la biblioteca de minería. En el capitulo \ref{cha:gui} veremos la nueva interfaz gráfica que va a facilitar al usuario el trabajo con ParetoLib y con STLEval.
 
 %\jicomment{TODO:
 %\begin{itemize}
