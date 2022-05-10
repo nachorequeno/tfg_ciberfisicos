@@ -2,10 +2,21 @@
 \label{cha:concl}
 Para acabar este trabajo presentamos algunas conclusiones sobre los temas tratados, tanto teóricos como prácticos, y discutimos algunas ideas propicias para la mejora y continuidad del proyecto.
 \section{Conclusiones (español)}
-En vista a los resultados del capítulo anterior $\ldots$
 
 % Contribuciones
-En este proyecto, hemos actualizado los binarios y librerías dinámicas de STLEval que incorpora ParetoLib para dar soporte a las nuevas operaciones de derivación e integración. Además, hemos implementado una interfaz gráfica que abstrae la complejidad de invocar al código fuente \ref{list:paretolib_example} y resume la mayor parte de las opciones de configuración del algoritmo de minería.
+%En este proyecto, hemos actualizado los binarios y librerías dinámicas de STLEval que incorpora ParetoLib para dar soporte a las nuevas operaciones de derivación e integración. Además, hemos implementado una interfaz gráfica que abstrae la complejidad de invocar al código fuente ~\ref{list:paretolib_example} y resume la mayor parte de las opciones de configuración del algoritmo de minería.
+Este TFG tiene como objetivo mejorar, diseñar, extender e implementar las herramientas STEval y ParetoLib para el tratamiento de señales aplicando la lógica temporal.
+
+Durante el estudio realizado antes de trabajar en la extensión de las herramientas, hemos podido comprobar el arduo trabajo que llevan a cabo los investigadores de todas las materias para poder conseguir resultados y/o conclusiones que presentar, esta experiencia nos ha permitido valorar mucho más de lo que creíamos el esfuerzo y la labor de investigación de todos los profesionales, además de darnos  la satisfacción de poder tener este papel de investigadores en una versión más minúscula pero suficientemente retadora para nosotros. 
+
+Como parte ya de la resolución del proyecto llegamos a extender las capacidades de la lógica temporal en la herramienta STLEval añadiendo las propiedades de la derivada, esto nos permitió comprender cómo  la recogida de datos unida a esta función matemática es capaz de mostrarnos tendencias y éstas son las que, actualmente, estamos viendo que van ganando más terreno tanto en los negocios como en nuestras vidas; y por otra parte la integral que se encarga de ... .Desde la aplicación creada se puede dar uso a éstas operaciones sin tener que pasar por la consola como en un principio ocurría.
+
+Por otro lado, después de encargarnos de la implementación, aprendimos cómo conectar 2 herramientas que no estaban escritas en el mismo lenguaje de programación, esta tarea aunque al principio bastante complicada debido a que nunca antes la realizamos, la pudimos completar gracias a la ayuda de nuestro tutor quien siempre nos ofreció su ayuda, muchas veces incluso fuera del horario laboral. Además de esta integración actualizamos los binarios y librerías dinámicas de STLEval que incorpora ParetoLib para dar soporte a las nuevas operaciones de derivación e integración. 
+
+Nuestra aplicación no dispone de una base de datos al trabajar con la propia y diferente información que va a tratar el usuario, es responsabilidad suya poseerla.
+
+Para finalizar hemos implementado una interfaz gráfica que abstrae la complejidad de invocar al código fuente ~\ref{list:paretolib_example} y resume la mayor parte de las opciones de configuración del algoritmo de minería.
+
 
 \section{Trabajo futuro}
 
@@ -19,7 +30,7 @@ Implementar un procesador de lenguaje natural que facilite la escritura de expre
  \item ``F G (v > 120)'' en lugar de ``(F (G ( > v 120) )''
 \end{itemize}
 
-Reimplementar el núcleo de ParetoLib para aumentar las prestaciones computacionales: Python se puede compilar en lugar de interpretar, lo que aumentaría el rendimiento de la biblioteca de minería. La mejora sería mínima (ParetoLib llama a STLeval para la mayoría de los cálculos, y STLeval está en C++), pero la mejora del rendiento al compilar Python nos ayudaría ahorrar unos pocos milisegundos.
+Reimplementar el núcleo de ParetoLib para aumentar las prestaciones computacionales: Python se puede compilar en lugar de interpretar, lo que aumentaría el rendimiento de la librería de minería. La mejora sería mínima (ParetoLib llama a STLeval para la mayoría de los cálculos, y STLeval está en C++), pero la mejora del rendiento al compilar Python nos ayudaría ahorrar unos pocos milisegundos.
 
 \section{Conclusions (English)}
 In view of the results of the previous chapter, $\ldots$
