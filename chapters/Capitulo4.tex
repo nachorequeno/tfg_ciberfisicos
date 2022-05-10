@@ -20,17 +20,15 @@ Para finalizar hemos implementado una interfaz gráfica que abstrae la complejid
 
 \section{Trabajo futuro}
 
-Incluir más opciones en la GUI que nos permitan configurar parámetros adicionales de ParetoLib: p.ej., (des)activar el paralelismo, precisión del aprendizaje (EPS, DELTA, STEPS) ...
+Como trabajo futuro, planteamos las siguientes extensiones o mejoras. Por un lado, proponemos incluir más opciones en la interfaz gráfica de usuario que nos permitan configurar parámetros adicionales de las herramientas de verificación y que hasta ahora se han omitido. Por ejemplo, incorporaremos nuevos campos para seleccionar el grado de precisión del aprendizaje, el nivel de paralelismo en los cálculos en ParetoLib u otras elecciones posibles desde el código fuente en Python.
 
-Actualmente STLEval sólo soporta interpolación constante. Como trabajo futuro, se plantea extender dicha herramienta para soportar nuevos tipos de interpolación (lineal, splines, etc.). Esto abre la posibilidad de desarrollar nativamente nuevos tipos de operadores lógico-temporales que permitan realizar predicciones sobre el futuro en base a unas señales ya conocidas y recogidas del artefacto que queramos monitorizar (aproximación mediante series de Taylor, análisis estadístico de las trazas u otros métodos de aprendizaje).
+%(variables EPS, DELTA, STEPS)
 
-Implementar un procesador de lenguaje natural que facilite la escritura de expresiones en STL en un formato más agradable. P. ej.:
-\begin{itemize}
- \item ``En el futuro, la propiedad X se cumple''
- \item ``F G (v > 120)'' en lugar de ``(F (G ( > v 120) )''
-\end{itemize}
+Por otro lado, actualmente STLEval sólo soporta interpolación constante para rellenar el espacio entre dos puntos de la muestra. Como trabajo futuro, se plantea enriquecer dicha herramienta para soportar nuevos tipos de interpolación (p.ej., lineal, polinomial, splines, etc.). Esto abre la posibilidad de desarrollar nativamente nuevos tipos de operadores lógico-temporales que permitan realizar predicciones sobre el futuro en base a unas señales ya conocidas y recogidas del artefacto que queramos monitorizar (aproximación mediante series de Taylor, análisis estadístico de las trazas u otros métodos de aprendizaje). Un prototipo de nuevo operador lógico-temporal sería el operador \textit{probabilidad} o $\mathbf{Pr}_{\sim \lambda}\varphi$, donde $\sim \in \{<, \leq, \geq, >\}$ y $\lambda \in [0, 1]$.
 
-Reimplementar el núcleo de ParetoLib para aumentar las prestaciones computacionales: Python se puede compilar en lugar de interpretar, lo que aumentaría el rendimiento de la librería de minería. La mejora sería mínima (ParetoLib llama a STLeval para la mayoría de los cálculos, y STLeval está en C++), pero la mejora del rendiento al compilar Python nos ayudaría ahorrar unos pocos milisegundos.
+En siguiente lugar, la implementación de un procesador de lenguaje natural facilitará la escritura de expresiones en STL en un formato más agradable para usuarios no experimentados. En una primera aproximación, simplemente reescribirá las ecuaciones en un formato más legible (p. ej. $F\, G\, (v > 120)$ en lugar de $(F \, (G \, ( > v \, 120))$) para posteriormente permitir en futuras versiones redactar propiedades del estilo \textit{``En el futuro, la propiedad X se cumple''}.
+
+Por último, reimplementar el núcleo de ParetoLib aumentará las prestaciones computacionales de la biblioteca. Python ofrece mecanismos para compilar el código fuente en lugar de interpretarlo, lo que aumentaría el rendimiento de la librería de minería. La mejora sería mínima (ParetoLib llama a STLeval para la mayoría de los cálculos, y STLeval está en C++), pero el incremento del rendimiento al compilar Python nos ayudaría a ahorrar unos pocos milisegundos.
 
 \section{Conclusions (English)}
 In view of the results of the previous chapter, $\ldots$
