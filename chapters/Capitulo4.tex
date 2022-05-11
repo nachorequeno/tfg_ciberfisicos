@@ -1,26 +1,18 @@
-\chapter{Conclusiones}
+\chapter{Conclusiones y trabajo futuro}
 \label{cha:concl}
 Para acabar este trabajo presentamos algunas conclusiones sobre los temas tratados, tanto teóricos como prácticos, y discutimos algunas ideas propicias para la mejora y continuidad del proyecto.
-\section{Conclusiones (español)}
 
-% Contribuciones
-%En este proyecto, hemos actualizado los binarios y librerías dinámicas de STLEval que incorpora ParetoLib para dar soporte a las nuevas operaciones de derivación e integración. Además, hemos implementado una interfaz gráfica que abstrae la complejidad de invocar al código fuente ~\ref{list:paretolib_example} y resume la mayor parte de las opciones de configuración del algoritmo de minería.
-Este TFG tiene como objetivo mejorar, diseñar, extender e implementar las herramientas STEval y ParetoLib para el tratamiento de señales aplicando la lógica temporal.
+\section{Conclusiones}
+Este trabajo ha tenido como objetivo mejorar las capacidades de análisis de las herramientas para la verificación de los sistemas ciberfísicos en tiempo de ejecución. Para ello, hemos utilizado la lógica temporal como formalismo para especificar las propiedades que debe satisfacer el sistema. En particular, hemos usado Signal Temporal Logic (STL, un tipo de lógica temporal enfocada al análisis de señales analógicas que provienen de sensores físicos (p.ej., la velocidad o temperatura).
 
-Durante el estudio realizado antes de trabajar en la extensión de las herramientas, hemos podido comprobar el arduo trabajo que llevan a cabo los investigadores de todas las materias para poder conseguir resultados y/o conclusiones que presentar, esta experiencia nos ha permitido valorar mucho más de lo que creíamos el esfuerzo y la labor de investigación de todos los profesionales, además de darnos  la satisfacción de poder tener este papel de investigadores en una versión más minúscula pero suficientemente retadora para nosotros. 
+Entre los resultados más relevantes en este proyecto, hemos logrado extender las capacidades de la lógica temporal STL para expresar propiedades que involucren \textit{tendencias} (derivadas), o \textit{acumulaciones} (integrales). Hemos implementado esos nuevos operadores lógicos en las herramientas software de verificación actuales, principalmente en la herramienta STLEval. Junto con STLEval, nos hemos ocupado también de la biblioteca ParetoLib, una biblioteca de minería que aprende las configuraciones (in)válidas del sistema monitorizado, expresadas como plantillas o especificaciones paramétricas en STL. ParetoLib internamente se conecta con STLEval para la ejecución de los cálculos, por lo que ha recibido una actualización de los binarios y bibliotecas DLL de STLEval que empaqueta de forma conjunta con el resto de la biblioteca para dar soporte a las nuevas operaciones de derivación e integración.
 
-Como parte ya de la resolución del proyecto llegamos a extender las capacidades de la lógica temporal en la herramienta STLEval añadiendo las propiedades de la derivada, esto nos permitió comprender cómo  la recogida de datos unida a esta función matemática es capaz de mostrarnos tendencias y éstas son las que, actualmente, estamos viendo que van ganando más terreno tanto en los negocios como en nuestras vidas; y por otra parte la integral que se encarga de ... .Desde la aplicación creada se puede dar uso a éstas operaciones sin tener que pasar por la consola como en un principio ocurría.
+Por último, hemos proporcionado una interfaz de usuario amigable que facilita la interacción tanto con la biblioteca de aprendizaje como indirectamente con la herramienta STLEval. La interfaz gráfica abstrae la complejidad de invocar a STLEval a través de la consola de comandos, o mediante código fuente en Python en el caso de ParetoLib (código fuente~\ref{list:paretolib_example}), tal y como sucedía anteriormente hasta ahora. La interfaz gráfica resume la mayor parte de las opciones de configuración de la herramienta de verificación y del algoritmo de minería.
 
-Por otro lado, después de encargarnos de la implementación, aprendimos cómo conectar 2 herramientas que no estaban escritas en el mismo lenguaje de programación, esta tarea aunque al principio bastante complicada debido a que nunca antes la realizamos, la pudimos completar gracias a la ayuda de nuestro tutor quien siempre nos ofreció su ayuda, muchas veces incluso fuera del horario laboral. Además de esta integración actualizamos los binarios y librerías dinámicas de STLEval que incorpora ParetoLib para dar soporte a las nuevas operaciones de derivación e integración. 
-
-Nuestra aplicación no dispone de una base de datos al trabajar con la propia y diferente información que va a tratar el usuario, es responsabilidad suya poseerla.
-
-Para finalizar hemos implementado una interfaz gráfica que abstrae la complejidad de invocar al código fuente ~\ref{list:paretolib_example} y resume la mayor parte de las opciones de configuración del algoritmo de minería.
-
+Finalmente, nos gustaría recalcar el arduo esfuerzo realizado en la documentación e investigación bibliográfica previa para la adquisición de los conocimientos necesarios para la elaboración de los resultados presentados en estas conclusiones.
 
 \section{Trabajo futuro}
-
-Como trabajo futuro, planteamos las siguientes extensiones o mejoras. Por un lado, proponemos incluir más opciones en la interfaz gráfica de usuario que nos permitan configurar parámetros adicionales de las herramientas de verificación y que hasta ahora se han omitido. Por ejemplo, incorporaremos nuevos campos para seleccionar el grado de precisión del aprendizaje, el nivel de paralelismo en los cálculos en ParetoLib u otras elecciones posibles desde el código fuente en Python.
+Como trabajo futuro, planteamos las siguientes extensiones o mejoras. Por un lado, proponemos incluir más opciones en la interfaz gráfica de usuario que nos permitan configurar parámetros adicionales de las herramientas de verificación y minería y que hasta ahora se han omitido. Por ejemplo, incorporaremos nuevos campos para seleccionar el grado de precisión del aprendizaje, el nivel de paralelismo en los cálculos en ParetoLib u otras elecciones posibles desde el código fuente en Python.
 
 %(variables EPS, DELTA, STEPS)
 
@@ -29,8 +21,3 @@ Por otro lado, actualmente STLEval sólo soporta interpolación constante para r
 En siguiente lugar, la implementación de un procesador de lenguaje natural facilitará la escritura de expresiones en STL en un formato más agradable para usuarios no experimentados. En una primera aproximación, simplemente reescribirá las ecuaciones en un formato más legible (p. ej. $F\, G\, (v > 120)$ en lugar de $(F \, (G \, ( > v \, 120))$) para posteriormente permitir en futuras versiones redactar propiedades del estilo \textit{``En el futuro, la propiedad X se cumple''}.
 
 Por último, reimplementar el núcleo de ParetoLib aumentará las prestaciones computacionales de la biblioteca. Python ofrece mecanismos para compilar el código fuente en lugar de interpretarlo, lo que aumentaría el rendimiento de la librería de minería. La mejora sería mínima (ParetoLib llama a STLeval para la mayoría de los cálculos, y STLeval está en C++), pero el incremento del rendimiento al compilar Python nos ayudaría a ahorrar unos pocos milisegundos.
-
-\section{Conclusions (English)}
-In view of the results of the previous chapter, $\ldots$
-
-
