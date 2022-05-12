@@ -18,30 +18,6 @@ Garantizar el correcto funcionamiento de estas plataformas es crucial, ya que un
 
 Existen diversos formalismos para definir los comportamientos deseados y no deseados. Los requisitos se pueden expresar operacionalmente, mediante algún tipo de autómata de estados finito, o declarativamente, mediante una descripción lógico-matemática. Dentro de esta segunda categoría, la lógica temporal es un tipo de lógica modal que expresa propiedades sobre un \emph{estado} en particular del sistema, o sobre los \emph{caminos} (es decir, secuencia de estados) que atraviesa. En este trabajo utilizaremos Signal Temporal Logic \cite{STL}, un tipo de lógica temporal enfocada al análisis de señales analógicas o reales.
 
-\section{Lógica Temporal}
-
-Si navegamos por internet o buscamos en los libros acerca de qué es la lógica temporal tarde o temprano daremos con una cita del filósofo alemán Kant que cita: 
-
-\begin{center}
-\textit{"la posibilidad de principios apodícticos de las relaciones del tiempo, o axiomas del tiempo en general. Tiene una sola dimensión: los distintos tiempos no son simultáneos, sino sucesivos"}
-\end{center}
-
-Y, aunque quizás sacado de todo contexto, es un buen primer comienzo para explicar acerca de qué es el tiempo y por consiguiente qué tiene que ver la lógica con éste. Y es que Kant quería expresar que el tiempo es algo que va ocurriendo constantemente, es un conjunto de hechos que juntos transcurren en una dirección y conforman el tiempo, pues bien, teniendo en cuenta esta idea podemos llegar a comprender y diferenciar la lógica temporal. 
-
-La lógica proposicional no tiene la percepción de tiempo, en este tipo de lógica tenemos hechos que son verdaderos o falsos, que unidos pueden transformarse en verdad o no, pero nunca individualmente cambian su valor, por ejemplo si decimos que:
-
-\begin{center}
-s = ``El día está soleado''
-\end{center}
-
-Este argumento será eterno individualmente, aún asi realicemos operaciones con él como negarlo $\neg{s}$, todo el argumento se verá afectado en todo momento:
-
-\begin{center}
-$\neg{s}$ = ``El día no está soleado''
-\end{center}
-
-Pero como todos podemos percibir, en la realidad esto no sucede, en otras palabras, puede que "no todo el día esté soleado", quizás si por la mañana y no por la tarde o visceversa, esto es lo que trata de expresar la lógica temporal. En un momento determinado una expresión puede ser verdad mientras que en otra hora, minuto, segundo, o cuálquier otra unidad que utilicemos para medir el tiempo , puede cambiar y tener un valor diferente. 
-
 \section{Objetivos}
 
 Los objetivos de este proyecto son:

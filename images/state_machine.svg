@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   x="0"
+   y="0"
+   width="144.85355"
+   height="104.30355"
+   style="fill:none"
+   version="1.1"
+   id="svg597"
+   sodipodi:docname="state_machine.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs601">
+    <defs
+       id="defs5">
+      <pattern
+         id=".8320674782779975"
+         width="10"
+         height="10"
+         patternUnits="userSpaceOnUse">
+        <path
+           d="M 10 0 L 0 0 0 10"
+           fill="none"
+           stroke="lightgray"
+           stroke-width="0.5"
+           id="path2" />
+      </pattern>
+    </defs>
+  </defs>
+  <sodipodi:namedview
+     id="namedview599"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.5365343"
+     inkscape:cx="97.62229"
+     inkscape:cy="-15.944974"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg597"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <g
+     id="g225"
+     style="font-family:Asana-Math, Asana"
+     transform="translate(-189.64645,-179.64645)">
+    <g
+       id="g223">
+      <g
+         transform="translate(-539.40002,212.96252)"
+         id="g221">
+        <path
+           transform="scale(0.0119,-0.0119)"
+           d=""
+           stroke="#000000"
+           stroke-opacity="1"
+           stroke-width="8"
+           fill="#000000"
+           fill-opacity="1"
+           id="path219" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g265"
+     style="font-family:Asana-Math, Asana"
+     transform="translate(-189.64645,-179.64645)">
+    <g
+       id="g263">
+      <g
+         transform="translate(-539.40002,212.96252)"
+         id="g261">
+        <path
+           transform="scale(0.0119,-0.0119)"
+           d=""
+           stroke="#000000"
+           stroke-opacity="1"
+           stroke-width="8"
+           fill="#000000"
+           fill-opacity="1"
+           id="path259" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g305"
+     style="font-family:Asana-Math, Asana"
+     transform="translate(-189.64645,-179.64645)">
+    <g
+       id="g303">
+      <g
+         transform="translate(-539.40002,274.5125)"
+         id="g301">
+        <path
+           transform="scale(0.0119,-0.0119)"
+           d=""
+           stroke="#000000"
+           stroke-opacity="1"
+           stroke-width="8"
+           fill="#000000"
+           fill-opacity="1"
+           id="path299" />
+      </g>
+    </g>
+  </g>
+  <g
+     id="g3476"
+     transform="translate(-189.64645,-179.64645)">
+    <path
+       class="real"
+       d="m 210,205.95 c 0,-8.81 7.16,-15.95 16,-15.95 8.84,0 16,7.14 16,15.95 0,8.81 -7.16,15.95 -16,15.95 -8.84,0 -16,-7.14 -16,-15.95 z"
+       style="fill:#4a90e2;fill-opacity:0.5;stroke:#4a90e2;stroke-width:1;stroke-opacity:1"
+       id="path13" />
+    <path
+       class="connection real"
+       stroke-dasharray="none"
+       d="m 232,223.45 23.04,42.29"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1"
+       id="path19" />
+    <path
+       d="m 247.88214,259.47571 q 5.34991,3.88394 8.11787,8.02429 -1.97763,-4.57089 -2.33964,-11.17206"
+       id="path21"
+       style="fill:none;stroke:#000000;stroke-width:1" />
+    <path
+       class="connection real"
+       stroke-dasharray="none"
+       d="m 190,180 18.59,18.59"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1"
+       id="path27" />
+    <path
+       d="m 199.94495,194.59771 q 6.22961,2.21324 10.05506,5.40229 -3.18906,-3.82544 -5.4023,-10.05506"
+       id="path29"
+       style="fill:none;stroke:#000000;stroke-width:1" />
+    <path
+       class="real"
+       d="m 302,205.95 c 0,-8.81 7.16,-15.95 16,-15.95 8.84,0 16,7.14 16,15.95 0,8.81 -7.16,15.95 -16,15.95 -8.84,0 -16,-7.14 -16,-15.95 z"
+       style="fill:#4a90e2;fill-opacity:0.5;stroke:#4a90e2;stroke-width:1;stroke-opacity:1"
+       id="path35" />
+    <path
+       class="connection real"
+       stroke-dasharray="none"
+       d="m 244,205.95 h 56"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1"
+       id="path41" />
+    <path
+       d="m 291.07,209.24 q 5.97,-2.84 10.93,-3.29 -4.96,-0.45 -10.93,-3.29"
+       id="path43"
+       style="fill:none;stroke:#000000;stroke-width:1" />
+    <path
+       d="m 252.93,202.66 q -5.97,2.84 -10.93,3.29 4.96,0.45 10.93,3.29"
+       id="path47"
+       style="fill:none;stroke:#000000;stroke-width:1" />
+    <path
+       class="real"
+       d="m 256,267.5 c 0,-8.81 7.16,-15.95 16,-15.95 8.84,0 16,7.14 16,15.95 0,8.81 -7.16,15.95 -16,15.95 -8.84,0 -16,-7.14 -16,-15.95 z"
+       style="fill:#4a90e2;fill-opacity:0.5;stroke:#4a90e2;stroke-width:1;stroke-opacity:1"
+       id="path53" />
+    <path
+       class="connection real"
+       stroke-dasharray="none"
+       d="m 288,267.5 28.9,-43.93"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1"
+       id="path59" />
+    <path
+       d="M 314.74135,232.83939 Q 315.6499,226.29103 318,221.9 q -3.10199,3.89638 -8.75574,7.32298"
+       id="path61"
+       style="fill:none;stroke:#000000;stroke-width:1" />
+    <path
+       d="m 311.027,207.434 c -0.085,0.867 -0.187,1.462 -0.374,2.244 0.646,0.306 1.224,0.459 1.819,0.459 0.833,0 1.615,-0.306 2.482,-0.986 0.867,-0.68 1.224,-1.309 1.224,-2.159 0,-0.918 -0.544,-1.411 -1.802,-1.649 l -0.731,-0.136 c -1.02,-0.187 -1.343,-0.476 -1.343,-1.173 0,-0.901 0.765,-1.598 1.734,-1.598 0.697,0 1.343,0.306 1.615,0.765 v 0.935 h 0.391 c 0.068,-0.595 0.136,-1.054 0.323,-1.921 -0.663,-0.323 -1.139,-0.459 -1.7,-0.459 -0.884,0 -1.921,0.51 -2.737,1.326 -0.442,0.459 -0.629,0.884 -0.629,1.496 0,0.952 0.527,1.496 1.649,1.717 l 1.071,0.204 c 0.748,0.136 1.02,0.442 1.02,1.105 0,1.105 -0.782,1.853 -1.989,1.853 -0.595,0 -1.122,-0.187 -1.598,-0.595 v -1.428 z"
+       stroke="#000000"
+       stroke-opacity="1"
+       stroke-width="0.136"
+       fill="#000000"
+       fill-opacity="1"
+       id="path213"
+       style="font-family:Asana-Math, Asana" />
+    <g
+       id="g237"
+       style="font-family:Asana-Math, Asana">
+      <g
+         id="g235">
+        <g
+           transform="translate(319.11249,212.96252)"
+           id="g233">
+          <path
+             transform="scale(0.0119,-0.0119)"
+             d="m 418,-3 v 30 l -52,3 c -55,3 -65,14 -65,66 V 700 L 60,598 67,548 217,614 V 96 C 217,44 206,33 152,30 L 96,27 V -3 c 154,3 154,3 165,3 31,0 141,-3 157,-3 z"
+             stroke="#000000"
+             stroke-opacity="1"
+             stroke-width="8"
+             fill="#000000"
+             fill-opacity="1"
+             id="path231" />
+        </g>
+      </g>
+    </g>
+    <path
+       d="m 219.027,207.434 c -0.085,0.867 -0.187,1.462 -0.374,2.244 0.646,0.306 1.224,0.459 1.819,0.459 0.833,0 1.615,-0.306 2.482,-0.986 0.867,-0.68 1.224,-1.309 1.224,-2.159 0,-0.918 -0.544,-1.411 -1.802,-1.649 l -0.731,-0.136 c -1.02,-0.187 -1.343,-0.476 -1.343,-1.173 0,-0.901 0.765,-1.598 1.734,-1.598 0.697,0 1.343,0.306 1.615,0.765 v 0.935 h 0.391 c 0.068,-0.595 0.136,-1.054 0.323,-1.921 -0.663,-0.323 -1.139,-0.459 -1.7,-0.459 -0.884,0 -1.921,0.51 -2.737,1.326 -0.442,0.459 -0.629,0.884 -0.629,1.496 0,0.952 0.527,1.496 1.649,1.717 l 1.071,0.204 c 0.748,0.136 1.02,0.442 1.02,1.105 0,1.105 -0.782,1.853 -1.989,1.853 -0.595,0 -1.122,-0.187 -1.598,-0.595 v -1.428 z"
+       stroke="#000000"
+       stroke-opacity="1"
+       stroke-width="0.136"
+       fill="#000000"
+       fill-opacity="1"
+       id="path253"
+       style="font-family:Asana-Math, Asana" />
+    <g
+       id="g277"
+       style="font-family:Asana-Math, Asana">
+      <g
+         id="g275">
+        <g
+           transform="translate(227.11249,212.96252)"
+           id="g273">
+          <path
+             transform="scale(0.0119,-0.0119)"
+             d="M 263,689 C 108,689 29,566 29,324 29,207 50,106 85,57 c 35,-49 91,-77 153,-77 151,0 227,130 227,386 0,219 -65,323 -202,323 z M 245,654 C 342,654 381,556 381,316 381,103 343,15 251,15 154,15 113,116 113,360 c 0,211 37,294 132,294 z"
+             stroke="#000000"
+             stroke-opacity="1"
+             stroke-width="8"
+             fill="#000000"
+             fill-opacity="1"
+             id="path271" />
+        </g>
+      </g>
+    </g>
+    <path
+       d="m 264.527,268.98402 c -0.085,0.867 -0.187,1.462 -0.374,2.244 0.646,0.306 1.224,0.459 1.819,0.459 0.833,0 1.615,-0.306 2.482,-0.986 0.867,-0.68 1.224,-1.309 1.224,-2.159 0,-0.918 -0.544,-1.411 -1.802,-1.649 l -0.731,-0.136 c -1.02,-0.187 -1.343,-0.476 -1.343,-1.173 0,-0.901 0.765,-1.598 1.734,-1.598 0.697,0 1.343,0.306 1.615,0.765 v 0.935 h 0.391 c 0.068,-0.595 0.136,-1.054 0.323,-1.921 -0.663,-0.323 -1.139,-0.459 -1.7,-0.459 -0.884,0 -1.921,0.51 -2.737,1.326 -0.442,0.459 -0.629,0.884 -0.629,1.496 0,0.952 0.527,1.496 1.649,1.717 l 1.071,0.204 c 0.748,0.136 1.02,0.442 1.02,1.105 0,1.105 -0.782,1.853 -1.989,1.853 -0.595,0 -1.122,-0.187 -1.598,-0.595 v -1.428 z"
+       stroke="#000000"
+       stroke-opacity="1"
+       stroke-width="0.136"
+       fill="#000000"
+       fill-opacity="1"
+       id="path293"
+       style="font-family:Asana-Math, Asana" />
+    <g
+       id="g317"
+       style="font-family:Asana-Math, Asana">
+      <g
+         id="g315">
+        <g
+           transform="translate(272.61249,274.5125)"
+           id="g313">
+          <path
+             transform="scale(0.0119,-0.0119)"
+             d="M 16,23 V -3 c 187,0 187,3 223,3 36,0 36,-3 229,-3 V 82 C 353,77 307,81 122,77 l 182,193 c 97,103 127,158 127,233 0,115 -78,186 -205,186 -72,0 -121,-20 -170,-70 L 39,483 h 29 l 13,46 c 16,58 52,83 119,83 86,0 141,-54 141,-139 0,-75 -42,-149 -155,-269 z"
+             stroke="#000000"
+             stroke-opacity="1"
+             stroke-width="8"
+             fill="#000000"
+             fill-opacity="1"
+             id="path311" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

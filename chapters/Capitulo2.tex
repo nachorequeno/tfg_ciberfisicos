@@ -1,6 +1,60 @@
 \chapter{Nuevos operadores para STL}
 \label{cha:stl}
 
+\section{Lógica Temporal}
+
+Si navegamos por internet o buscamos en los libros acerca de qué es la lógica temporal tarde o temprano daremos con una cita del filósofo alemán Kant que cita: 
+
+\begin{center}
+\textit{``la posibilidad de principios apodícticos de las relaciones del tiempo, o axiomas del tiempo en general. Tiene una sola dimensión: los distintos tiempos no son simultáneos, sino sucesivos''}
+\end{center}
+
+Y, aunque quizás sacado de todo contexto, es un buen primer comienzo para explicar acerca de qué es el tiempo y por consiguiente qué tiene que ver la lógica con éste. Y es que Kant quería expresar que el tiempo es algo que va ocurriendo constantemente, es un conjunto de hechos que juntos transcurren en una dirección y conforman el tiempo. Pues bien, teniendo en cuenta esta idea podemos llegar a comprender y diferenciar la lógica temporal. 
+
+La lógica proposicional no tiene la percepción de tiempo: en este tipo de lógica tenemos hechos que son verdaderos o falsos, que unidos pueden transformarse en verdad o no, pero nunca individualmente cambian su valor. Por ejemplo si decimos que:
+
+\begin{center}
+s = ``El día está soleado''
+\end{center}
+
+Este argumento será eterno individualmente. Aún así, realizamos operaciones con él como negarlo $\neg{s}$,: todo el argumento se verá afectado en todo momento.
+
+\begin{center}
+$\neg{s}$ = ``El día no está soleado''
+\end{center}
+
+Pero como todos podemos percibir, en la realidad esto no sucede. En otras palabras, puede que ``no todo el día esté soleado'', pero quizás si por la mañana y no por la tarde o viceversa. Esto es lo que trata de expresar la lógica temporal. En un momento determinado una expresión puede ser verdad mientras que en otra hora, minuto, segundo, o cualquier otra unidad que utilicemos para medir el tiempo, puede cambiar y tener un valor diferente. En un sistema ciberfísico, el controlador software se representa como una máquina de estados (Figura~\ref{fig:state_machine}).
+
+\begin{figure}
+\centering
+  \includegraphics{images/state_machine}
+\caption{Máquina de estados.}
+\label{fig:state_machine}
+\end{figure}
+
+Tras el estado inicial $s_0$, la aplicación puede moverse de un estado a otro dependiendo de las restricciones de la máquina. Esto dará lugar a una traza de ejecución (Figura~\ref{fig:trace_discrete}) donde el \textit{tiempo} se refleja en el número de estados recorridos. En este ejemplo, el tiempo es \textit{discreto}: cada instante temporal está asociado a un único estado del sistema.
+
+\begin{figure}
+\centering
+%  \includegraphics[width=.95\linewidth]{images/trace_discrete}
+  \includegraphics{images/trace_discrete}
+\caption{Traza de ejecución (discreta).}
+\label{fig:trace_discrete}
+\end{figure}
+
+En un entorno real, el tiempo es \textit{denso}, es decir, el estado de la aplicación cambia en función de los datos que registra en los sensores o en las reacciones que cambian un parámetro físico (Figura~\ref{fig:trace_dense}).
+
+\begin{figure}
+\centering
+%  \includegraphics[width=.95\linewidth]{images/trace_dense}
+  \includegraphics{images/trace_dense}
+\caption{Traza de ejecución (densa).}
+\label{fig:trace_dense}
+\end{figure}
+
+En este trabajo utilizaremos Signal Temporal Logic \cite{STL}, un tipo de lógica temporal enfocada al análisis de señales analógicas o reales.
+
+
 \section{Signal Temporal Logic}
 % Definición, sintaxis y semántica de los operadores.
 \textit{Signal Temporal Logic} (STL) \cite{STL} es un tipo de lógica temporal especializada en el análisis de señales reales analógicas. STL permite expresar características sobre la evolución de algún atributo físico, como la velocidad o temperatura. Por tanto, como punto de partida, STL requiere una muestra o traza de ejecución sobre la que comprobar las hipótesis.
@@ -91,16 +145,30 @@ $$G_{[0,p_1]} D\, \mathbf{x}_0 >= 6 - p_2$$
 
 % G (0 p1) ((D x0) >= 6-p2), 
 donde $p_1$ y $p_2$ son los parámetros, $\mathbf{x}_0$ es la señal y $D$ es el operador derivada.
-Como resultado, ParetoLib devuelve la imagen \ref{fig:param} que muestra las configuraciones de los parámetros $p_1$ y $p_2$ que satisfacen la propiedad (región en verde) y las que lo falsifican (región en rojo). %Con la expresión dada, la GUI nos devolvería como resultado un mapa que nos muestra los resultados para cualquier combinación de los parámetros $p_1$ y $p_2$ dentro de un limite especificado en la GUI. La parte verde del mapa muestra la expresión con los parámetros de tal forma que STLe concluye que la propiedad es cierta, en cambio la parte roja es en la que STLe concluye que la propiedad es falsa. 
+Como resultado, ParetoLib devuelve la imagen \ref{fig:param_derivative} que muestra las configuraciones de los parámetros $p_1$ y $p_2$ que satisfacen la propiedad (región en verde) y las que lo falsifican (región en rojo). %Con la expresión dada, la GUI nos devolvería como resultado un mapa que nos muestra los resultados para cualquier combinación de los parámetros $p_1$ y $p_2$ dentro de un limite especificado en la GUI. La parte verde del mapa muestra la expresión con los parámetros de tal forma que STLe concluye que la propiedad es cierta, en cambio la parte roja es en la que STLe concluye que la propiedad es falsa. 
+
+\begin{figure}[htb]
+\centering
+  \includegraphics[width=0.7\linewidth]{images/stl_parametrico_der} 
+\caption{Resultado paramétrico para la derivada.}
+\label{fig:param_derivative}
+\end{figure}
+
+
+Asimismo, podemos ejecutar expresiones con integrales como por ejemplo:
+
+%$$G_{[0,p_1]} D\, \mathbf{x}_0 >= 6 - p_2$$ 
+
+donde $p_1$ y $p_2$ son los parámetros, $\mathbf{x}_0$ es la señal y $I$ es el operador integral.
+Igualmente, ParetoLib devuelve como resultado la imagen \ref{fig:param_integral} que muestra las configuraciones de los parámetros $p_1$ y $p_2$ que satisfacen la propiedad (región en verde) y las que lo falsifican (región en rojo). 
 Cabe mencionar que este tipo de mapas ya estaban previamente disponibles como resultado de la ejecución de la biblioteca de minería.
 
 \begin{figure}[htb]
 \centering
-  \includegraphics[width=0.7\linewidth]{images/stl_parametrico} 
-\caption{Resultado paramétrico}
-\label{fig:param}
+  %\includegraphics[width=0.7\linewidth]{images/stl_parametrico_int} 
+\caption{Resultado paramétrico para la integral.}
+\label{fig:param_integral}
 \end{figure}
-
 
 ParetoLib está escrito en Python. El código fuente \ref{list:paretolib_example} ilustra la forma tradicional de invocar a la biblioteca de minería. En el capitulo \ref{cha:gui} veremos la nueva interfaz gráfica que va a facilitar al usuario el trabajo con ParetoLib y con STLEval.
 
