@@ -88,5 +88,19 @@ En esta sección vamos a describir alguna de las partes interactuables o visible
 
 \item Parametric STL: Permite seleccionar si evaluaremos una consulta STL paramétrica o no: en el caso de quererla, seleccionamos que sí y viceversa.
 
-\item Run: Permite ejecutar la consulta. Para poder hacerla necesitamos los tres ficheros de entrada anteriores descritos (dos ficheros en el caso no paramétrico). El clic de este botón recoge las rutas de los ficheros de entrada, el rango de valores numéricos de los parámetros (en el caso de haberlos) y prepara la invocación a la biblioteca de minería de forma similar al código mostrado en el código fuente \ref{list:paretolib_example}. En el caso de ser una consulta paramétrica, se nos devolverá un mapa con las regiones falsas o verdaderas según los parámetros (Figuras~\ref{fig:param_derivative}--\ref{fig:param_integral}). En el caso contrario, si la consulta no es paramétrica, simplemente devolverá el resultado de la evaluación (\textit{True} o \textit{False}).
+\item Run: Permite ejecutar la consulta. Para poder hacerla necesitamos los tres ficheros de entrada anteriores descritos (dos ficheros en el caso no paramétrico). El clic de este botón recoge las rutas de los ficheros de entrada, el rango de valores numéricos de los parámetros (en el caso de haberlos) y prepara la invocación a la biblioteca de minería de forma similar al código mostrado en el código fuente \ref{list:paretolib_example}. En el caso de ser una consulta paramétrica, se nos devolverá un mapa con las regiones falsas o verdaderas según los parámetros (Figuras~\ref{fig:param_derivative}--\ref{fig:param_integral}). En el caso contrario, si la consulta no es paramétrica, simplemente devolverá el resultado de la evaluación: \textit{True} \ref{fig:noparam_true} o \textit{False} \ref{fig:noparam_false}.
 \end{itemize}
+
+\begin{figure}[htb]
+\centering
+  \includegraphics[width=0.3\linewidth]{images/stl_noparam_true} 
+\caption{Resultado no paramétrico True.}
+\label{fig:noparam_true}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+  \includegraphics[width=0.3\linewidth]{images/stl_noparam_false} 
+\caption{Resultado no paramétrico False.}
+\label{fig:noparam_false}
+\end{figure}
