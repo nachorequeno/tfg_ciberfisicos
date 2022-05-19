@@ -13,18 +13,18 @@ En este apartado proponemos un espacio donde el usuario tenga que simplemente ad
 \label{fig:est}
 \end{figure}
 
-Tal y como vemos en la figura \ref{fig:est}, la nueva GUI se comunica con la biblioteca de minería ParetoLib. ParetoLib nos permite evaluar propiedades con parámetros, utilizando en ese caso los métodos nativos de la biblioteca; o sin parámetros, redirigiendo la consulta a través de una adaptación de la interfaz anterior. A su vez, ParetoLib está conectado por el otro extremo a los binarios precompilados y la API de STLEval.
+Tal y como vemos en la figura \ref{fig:est}, la nueva interfaz gráfica de usuario se comunica con la biblioteca de minería ParetoLib. ParetoLib nos permite evaluar propiedades con parámetros, utilizando en ese caso los métodos nativos de la biblioteca; o sin parámetros, redirigiendo la consulta a través de una adaptación de la interfaz anterior. A su vez, ParetoLib está conectado por el otro extremo a los binarios precompilados y la API de STLEval.
 
 %La manera original de realizar las consultas a través de la terminal obligaba a hacerlas por separado a STLEval a la biblioteca de minería dependiendo si quisiésemos una consulta STL paramétrica o no.
 Originariamente, el formato de las especificaciones en STL obligaba a interacturar con la herramienta STLEval o la biblioteca ParetoLib por separado según si las ecuaciones incluían parámetros o no (componente azul de la imagen).
-La nueva GUI unifica el proceso y facilita la usabilidad de cara al usuario.
+La nueva interfaz gráfica de usuario unifica el proceso y facilita la usabilidad de cara al usuario.
 
 
-Como aportaciones nuevas al proyecto (marcadas en rojo) está la propia GUI, los operadores derivada e integral en STLEval y una modificación en la API paramétrica de STL, con la cual conseguimos ejecutar consultas no paramétricas desde ParetoLib.
+Como aportaciones nuevas al proyecto (marcadas en rojo) está la propia interfaz gráfica de usuario, los operadores derivada e integral en STLEval y una modificación en la API paramétrica de STL, con la cual conseguimos ejecutar consultas no paramétricas desde ParetoLib.
 
 \section{Bibliotecas utilizadas}
 
-Debido a que la biblioteca ParetoLib está escrita en Python, y que con una pequeña modificación de la interfaz de interconexión permite acceder indirectamente a la API de STLEval, hemos decidido desarrollar la GUI en ese mismo lenguaje. Para la elaboración de la parte gráfica de este proyecto hemos hecho uso de las bibliotecas:
+Debido a que la biblioteca ParetoLib está escrita en Python, y que con una pequeña modificación de la interfaz de interconexión permite acceder indirectamente a la API de STLEval, hemos decidido desarrollar la interfaz gráfica de usuario en ese mismo lenguaje. Para la elaboración de la parte gráfica de este proyecto hemos hecho uso de las bibliotecas:
 \begin{itemize}
 \item \href{https://www.qt.io/qt-for-python}{PyQt5}
 \item Matplotlib
@@ -52,7 +52,7 @@ La biblioteca PyQt5 está basada en la biblioteca gráfica Qt y sirve para reali
 %3 - Instalamos la librería PyQT con ´pip install pyqt5´. 
  
 \subsection{MatplotLib}
-La biblioteca MatplotLib da soporte a la mayoría de las bibliotecas gráficas avanzadas en Python (p.ej., Seaborn). Desde la versión inicial de ParetoLib, accesible únicamente a nivel de código fuente en Python, MatplotLib se utiliza para generar los gráficos resultantes de la minería de propiedades STL paramétricas (Figuras~\ref{fig:param_derivative}--\ref{fig:param_integral}). El uso del entorno PyQt5 para el diseño de la ventana principal de la nueva GUI obliga a reajustar ligeramente la producción de estas imágenes de resultado para que se impriman dentro de una nueva ventana flotante en PyQt.
+La biblioteca MatplotLib da soporte a la mayoría de las bibliotecas gráficas avanzadas en Python (p.ej., Seaborn). Desde la versión inicial de ParetoLib, accesible únicamente a nivel de código fuente en Python, MatplotLib se utiliza para generar los gráficos resultantes de la minería de propiedades STL paramétricas (Figuras~\ref{fig:param_derivative}--\ref{fig:param_integral}). El uso del entorno PyQt5 para el diseño de la ventana principal de la nueva interfaz gráfica de usuario obliga a reajustar ligeramente la producción de estas imágenes de resultado para que se impriman dentro de una nueva ventana flotante en PyQt.
  
 %Instalación: 
  
@@ -77,7 +77,7 @@ La función de esta biblioteca es meramente estética: creemos que este recurso 
 %1 - Instalamos la librería con el comando: ´pip install seaborn´
 
 \section{Guía de uso}
-En esta sección vamos a describir alguna de las partes interactuables o visibles de la GUI:
+En esta sección vamos a describir alguna de las partes interactuables o visibles de la interfaz gráfica de usuario:
 
 \begin{itemize}
 \item STL specification: Permite seleccionar un archivo \textbf{.stl}, el cual contiene una formula en STL (paramétrica o no). Cuando seleccionamos el archivo, la descripción de la formula aparece en una caja inferior en modo lectura (es decir, no modificable). Según si la consulta al motor de aprendizaje es paramétrica o no, habrá que modificar el casillero \textit{Parametric STL}.
