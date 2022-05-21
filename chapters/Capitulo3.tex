@@ -9,7 +9,7 @@ En este apartado proponemos un espacio donde el usuario tenga que simplemente ad
 \begin{figure}[htb]
 \centering
   \includegraphics[width=.95\linewidth]{images/uml_diagram}
-\caption{Estructura del proyecto}
+\caption{Estructura del proyecto.}
 \label{fig:est}
 \end{figure}
 
@@ -24,7 +24,7 @@ Como aportaciones nuevas al proyecto (marcadas en rojo) está la propia interfaz
 
 \section{Bibliotecas utilizadas}
 
-Debido a que la biblioteca ParetoLib está escrita en Python, y que con una pequeña modificación de la interfaz de interconexión permite acceder indirectamente a la API de STLEval, hemos decidido desarrollar la interfaz gráfica de usuario en ese mismo lenguaje. Para la elaboración de la parte gráfica de este proyecto hemos hecho uso de las bibliotecas:
+Debido a que la biblioteca ParetoLib está escrita en Python, y que con una pequeña modificación de la interfaz de interconexión permite acceder indirectamente a la API de STLEval, hemos decidido desarrollar la interfaz gráfica de usuario en ese mismo lenguaje. La interfaz gráfica se ha testeado sobre Python 3.8 aunque ParetoLib está implementada para funcionar sobre Python 2.7 o superior. Además de las dependencias previas de ParetoLib, para la elaboración de la parte gráfica de este proyecto hemos hecho uso de las últimas versiones de estas bibliotecas adicionales:
 \begin{itemize}
 \item \href{https://www.qt.io/qt-for-python}{PyQt5}
 \item Matplotlib
@@ -38,7 +38,7 @@ La biblioteca PyQt5 está basada en la biblioteca gráfica Qt y sirve para reali
 \begin{figure}[htb]
 \centering
   \includegraphics[width=1.0\linewidth]{images/gui} 
-\caption{La ventana principal}
+\caption{Ventana principal de ParetoLib.}
 \label{fig:gui}
 \end{figure}
 
@@ -77,8 +77,18 @@ La función de esta biblioteca es meramente estética: creemos que este recurso 
 %1 - Instalamos la librería con el comando: ´pip install seaborn´
 
 \section{Guía de uso}
-En esta sección vamos a describir alguna de las partes interactuables o visibles de la interfaz gráfica de usuario:
+En esta sección vamos a describir las partes interactuables o visibles más relevantes de la interfaz gráfica de usuario.
+Tras la instalación de las dependencias de ParetoLib mediante los scripts de la biblioteca, la interfaz gráfica de usuario puede arrancarse mediante la ejecución del siguiente comando desde el directorio raíz del código del repositorio:
 
+% user@pc:~/multidimensional_search$ python ParetoLib/GUI/GUI.py
+\begin{lstlisting}[language=bash,
+				   style=console_style,
+				   label={list:paretolib_gui},
+				   caption={Inicio de la interfaz gráfica de usuario de ParetoLib.}]
+user@pc:~$ python ParetoLib/GUI/GUI.py
+\end{lstlisting}
+
+En la ventana, veremos los botones y opciones principales:
 \begin{itemize}
 \item STL specification: Permite seleccionar un archivo \textbf{.stl}, el cual contiene una formula en STL (paramétrica o no). Cuando seleccionamos el archivo, la descripción de la formula aparece en una caja inferior en modo lectura (es decir, no modificable). Según si la consulta al motor de aprendizaje es paramétrica o no, habrá que modificar el casillero \textit{Parametric STL}.
 
@@ -110,6 +120,6 @@ En esta sección vamos a describir alguna de las partes interactuables o visible
 \centering
   \includegraphics[width=0.3\linewidth]{images/stl_noparam_true} \hfill
   \includegraphics[width=0.3\linewidth]{images/stl_noparam_false} 
-\caption{Resultado no paramétrico.}
+\caption{Resultados no paramétricos.}
 \label{fig:noparam}
 \end{figure}

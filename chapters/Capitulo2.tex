@@ -129,13 +129,12 @@ Gráficamente, la derivada se interpreta como la pendiente entre dos puntos cons
 Los nuevos operadores se han incorporado a STLEval. En la notación de la herramienta, $D$ simboliza el operador derivada ($D \equiv \mu^d_{+}$), e $I$ representa el operador integral ($I_[a,b] \equiv \mu^i_{[a,b]}$).
 
 \section{Integración con ParetoLib}
-ParetoLib \cite{FORMATS_19, ParetoLib} es una biblioteca de minería que recibe una especificación paramétrica o plantilla en STL y devuelve el rango de valores de las variables para las que la propiedad se satisface o invalida. Internamente, ParetoLib implementa un algoritmo de búsqueda que guía el aprendizaje y evalúa instancias concretas de la fórmula temporal a través de la herramienta STLEval. Para ello, ParetoLib se empaqueta junto los binarios y librerías dinámicas de STLEval precompilados.
-
+ParetoLib \cite{FORMATS_19, ParetoLib} es una biblioteca de minería que recibe una especificación paramétrica o plantilla en STL y devuelve el rango de valores de las variables para las que la propiedad se satisface o invalida. Internamente, ParetoLib implementa un algoritmo de búsqueda que guía el aprendizaje y evalúa instancias concretas de la fórmula temporal a través de la herramienta STLEval. Para ello, ParetoLib se empaqueta junto los binarios y librerías dinámicas de STLEval precompilados tanto para Linux como para Windows, lo que convierte a la biblioteca en una herramienta multiplataforma. 
 
 \begin{figure}[htb]
 \centering
   \includegraphics[width=0.7\linewidth]{images/triangular} 
-\caption{Señal triangular}
+\caption{Señal triangular.}
 \label{fig:trian}
 \end{figure}
 
@@ -171,7 +170,8 @@ Cabe mencionar que este tipo de mapas ya estaban previamente disponibles como re
 \label{fig:param_integral}
 \end{figure}
 
-ParetoLib está escrito en Python. El código fuente \ref{list:paretolib_example} ilustra la forma tradicional de invocar a la biblioteca de minería. En el capitulo \ref{cha:gui} veremos la nueva interfaz gráfica que va a facilitar al usuario el trabajo con ParetoLib y con STLEval.
+ParetoLib está escrito en Python. %La máquina virtual de Python, junto con los binarios y librerías de STLEval precompilados tanto para Linux como para Windows, convierten a ParetoLib en una biblioteca multiplataforma.
+El código fuente \ref{list:paretolib_example} ilustra la forma tradicional de invocar a la biblioteca de minería. En el capitulo \ref{cha:gui} veremos la nueva interfaz gráfica que va a facilitar al usuario el trabajo con ParetoLib y con STLEval.
 
 %\jicomment{TODO:
 %\begin{itemize}
@@ -181,7 +181,7 @@ ParetoLib está escrito en Python. El código fuente \ref{list:paretolib_example
 %}
 
 \lstinputlisting[language=python,
-		style=mystyle,
+		style=python_style,
 		label={list:paretolib_example},
-		caption={}]
+		caption={Invocación de la biblioteca ParetoLib mediante código fuente en Python.}]
 		{code/python/example2d_derivative.py}

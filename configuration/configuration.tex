@@ -31,7 +31,7 @@
 
 % Bibliografía
 %\usepackage[backend=bibtex,style=authoryear,citestyle=authoryear]{biblatex}
-\usepackage[backend=bibtex,style=authoryear,citestyle=numeric]{biblatex}
+\usepackage[backend=bibtex,style=numeric,citestyle=numeric]{biblatex}
 \usepackage{csquotes}
 
 % Visualización de marcadores en el lector PDF
@@ -62,7 +62,25 @@
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
 \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
 
-\lstdefinestyle{mystyle}{
+\lstdefinestyle{console_style}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=none,                    
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstdefinestyle{python_style}{
     backgroundcolor=\color{backcolour},   
     commentstyle=\color{codegreen},
     keywordstyle=\color{magenta},
@@ -81,7 +99,9 @@
     tabsize=2
 }
 
-\lstset{style=mystyle}
+\lstset{style=python_style}
+
+\renewcommand{\lstlistingname}{Código}% Listing -> Código
 
 % Para inserción de imágenes
 \usepackage{graphicx}

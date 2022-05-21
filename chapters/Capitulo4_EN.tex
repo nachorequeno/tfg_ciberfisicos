@@ -1,5 +1,6 @@
 \chapter{Conclusions and future work}
 \label{cha:concl_en}
+\begin{otherlanguage}{british}
 To finish this project, we present some conclusions on the topics covered, both theoretical and practical, and we discuss some ideas that are conducive to the improvement and continuity of the project.
 
 \section{Conclusions}
@@ -21,3 +22,4 @@ On the other hand, currently STLEval only supports constant interpolation to fil
 Next, implementing a natural language processor will make it easier to write expressions in STL in a more pleasing format for inexperienced users. As a first approximation, it will simply rewrite the equations in a more readable format (i.e. $F\, G\, (v > 120)$ instead of $(F \, (G \, ( > v \, 120))$) to later allow in future versions write properties of the style \textit{``In the future, property X is true''}.
 
 Lastly, reimplementing the core of ParetoLib will increase the computational performance of the library. Python offers mechanisms to compile the source code instead of interpreting it, which would increase the performance of the mining library. The improvement would be minimal (ParetoLib calls STLeval for most calculations, and STLeval is in C++), but the performance boost when compiling Python would help us save a few milliseconds.
+\end{otherlanguage}
